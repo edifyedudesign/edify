@@ -1,0 +1,32 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------
+  Blog Page Styles
+-----------------------------------------------------------------*/
+  .entry-image.entry-image-half-width {
+    display: block;
+    position: relative;
+    width: 50%!important;
+    float: left;
+    height: auto;
+    padding-right: 3em;
+    margin-bottom: 3em;
+  }
+  .entry-image.entry-image-full-width {
+    display: block;
+    position: relative;
+    width: 100%!important;
+    height: auto;
+  }
+  .highlight {
+    clear: both;
+  }
+
+

@@ -1,0 +1,125 @@
+---
+layout: page-layout
+tagline: 'Get in Touch with Us'
+---
+
+<style>
+  .sticky-side-element {
+      position: fixed;
+      top: 50%;
+      margin-top: -24px;
+      left: auto;
+      right: -31px;
+      height: 48px;
+      line-height: 48px;
+      padding: 0 15px;
+      background-color: #EEE;
+      color: #222;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 14px;
+      -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      transform: rotate(270deg);
+    }
+</style>
+
+
+
+<div class="content-wrap">
+
+  <div class="container clearfix">
+
+    <div class="col-md-6">
+
+      <div class="heading-block topmargin-sm">
+        <h2>Contact Info</h2>
+        <!-- <span>Our Template acts &amp; behaves truly as a Canvas.</span> -->
+      </div>
+
+      <!-- Contact Info
+      ============================================= -->
+      <!-- <div class="col_full">
+
+
+        <address class="lead">
+          <abbr> <strong>Location:</strong><br>
+          Portland, Oregon</abbr>
+        </address>
+        <abbr class="lead" title="Phone Number"><strong>Phone: </strong></abbr> (###) ###-####<br>
+
+        <abbr class="lead" title="Email Address"><strong>Email: </strong></abbr> kristen@edifyedu.com>
+
+      </div> --><!-- Contact Info End -->
+
+      <div class="col_full">
+        <div class="contact-page feature-box fbox-plain bottommargin-sm">
+          <div class="fbox-icon">
+            <a href="#"><i class="icon-map-marker2"></i></a>
+          </div>
+          <h3 style="padding-top: 10px;">Location: <span style="text-transform: none;">Portland, Oregon</span></h3>
+        </div>
+
+        <div class="contact-page feature-box fbox-plain bottommargin-sm">
+          <div class="fbox-icon">
+            <a href="#"><i class="icon-phone3"></i></a>
+          </div>
+          <h3 style="padding-top: 10px;">Call: <span><a href="tel:+15037340839">(503) 734-0839</a></span></h3>
+        </div>
+
+        <div class="contact-page feature-box fbox-plain bottommargin-sm">
+          <div class="fbox-icon">
+            <a href="#"><i class="icon-email2"></i></a>
+          </div>
+          <h3 style="padding-top: 10px;">Email: <span style="text-transform: none;"><a href="kristen@edifyedu.com">kristen@edifyedu.com</a></span></h3>
+        </div>
+
+      </div><!-- Contact Form End -->
+
+
+      <div class="clear"></div>
+
+    </div>
+
+    <!-- Google Map
+    ============================================= -->
+    <div class="col-md-6 bottommargin">
+
+      <section id="google-map" class="gmap" style="height: 500px;"></section>
+
+    </div><!-- Google Map End -->
+
+  </div>
+
+</div>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyAm3UdKFTRFVWkTyaysvQrDmT2fyP31iyQ"></script>
+
+<script type="text/javascript" src="js/jquery.gmap.js"></script>
+
+<script type="text/javascript">
+
+  $('#google-map').gMap({
+
+     address: 'Portland, Oregon',
+     maptype: 'ROADMAP',
+     zoom: 14,
+     markers: [
+      {
+        address: "Portland, Oregon"
+      }
+     ],
+     doubleclickzoom: false,
+     controls: {
+       panControl: true,
+       zoomControl: true,
+       mapTypeControl: true,
+       scaleControl: false,
+       streetViewControl: false,
+       overviewMapControl: false
+     }
+
+  });
+
+</script>

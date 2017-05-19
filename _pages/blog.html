@@ -1,0 +1,51 @@
+---
+layout: page-layout
+---
+
+
+<div class="content-wrap">
+
+  <div class="container clearfix">
+
+    <!-- Post Content
+    ============================================= -->
+    <div class="postcontent nobottommargin clearfix">
+
+      <div id="posts" class="small-thumbs alt">
+
+        {% for post in site.posts %}
+        <div class="entry clearfix">
+          <div class="entry-image">
+            <a href="/img/{{post.image_thumb }}" data-lightbox="image">
+              <img class="image_fade" src="/img/{{post.image_thumb }}" alt="Standard Post with Image">
+            </a>
+          </div>
+          <div class="entry-c">
+            <div class="entry-title">
+              <h2><a href="{{post.url }}">{{ post.title}}</a></h2>
+            </div>
+            <ul class="entry-meta clearfix">
+              <li><i class="icon-calendar3"></i>{{ post.date }}</li>
+              <li><i class="icon-line-layers"></i><a href="#">{{ post.categories }}</a> </li>
+              <!-- <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a></li> -->
+            </ul>
+            <div class="entry-content">
+              <p>{{ post.short_description }}</p>
+              <a href="{{ post.url }}"class="more-link">Read More</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div><!-- #posts end -->
+
+    </div><!-- .postcontent end -->
+
+    {% include sidebar.html %}
+
+  </div>
+
+</div>
+
+
+

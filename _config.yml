@@ -32,3 +32,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+collections:
+  pages:
+    output: true
+    permalink: /:name

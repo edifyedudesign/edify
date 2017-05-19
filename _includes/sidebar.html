@@ -1,0 +1,82 @@
+<!-- Sidebar
+============================================= -->
+<div class="sidebar nobottommargin col_last clearfix">
+  <div class="sidebar-widgets-wrap" style="padding-left: 25px;">
+
+    <div class="widget clearfix">
+
+      <h4>Recent Posts</h4>
+      <div id="post-list-footer">
+
+        {% for post in site.posts %}
+          <div class="spost clearfix">
+            <div class="entry-image">
+              <a href="{{ post.url }}" class="nobg"><img src="/img/{{post.image_thumb }}" alt=""></a>
+            </div>
+            <div class="entry-c">
+              <div class="entry-title">
+                <h4><a href="#">{{ post.title }}</a></h4>
+              </div>
+              <ul class="entry-meta">
+                <li>{{ post.date }}</li>
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+    <!-- Post Categories -->
+    <div class="widget clearfix">
+      <h4>Category Lists</h4>
+      <div id="category-list-sidebar">
+        <div class="spost clearfix">
+          <ul class="entry-meta2 iconlist">
+            <li style="margin-bottom: 10px;">
+              <div class="entry-title">
+                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 1</a></h4>
+              </div>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <div class="entry-title">
+                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 2</a></h4>
+              </div>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <div class="entry-title">
+                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 3</a></h4>
+              </div>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <div class="entry-title">
+                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 4</a></h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tag Cloud -->
+    <div class="widget clearfix">
+
+      <h4>Tag Cloud</h4>
+      <div class="tagcloud">
+        <a href="#">general</a>
+        <a href="#">videos</a>
+        <a href="#">music</a>
+        <a href="#">media</a>
+        <a href="#">photography</a>
+        <a href="#">parallax</a>
+        <a href="#">ecommerce</a>
+        <a href="#">terms</a>
+        <a href="#">coupons</a>
+        <a href="#">modern</a>
+      </div>
+
+    </div>
+
+  </div>
+</div><!-- .sidebar end -->
