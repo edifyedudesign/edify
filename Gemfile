@@ -11,6 +11,7 @@ ruby RUBY_VERSION
 # Happy Jekylling!
 gem 'rake'
 gem 'rack'
+gem 'rack-rewrite'
 gem 'rack-contrib'
 gem 'puma'
 gem "jekyll", "3.4.3"
