@@ -1,3 +1,1 @@
-web: bundle exec jekyll build && bundle exec thin start -p$PORT -V
-console: echo console
-rake: echo rake
+web: bundle exec puma -t 8:32 -w 3 -p $PORT
