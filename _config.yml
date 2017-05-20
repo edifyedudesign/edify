@@ -32,6 +32,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - config.ru
+  - Procfile
+  - READMD.md
 
 
 collections:
