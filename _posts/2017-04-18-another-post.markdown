@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  "Welcome to Jekyll!"
 date:   2017-04-18 10:24:59 -0700
-categories: jekyll update
+categories: jekyll\
 
 width: 'full'
 

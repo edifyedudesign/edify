@@ -34,26 +34,15 @@
       <div id="category-list-sidebar">
         <div class="spost clearfix">
           <ul class="entry-meta2 iconlist">
+          {% for category in site.categories %}
+
             <li style="margin-bottom: 10px;">
               <div class="entry-title">
-                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 1</a></h4>
+                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">{{ category }}</a></h4>
               </div>
             </li>
-            <li style="margin-bottom: 10px;">
-              <div class="entry-title">
-                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 2</a></h4>
-              </div>
-            </li>
-            <li style="margin-bottom: 10px;">
-              <div class="entry-title">
-                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 3</a></h4>
-              </div>
-            </li>
-            <li style="margin-bottom: 10px;">
-              <div class="entry-title">
-                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">Category 4</a></h4>
-              </div>
-            </li>
+
+          {% endfor %}
           </ul>
         </div>
       </div>
