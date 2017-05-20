@@ -10,9 +10,10 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem 'rake'
+gem 'rack'
+gem 'rack-contrib'
 gem 'puma'
 gem "jekyll", "3.4.3"
-gem "rack-jekyll"
 
 gem 'kramdown'
 
