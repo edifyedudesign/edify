@@ -117,7 +117,23 @@ body:not(.device-touch) .clients-grid li a {
 }
 
 
+.testimonial .flex-control-nav li a {
+  background-color: #43a1a0;
+  opacity: 0.5;
+}
 
+.ipost .entry-title h3 a:hover, .ipost .entry-title h4 a:hover {
+    color: #43a1a0;
+}
+
+.entry-meta li a:hover {
+    color: #43a1a0;
+}
+
+a {
+    text-decoration: none !important;
+    color: #43a1a0;
+}
 
 
 /* ----------------------------------------------------------------
