@@ -17,7 +17,7 @@ layout: page-layout
         <div class="entry clearfix">
           <div class="entry-image">
             <a href="/img/{{post.image_thumb }}" data-lightbox="image">
-              <img class="image_fade" src="/img/{{post.image_thumb }}" alt="Standard Post with Image">
+              <img class="image_fade" src="/img/{{post.image_thumb }}" alt="{{ post.image_thumb_alt }}">
             </a>
           </div>
           <div class="entry-c">
@@ -25,8 +25,8 @@ layout: page-layout
               <h2><a href="{{post.url }}">{{ post.title}}</a></h2>
             </div>
             <ul class="entry-meta clearfix">
-              <li><i class="icon-calendar3"></i>{{ post.date }}</li>
-              <li><i class="icon-line-layers"></i><a href="#">{{ post.categories }}</a> </li>
+              <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
+              <li><i class="icon-folder-close-alt"></i><a href="#">{{ post.categories }}</a> </li>
               <!-- <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a></li> -->
             </ul>
             <div class="entry-content">

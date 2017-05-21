@@ -1,0 +1,168 @@
+<!-- START Client Section 3A -->
+<div class="section nobottommargin nobg" style="padding-bottom: 150px;">
+  <div class="container clearfix">
+
+    <div class="heading-block">
+      <h2>Our Clients (option 1)</h2>
+      <span>These are the companies we have worked with.</span>
+    </div>
+
+    <div class="col-md-7 nobottommargin">
+      <ul class="clients-grid grid-2 nobottommargin clearfix">
+
+        {% for client in site.clients %}
+          <p>
+            {{ client }}
+          </p>
+          <li>
+            <a href="{{ client.website }}"><img src="/img/{{ page.logo }}" alt="{{ client.company_name }} Logo"></a>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+
+    <div class="col-md-5 nobottommargin">
+
+      <div class="fslider testimonial" data-animation="fade" data-arrows="false">
+        <div class="flexslider">
+          <div class="slider-wrap">
+
+            {% for client in site.clients %}
+
+              <div class="slide">
+                <div class="testi-content">
+                  <blockquote class="quote">
+                    <p>
+                      {{ client.testimonial }}
+                    </p>
+                  </blockquote>
+                  <div class="testi-meta">
+                    {{ client.company_name }}
+                    <span>{{ client.client_testimonial_name }}, {{ client.client_testimonial_job_title }}</span>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- END Client Section 3A -->
+
+<!-- START client Section 3B -->
+<div class="section notopmargin nobottommargin">
+  <div class="container clearfix">
+
+    <div class="col_half nobottommargin topmargin-lg">
+
+      <div class="fslider testimonial" data-animation="fade" data-arrows="false">
+        <div class="flexslider">
+          <div class="slider-wrap">
+
+            {% for client in site.clients %}
+              <div class="slide">
+                <div class="testi-content">
+                  <blockquote class="quote">
+                    <p>
+                      {{ client.testimonial }}
+                    </p>
+                  </blockquote>
+                  <div class="testi-meta">
+                    {{ client.company_name }}
+                    <span>{{ client.client_testimonial_name }}, {{ client.client_testimonial_job_title }}</span>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col_half nobottommargin col_last">
+
+      <div class="heading-block topmargin-lg">
+        <h2>Our Clients (option 2)</h2>
+        <span>These are the companies we have worked with.</span>
+      </div>
+      <ul class="clients-grid grid-3 nobottommargin clearfix">
+
+        {% for client in site.clients %}
+          <li>
+            <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- END client Section 3B -->
+
+<!-- START client section 3C -->
+<div class="section parallax nomargin notopborder dark" style="background-image: url('/img/background-pattern-dark.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3">
+  <div class="container clearfix">
+
+    <div class="row nobottommargin">
+
+      <div class="col_two_fifth bottommargin">
+
+        <div class="heading-block topmargin-lg tright">
+          <h2>Testimonials</h2> (option 3a)
+          <span>This is what people are saying about Edify</span>
+        </div>
+      </div>
+      <div class="col_three_fifth col_last">
+        <div class="fslider testimonial" data-animation="fade" data-arrows="false">
+          <div class="flexslider">
+            <div class="slider-wrap">
+
+              {% for client in site.clients %}
+                <div class="slide">
+                  <div class="testi-content">
+                    <blockquote class="quote">
+                      <p>
+                        {{ client.testimonial }}
+                      </p>
+                    </blockquote>
+                    <div class="testi-meta">
+                      {{ client.company_name }}
+                      <span>{{ client.client_testimonial_name }}, {{ client.client_testimonial_job_title }}</span>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col_full nobottommargin">
+
+        <div class="heading-block">
+          <h2>Our Clients (option 3b)</h2>
+          <span>These are the companies we have worked with.</span>
+        </div>
+        <ul class="clients-grid grid-3 nobottommargin clearfix">
+
+          {% for client in site.clients %}
+            <li><a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a></li>
+          {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- END client section 3C -->

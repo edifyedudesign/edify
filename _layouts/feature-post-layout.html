@@ -1,0 +1,42 @@
+---
+layout: client-layout
+---
+
+<!-- START Featured Posts Section 2A -->
+<div class="section nobg notopmargin">
+  <div class="container">
+    <div class="fancy-title title-border">
+      <h4>Featured Posts</h4>
+    </div>
+
+    {% for post in site.posts limit:5 %}
+      {% if post.feature_post %}
+        <div class="col-md-4 nobottommargin">
+          <div class="ipost clearfix">
+            <div class="entry-image">
+              <a href="{{ post.url }}"><img class="image_fade" src="/img/{{ post.image_thumb }}" alt="{{ post.image_thumb_alt }}" style="opacity: 0.8;"></a>
+            </div>
+            <div class="entry-title">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            </div>
+            <ul class="entry-meta clearfix">
+              <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
+              <li><a href="#"><i class="icon-bookmark"></i>{{ post.categories }}</a></li>
+            </ul>
+            <div class="entry-content">
+              <p>
+                {{ post.short_description }}
+                <br><span><a class="more-link" href="{{ post.url }}"> See More <i class="icon-line-arrow-right" style="padding-left: 3px;"></i></a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- END Featured Posts Section 2A -->
+
+{{ content }}

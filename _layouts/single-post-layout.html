@@ -2,6 +2,7 @@
 layout: blog-page-layout
 ---
 
+
 <div class="content-wrap">
 
   <div class="container clearfix">
@@ -24,21 +25,25 @@ layout: blog-page-layout
         <!-- Entry Meta
         ============================================= -->
         <ul class="entry-meta clearfix">
-          <li><i class="icon-calendar3"></i>{{ page.date }}</li>
-          <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a></li>
+          <li><i class="icon-calendar3"></i>{{ page.date | date_to_string }}</li>
+          <li><i class="icon-folder-open"></i> <a href="#">{{ page.categories }}</a></li>
+          <li><i class="icon-line-tag"></i> <a href="#">{{ page.tags[0] }}</a>, <a href="#">{{ page.tags[1] }}</a>, <a href="#">{{ page.tags[2] }}</a></li>
         </ul><!-- .entry-meta end -->
 
-        <!-- Entry Image
-        ============================================= -->
-        <div class="entry-image entry-image-{{ page.width }}-width">
-          <a href="#"><img src="/img/{{ page.image }}" alt="{{ page.image_alt }}"></a>
-        </div><!-- .entry-image end -->
+
 
         <!-- Entry Content
         ============================================= -->
-        <div class="entry-content notopmargin">
+        <div class="entry-content entry-image-{{ page.width }}-width notopmargin">
+          <!-- Entry Image
+          ============================================= -->
+          <div class="entry-image">
+            <a href="#"><img src="/img/{{ page.image }}" alt="{{ page.image_alt }}"></a>
+          </div><!-- .entry-image end -->
+
 
           {{ content }}
+
           <!-- Post Single - Content End -->
 
           <!-- Tag Cloud
@@ -56,22 +61,26 @@ layout: blog-page-layout
 
           <!-- Post Single - Share
           ============================================= -->
-          <div class="si-share noborder clearfix">
+          <div class="si-share noborder clearfix fleft">
             <span>Share this Post:</span>
             <div>
-              <a href="#" class="social-icon si-borderless si-facebook">
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url }}&title={{ page.title | truncate:190 }}&summary={{ page.short_description | truncate:250 }}&source=LinkedIn" target="_blank" class="social-icon si-borderless si-linkedin">
                 <i class="icon-linkedin"></i>
                 <i class="icon-linkedin"></i>
               </a>
-              <a href="#" class="social-icon si-borderless si-twitter">
+              <a href="https://twitter.com/share" data-text="{{ page.title | truncate:40 }}" data-size="large" data-text="Loved this post by Edify" target="_blank" class="social-icon si-borderless si-twitter">
                 <i class="icon-twitter"></i>
                 <i class="icon-twitter"></i>
               </a>
-              <a href="#" class="social-icon si-borderless si-rss">
+              <a data-pin-do="buttonPin" data-pin-round="true" data-pin-save="false" href="https://www.pinterest.com/pin/create/button/?url={{site.url}}/img/{{page.image}}&media={{page.image}}&description={{page.short_description}}" target="_blank" class="social-icon si-borderless si-pinterest">
+                <i class="icon-pinterest"></i>
+                <i class="icon-pinterest"></i>
+              </a>
+              <a href="{{site.url}}/feed.xml" target="_blank" class="social-icon si-borderless si-rss">
                 <i class="icon-rss"></i>
                 <i class="icon-rss"></i>
               </a>
-              <a href="#" class="social-icon si-borderless si-email3">
+              <a href="mailto:?subject=Edify Blog Post:{{page.title}}&amp;body={{page.short_description}} visit:{{site.url}}{{page.url}}" title="Share by Email" target="_blank" class="social-icon si-borderless si-email3">
                 <i class="icon-email3"></i>
                 <i class="icon-email3"></i>
               </a>
@@ -83,18 +92,14 @@ layout: blog-page-layout
       </div>
       <!-- .entry end -->
 
-
       <!-- Post Author Info
       ============================================= -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Posted by <span><a href="#">Kristen Gallagher</a></span></h3>
+          <h3 class="panel-title">Posted by <span>{{ page.author }}</span></h3>
         </div>
         <div class="panel-body">
-          <div class="author-image">
-            <img src="/img/thumb1.jpg" alt="" class="img-circle">
-          </div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eveniet, eligendi et nobis neque minus mollitia sit repudiandae ad repellendus recusandae blanditiis praesentium vitae ab sint earum voluptate velit beatae alias fugit accusantium laboriosam nisi reiciendis deleniti tenetur molestiae maxime id quaerat consequatur fugiat aliquam laborum nam aliquid. Consectetur, perferendis?
+          {% include kristen_full_bio.html %}
         </div>
       </div><!-- Post Single - Author End -->
 

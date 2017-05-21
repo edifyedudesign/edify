@@ -3,7 +3,9 @@ layout: single-post-layout
 title:  "Welcome to Jekyll!"
 date:   2017-05-18 10:24:59 -0700
 categories: update
-
+tags: managers onboarding
+author: 'Kristen Gallagher'
+feature_post: false
 width: 'half'
 
 image_thumb: 'thumb2.jpg'

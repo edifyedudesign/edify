@@ -8,7 +8,7 @@
       <h4>Recent Posts</h4>
       <div id="post-list-footer">
 
-        {% for post in site.posts %}
+        {% for post in site.posts limit:3 %}
           <div class="spost clearfix">
             <div class="entry-image">
               <a href="{{ post.url }}" class="nobg"><img src="/img/{{post.image_thumb }}" alt=""></a>
@@ -18,7 +18,7 @@
                 <h4><a href="#">{{ post.title }}</a></h4>
               </div>
               <ul class="entry-meta">
-                <li>{{ post.date }}</li>
+                <li>{{ post.date | date_to_string }}</li>
               </ul>
             </div>
           </div>
@@ -38,15 +38,22 @@
 
             <li style="margin-bottom: 10px;">
               <div class="entry-title">
-                <h4><span><i class="icon-line-ribbon"></i></span> <a href="#">{{ category }}</a></h4>
+                <h4><span><i class="icon-folder-close-alt"></i></span> <a href="#">{{ category[0] }}</a></h4>
               </div>
+              <ul>
+                {% for post in category[1] %}
+                  <li><a href="{{ post.url }}"><span><i class="icon-folder-open-alt"></i></span> {{ post.title }}</a></li>
+                {% endfor %}
+              </ul>
             </li>
 
           {% endfor %}
+
           </ul>
         </div>
       </div>
     </div>
+
 
     <!-- Tag Cloud -->
     <div class="widget clearfix">
