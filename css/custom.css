@@ -49,6 +49,8 @@ h4 {
   color: #43a1a0;
 }
 
+
+
 .heading-block h1, .emphasis-title h1 {
   color: #0a2323;
   font-size: 3.5em;
@@ -68,25 +70,68 @@ h4 {
   color: #0a2323;
 }
 
-.heading-block > span:not(.before-heading) {
-  font-family: 'filsonsoft-light';
-  line-height: 1.75em;
-  display: block;
-  margin-top: 10px;
-  font-weight: 300;
-  color: #43a1a0;
-}
-.heading-block h2 + span {
-  font-family: 'filsonsoft-light';
-  line-height: 1.75em;
-  font-size: 1.5em;
-}
 
 .ipost .entry-title h3 a, .ipost .entry-title h4 a {
     color: #0a2323;
     font-size: 1.1em;
 }
 
+.color {
+    color: #43a1a0 !important;
+}
+
+img.icon-edify-small {
+ width: 1.75em;
+ height: 1.75em;
+ line-height: 1em;
+ margin: 0 10px 0 10px;
+ opacity: .2;
+}
+
+img.icon-edify {
+ width: 3em!important;
+ height: 3em!important;
+ line-height: 1em;
+ margin: 0 10px 0 10px;
+ opacity: .5;
+}
+img.icon-edify-color {
+ width: 3em!important;
+ height: 3em!important;
+ line-height: 1em;
+ margin: 0 10px 0 10px;
+ opacity: 1;
+}
+
+.feature-box.fbox-plain:hover img.icon-edify {
+  opacity: 1;
+  /*filter: drop-shadow(30px, 5px, 3px, rgba(10, 35, 35. 1));*/
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.divider:after, .divider.divider-center:before, .divider.divider-center.divider-short:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    height: 0;
+    border-top: 1px solid rgba(10, 35, 35, .5);
+    opacity: .2;
+}
+.divider.divider-center.divider-short:before {
+  margin-right: 25px;
+}
+.divider.divider-center.divider-short:after {
+  margin-left: 25px;
+}
+
+.feature-box {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 0 0 80px;
+}
 /*
 
 H1:
@@ -151,6 +196,29 @@ a.social-icon {
 
 
 /* ----------------------------------------------------------------
+Kristen Bio Styles
+-----------------------------------------------------------------*/
+
+.crop-height {
+  /* max-width: 1200px; /* img src width (if known) */
+  max-height: 600px;
+  overflow: hidden;
+}
+
+img.scale {
+  /* corrects inline gap in enclosing div */
+  display: block;
+  max-width: 100%;
+  background-position: center top;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9; /* ie8+9 */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic;
+}
+
+
+/* ----------------------------------------------------------------
 HOME Page Styles
 -----------------------------------------------------------------*/
 
@@ -178,7 +246,7 @@ HOME Page Styles
 background-color: #257878;
 }
 
-.button.button-light {
+.button.button-light, input#mc-embedded-subscribe.button.button-light {
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -200,6 +268,10 @@ background-color: #257878;
 }
 .button.button-light:hover {
 background-color: #f1f16c;
+}
+
+.dark .button-dark:not(.button-border), .dark .button:hover {
+    background-color: #257878;
 }
 
 .feature-box.fbox-border .fbox-icon {
@@ -325,4 +397,83 @@ h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > 
 }
 .feature-box.fbox-plain .fbox-icon i, .feature-box.fbox-plain .fbox-icon img {
   color: #43a1a0;
+}
+.entry-title h2 a:hover {
+    color: #43a1a0;
+}
+.tagcloud a:hover {
+    border-color: #43a1a0 !important;
+    color: #43a1a0 !important;
+}
+.spost .entry-title h4 a:hover, .mpost .entry-title h4 a:hover {
+    color: #43a1a0;
+}
+.breadcrumb a:hover {
+    color: #43a1a0;
+}
+
+
+/* ----------------------------------------------------------------
+About Page Styles
+-----------------------------------------------------------------*/
+
+.slider-caption-bg.slider-caption-bg-light {
+    background-color: rgba(255,255,255,0.8);
+    color: #0a2323;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+}
+
+div.flex-caption.slider-caption-bg.slider-caption-bg-light.slider-caption-top-left h4, div.flex-caption.slider-caption-bg.slider-caption-top-right h4 {
+  margin-bottom: 10px;
+  margin-top: 0.3em;
+}
+
+.slider-caption-bg {
+    padding: 25px 32px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0.6);
+    /*top: auto;
+    bottom: 50px;*/
+    left: 100px;
+}
+.slider-caption-top-right {
+    top: 50px;
+    bottom: auto;
+    left: auto;
+    right: 100px;
+}
+
+.flex-caption {
+  max-width: 700px;
+}
+
+blockquote.about-page {
+    padding: 10px 20px;
+    margin: 20px 0 20px;
+    font-size: 17.5px;
+    border-left: 3px solid #EEE;
+    margin-left: 20px;
+}
+span.about-slider {
+  margin-bottom: 1em;
+}
+
+li img.icon-edify-small {
+ width: 0.25em;
+ height: 0.25em;
+ line-height: 1em;
+ margin: 0 10px 0 10px;
+ opacity: 1;
+}
+
+.iconlist > li img.icon-edify-small:first-child, .iconlist > li img.icon-edify-small:first-child {
+    position: absolute;
+    left: -1.75em;
+    width: 1.75em;
+    text-align: center;
+    top: 1px;
+    width: 10px;
+    height: auto;
+    margin-top: 10px;
 }

@@ -11,11 +11,8 @@
       <ul class="clients-grid grid-2 nobottommargin clearfix">
 
         {% for client in site.clients %}
-          <p>
-            {{ client }}
-          </p>
           <li>
-            <a href="{{ client.website }}"><img src="/img/{{ page.logo }}" alt="{{ client.company_name }} Logo"></a>
+            {{content}}
           </li>
         {% endfor %}
 

@@ -69,7 +69,7 @@ small,
 .feature-box.fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a {
-	font-family: /*'filsonsoft-book',*/ 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -90,7 +90,7 @@ label,
 .nav-tree li a,
 .wedding-head .first-name,
 .wedding-head .last-name {
-	font-family: /*'filsonsoft-book',*/ 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .entry-meta li,
@@ -104,19 +104,19 @@ label,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span {
-	font-family: 'filsonsoft-book', /*'Crete Round', */ serif;
+	font-family: 'Crete Round',  serif;
 }
 
 .font-body {
-	font-family: /*'filsonsoft-book',*/ 'Lato', sans-serif !important;
+	font-family: 'Lato', sans-serif !important;
 }
 
 .font-primary {
-	font-family: /*'filsonsoft-book',*/ 'Raleway', sans-serif !important;
+	font-family: 'Raleway', sans-serif !important;
 }
 
 .font-secondary {
-	font-family: 'Raleway', sans-serif /*'Crete Round', serif*/ !important;
+	font-family: 'Crete Round', serif !important;
 }
 
 
@@ -172,7 +172,7 @@ h6 {
 .entry-meta li {
 	font-size: 13px;
 	line-height: 14px;
-	/*font-style: italic;*/
+	font-style: italic;
 }
 
 .entry-link {
@@ -183,7 +183,7 @@ h6 {
 }
 
 .entry-link span {
-	/*font-style: italic;*/
+	font-style: italic;
 	font-weight: normal;
 	text-transform: none;
 	letter-spacing: 0;
@@ -192,7 +192,7 @@ h6 {
 
 .entry blockquote p {
 	font-weight: 400;
-	/*font-style: italic;*/
+	font-style: italic;
 }
 
 .entry.entry-date-section span {
@@ -232,7 +232,7 @@ h6 {
 }
 
 .testi-content p {
-	/*font-style: italic;*/
+	font-style: italic;
 }
 
 .team-title span {

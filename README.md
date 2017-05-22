@@ -11,3 +11,6 @@ Rules for client logos
  -->
 
  <!-- Image thumbs for featured posts should be 4 inches wide x 3 inches high -->
+
+ Note to myself:
+ * remember to change the URL for the pinterest "share button" once the site goes live
