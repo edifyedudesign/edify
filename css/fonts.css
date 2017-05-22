@@ -4,6 +4,62 @@
 	Replace your Fonts as necessary
 -----------------------------------------------------------------*/
 
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2017 Fontspring
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Mostardesign
+ * License URL: https://www.fontspring.com/licenses/mostardesign/webfont
+ *
+ */
+
+
+ @font-face {
+     font-family: 'filsonsoft-regular';
+     src: url('/css/fonts/edify-brand-fonts/filsonsoft-regular-webfont.woff2') format('woff2'),
+          url('/css/fonts/edify-brand-fonts/filsonsoft-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
+@font-face {
+    font-family: 'filsonsoft-book';
+    src: url('/css/fonts/edify-brand-fonts/filsonsoft-book-webfont.woff2') format('woff2'),
+         url('/css/fonts/edify-brand-fonts/filsonsoft-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'filsonsoft-medium';
+    src: url('/css/fonts/edify-brand-fonts/filsonsoft-medium-webfont.woff2') format('woff2'),
+         url('/css/fonts/edify-brand-fonts/filsonsoft-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'filsonsoft-light';
+    src: url('/css/fonts/edify-brand-fonts/filsonsoft-light-webfont.woff2') format('woff2'),
+         url('/css/fonts/edify-brand-fonts/filsonsoft-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 body,
@@ -12,7 +68,9 @@ small,
 .wp-caption,
 .feature-box.fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
-.nav-tree ul ul a { font-family: 'Lato', sans-serif; }
+.nav-tree ul ul a {
+	font-family: /*'filsonsoft-book',*/ 'Lato', sans-serif;
+}
 
 h1,
 h2,
@@ -31,7 +89,9 @@ h6,
 label,
 .nav-tree li a,
 .wedding-head .first-name,
-.wedding-head .last-name { font-family: 'Raleway', sans-serif; }
+.wedding-head .last-name {
+	font-family: /*'filsonsoft-book',*/ 'Raleway', sans-serif;
+}
 
 .entry-meta li,
 .entry-link span,
@@ -43,13 +103,21 @@ label,
 .team-title span,
 .before-heading,
 .wedding-head .first-name span,
-.wedding-head .last-name span { font-family: 'Crete Round', serif; }
+.wedding-head .last-name span {
+	font-family: 'filsonsoft-book', /*'Crete Round', */ serif;
+}
 
-.font-body { font-family: 'Lato', sans-serif !important; }
+.font-body {
+	font-family: /*'filsonsoft-book',*/ 'Lato', sans-serif !important;
+}
 
-.font-primary { font-family: 'Raleway', sans-serif !important; }
+.font-primary {
+	font-family: /*'filsonsoft-book',*/ 'Raleway', sans-serif !important;
+}
 
-.font-secondary { font-family: 'Crete Round', serif !important; }
+.font-secondary {
+	font-family: 'Raleway', sans-serif /*'Crete Round', serif*/ !important;
+}
 
 
 /* ----------------------------------------------------------------
@@ -104,7 +172,7 @@ h6 {
 .entry-meta li {
 	font-size: 13px;
 	line-height: 14px;
-	font-style: italic;
+	/*font-style: italic;*/
 }
 
 .entry-link {
@@ -115,7 +183,7 @@ h6 {
 }
 
 .entry-link span {
-	font-style: italic;
+	/*font-style: italic;*/
 	font-weight: normal;
 	text-transform: none;
 	letter-spacing: 0;
@@ -124,7 +192,7 @@ h6 {
 
 .entry blockquote p {
 	font-weight: 400;
-	font-style: italic;
+	/*font-style: italic;*/
 }
 
 .entry.entry-date-section span {
@@ -134,7 +202,9 @@ h6 {
 	text-transform: uppercase;
 }
 
-.more-link { font-style: italic; }
+.more-link {
+	font-style: italic;
+}
 
 .comment-content .comment-author span {
 	font-size: 12px;
@@ -157,9 +227,13 @@ h6 {
 	text-transform: none;
 }
 
-.feature-box.fbox-center.fbox-italic p { font-style: italic; }
+.feature-box.fbox-center.fbox-italic p {
+	font-style: italic;
+}
 
-.testi-content p { font-style: italic; }
+.testi-content p {
+	/*font-style: italic;*/
+}
 
 .team-title span {
 	font-weight: 400;

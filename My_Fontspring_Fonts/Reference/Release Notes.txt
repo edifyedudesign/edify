@@ -1,0 +1,20 @@
+Filson Soft v1.0
+December 07 2016
+
+files included:
+Filson Soft Thin v1.0
+Filson Soft Thin Italic v1.0
+Filson Soft Light v1.0
+Filson Soft Light Italic v1.0
+Filson Soft Book v1.0
+Filson Soft Book Italic v1.0
+Filson Soft Regular v1.0
+Filson Soft Italic v1.0
+Filson Soft Medium v1.0
+Filson Soft Medium Italic v1.0
+Filson Soft Bold v1.0
+Filson Soft Bold Italic v1.0
+Filson Soft Black v1.0
+Filson Soft Black Italic v1.0
+Filson Soft Heavy v1.0
+Filson Soft Heavy Italic v1.0

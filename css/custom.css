@@ -6,6 +6,120 @@ Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
 
+
+/* ----------------------------------------------------------------
+EDIFY BRAND FONT Styles
+-----------------------------------------------------------------*/
+
+
+h1 {
+  font-family: 'filsonsoft-medium';
+  font-size: 3.5em;
+  color: #0a2323;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'filsonsoft-medium';
+  font-size: 3em;
+  color: #23544f;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'filsonsoft-medium';
+  font-size: 2em;
+  color: #43a1a0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'filsonsoft-book';
+  font-size: 1.5em;
+  color: #0a2323;
+  font-weight: normal;
+}
+
+.button {
+  font-family: 'filsonsoft-regular';
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #ebeb2d;
+  color: #43a1a0;
+}
+
+.heading-block h1, .emphasis-title h1 {
+  color: #0a2323;
+  font-size: 3.5em;
+}
+
+.heading-block h2, .emphasis-title h2 {
+  color: #23544f;
+  font-size: 2.5em;
+}
+
+.heading-block h3 {
+  color: #43a1a0;
+  font-size: 1.5em;
+}
+
+.heading-block h4 {
+  color: #0a2323;
+}
+
+.heading-block > span:not(.before-heading) {
+  font-family: 'filsonsoft-light';
+  line-height: 1.75em;
+  display: block;
+  margin-top: 10px;
+  font-weight: 300;
+  color: #43a1a0;
+}
+.heading-block h2 + span {
+  font-family: 'filsonsoft-light';
+  line-height: 1.75em;
+  font-size: 1.5em;
+}
+
+.ipost .entry-title h3 a, .ipost .entry-title h4 a {
+    color: #0a2323;
+    font-size: 1.1em;
+}
+
+/*
+
+H1:
+  Filson Soft Medium
+  32 pt,
+  #0a2323
+
+H2
+  Filson Soft Medium
+  20 pt,
+  #23544f
+
+H3
+  Filson Soft Medium
+  14 pt,
+  all caps,
+  #43a1a0
+
+H4
+  Filson Soft Book
+  15 pt,
+  #0a2323
+
+Button
+  Filson Soft Regular
+  10 pt,
+  all caps,
+  #ebeb2d,
+  #43a1a0
+
+*/
+
+
 /* ----------------------------------------------------------------
 HOME SLIDER & Header Styles
 -----------------------------------------------------------------*/
@@ -145,6 +259,18 @@ a {
   color: #43a1a0;
 }
 
+p.services-text {
+  font-size: 1.2em!important;
+  font-weight: 300;
+  padding-right: 1.5em;
+}
+#services .col_one_third {
+  padding-right: 2em;
+}
+#services .col_one_third.col_last {
+  margin-right: -2em!important;
+}
+
 
 /* ----------------------------------------------------------------
 Blog Page Styles
@@ -180,7 +306,23 @@ div.entry-content.entry-image-half-width blockquote {
   text-align: right;
 }
 
-/*  .singlepost .entry-image:not(blockquote.entry-image-full-width) + .main {
-   background:pink;
-}*/
+.entry-meta li {
+  float: left;
+  font-size: 13px;
+  line-height: 14px;
+  margin: 0 10px 15px 0;
+  color: #999;
+  font-family: 'filsonsoft-book', serif;
+  font-style: normal;
+}
 
+/* ----------------------------------------------------------------
+Blog Page Styles
+-----------------------------------------------------------------*/
+
+h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > span:not(.nocolor), h5 > span:not(.nocolor), h6 > span:not(.nocolor) {
+  color: #43a1a0;
+}
+.feature-box.fbox-plain .fbox-icon i, .feature-box.fbox-plain .fbox-icon img {
+  color: #43a1a0;
+}

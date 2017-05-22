@@ -17,11 +17,11 @@ layout: client-layout
               <a href="{{ post.url }}"><img class="image_fade" src="/img/{{ post.image_thumb }}" alt="{{ post.image_thumb_alt }}" style="opacity: 0.8;"></a>
             </div>
             <div class="entry-title">
-              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
             </div>
             <ul class="entry-meta clearfix">
               <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
-              <li><a href="#"><i class="icon-bookmark"></i>{{ post.categories }}</a></li>
+              <li><a href="#"><i class="icon-folder-close-alt"></i>{{ post.categories }}</a></li>
             </ul>
             <div class="entry-content">
               <p>
