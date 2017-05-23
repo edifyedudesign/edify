@@ -477,3 +477,107 @@ li img.icon-edify-small {
     height: auto;
     margin-top: 10px;
 }
+
+
+/* ----------------------------------------------------------------
+Process Page Styles
+-----------------------------------------------------------------*/
+#process .feature-box.media-box.fbox-bg {
+  margin-bottom: 10%;
+}
+
+#process .feature-box {
+  width: 100%;
+}
+
+#process .feature-box:after {
+  content: "";
+  font-size: 2vw;
+  display: block;
+  padding-bottom: 100%;
+}
+
+.fboxcontent {
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+#process .aboutquote.quote:before {
+    font-family: 'font-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    content: "\e7c6";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 10vw;
+    top: 35px;
+    left: 0px;
+    color: rgba(101, 179, 153, 0.2);
+}
+
+#process .feature-box.media-box.fbox-bg .fbox-desc {
+    padding: 5px;
+    background-color: #FFF;
+    border: 1px solid #65b399;
+    border-top: -1px;
+    border-radius: 0 0 5px 5px;
+}
+
+#process .feature-box.media-box.fbox-bg .fbox-desc blockquote {
+  padding-right: 0px;
+}
+
+#process .feature-box span.subtitle {
+    display: block;
+    margin-top: 1em;
+    color: #0a2323;
+    font-weight: 300;
+    text-transform: none;
+    font-family: 'filsonsoft-book';
+    font-size: 1.8vw;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 1em;
+}
+
+#process .feature-box:hover span.subtitle {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#process .about-button .button.button-light {
+  margin-left: 35%;
+  position: absolute;
+  bottom: 20px;
+  font-size: 1vw;
+  height: 2.5vw;
+  line-height: 2.5vw;
+  padding-left: 1vw;
+  padding-right: .5vw;
+}
+
+#process .feature-box.media-box.fbox-bg {
+  -webkit-filter: drop-shadow(none);
+  filter: drop-shadow(none);
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#process .feature-box.media-box.fbox-bg:hover {
+  -webkit-filter: drop-shadow(4px 5px 6px rgba(10, 35, 35, 0.3));
+  filter: drop-shadow(4px 5px 6px rgba(0,0,0,0.3));
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
