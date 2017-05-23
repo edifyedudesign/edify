@@ -483,7 +483,10 @@ li img.icon-edify-small {
 Process Page Styles
 -----------------------------------------------------------------*/
 #process .feature-box.media-box.fbox-bg {
-  margin-bottom: 10%;
+  margin-bottom: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 #process .feature-box {
@@ -542,10 +545,10 @@ Process Page Styles
     font-weight: 300;
     text-transform: none;
     font-family: 'filsonsoft-book';
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     letter-spacing: 2px;
     padding-left: 10px;
-    padding-right: 0px;
+    padding-right: 10px;
     padding-top: 1em;
 }
 
