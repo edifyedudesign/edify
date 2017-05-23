@@ -525,8 +525,8 @@ Process Page Styles
 
 #process .feature-box.media-box.fbox-bg .fbox-desc {
     padding: 5px;
-    background-color: #FFF;
-    border: 1px solid #65b399;
+    background-color: #fefefc;
+    border: 3px solid #65b399;
     border-top: -1px;
     border-radius: 0 0 5px 5px;
 }
@@ -580,4 +580,11 @@ Process Page Styles
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
+}
+
+#process .feature-box.media-box.fbox-bg:hover .about-button .button.button-light {
+  border-bottom: 3px solid rgba(94,94,18,.15);
+  -webkit-transition: all .01s ease;
+  -o-transition: all .01s ease;
+  transition: all .01s ease;
 }
