@@ -21,7 +21,6 @@ url: "http://edifyedu.com/" # the base hostname & protocol for your site, e.g. h
 twitter_username: edifyedu
 github_username:  edifyedu
 timezone: America/Los_Angeles
-permalink: /:name
 
 # Build settings
 markdown: kramdown
@@ -45,3 +44,7 @@ collections:
   clients:
     output: true
     permalink: /clients/:name
+
+  posts:
+    output: true
+    permalink: /blogs/:title

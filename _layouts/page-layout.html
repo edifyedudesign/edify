@@ -11,7 +11,11 @@
 
       {% include header.html %}
 
-      {% include breadcrumb.html %}
+      {% if page.title == "blog" %}
+        {% include blogbreadcrumb.html %}
+      {% else %}
+        {% include breadcrumb.html %}
+      {% endif %}
 
       <section id="content">
 

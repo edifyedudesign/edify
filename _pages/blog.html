@@ -1,10 +1,6 @@
 ---
-layout: blog-page-layout
-categories: 'landing_page'
-title: ''
+layout: "page-layout"
 ---
-
-
 <div class="content-wrap">
 
   <div class="container clearfix">
@@ -24,7 +20,7 @@ title: ''
           </div>
           <div class="entry-c">
             <div class="entry-title">
-              <h2><a href="{{post.url }}">{{ post.title}}</a></h2>
+              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             </div>
             <ul class="entry-meta clearfix">
               <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
@@ -48,6 +44,3 @@ title: ''
   </div>
 
 </div>
-
-
-
