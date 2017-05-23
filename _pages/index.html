@@ -1,6 +1,99 @@
 ---
-layout: feature-post-layout
+layout: home-layout
 ---
 
+<!-- START Services Section -->
+{% include services.html %}
+<!-- END Services Section -->
 
 
+<!-- START Featured Posts Section -->
+<div class="section nobg notopmargin">
+  <div class="container">
+    <div class="fancy-title title-border">
+      <h4>Featured Posts</h4>
+    </div>
+
+    {% for post in site.posts limit:5 %}
+      {% if post.feature_post %}
+        <div class="col-md-4 nobottommargin">
+          <div class="ipost clearfix">
+            <div class="entry-image">
+              <a href="{{ post.url }}"><img class="image_fade" src="/img/{{ post.image_thumb }}" alt="{{ post.image_thumb_alt }}" style="opacity: 0.8;"></a>
+            </div>
+            <div class="entry-title">
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            </div>
+            <ul class="entry-meta clearfix">
+              <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
+              <li><a href="#"><i class="icon-folder-close-alt"></i>{{ post.categories }}</a></li>
+            </ul>
+            <div class="entry-content">
+              <p>
+                {{ post.short_description }}
+                <br><span><a class="more-link" href="{{ post.url }}"> See More <i class="icon-line-arrow-right" style="padding-left: 3px;"></i></a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- END Featured Posts Section -->
+
+
+<!-- START Client Section -->
+<div class="section nobottommargin nobg" style="padding-bottom: 150px;">
+  <div class="container clearfix">
+
+    <div class="heading-block">
+      <h2>Our Clients</h2>
+      <span>These are the companies we have worked with.</span>
+    </div>
+
+    <div class="col-md-7 nobottommargin">
+      <ul class="clients-grid grid-2 nobottommargin clearfix">
+
+        {% for client in site.clients %}
+          <li>
+            <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+
+    <div class="col-md-5 nobottommargin">
+
+      <div class="fslider testimonial" data-animation="fade" data-arrows="false">
+        <div class="flexslider">
+          <div class="slider-wrap">
+
+            {% for client in site.clients %}
+
+              <div class="slide">
+                <div class="testi-content">
+                  <blockquote class="quote">
+                    <p>
+                      {{ client.testimonial }}
+                    </p>
+                  </blockquote>
+                  <div class="testi-meta">
+                    {{ client.company_name }}
+                    <span>{{ client.client_testimonial_name }}, {{ client.client_testimonial_job_title }}</span>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- END Client Section -->
