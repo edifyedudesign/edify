@@ -1,17 +1,6 @@
 ---
 layout: page-layout
 tagline: 'Everything you need to know about Edify'
-
-kristen_name: 'Kristen Gallagher'
-kristen_title: 'CEO & Co-Founder'
-kristen_image: 'kristen-gallagher.jpg'
-kristen_image_md: 'kristen-gallagher-md.jpg'
-kristen_image_alt: 'Kristen Gallagher'
-
-kristen_twitter: 'https://twitter.com/edifyedu/'
-kristen_linkedin: 'https://www.linkedin.com/in/kristenmg/'
-kristen_pinterest: 'https://www.pinterest.com/edifyedu/'
-kristen_email: 'mailto:kristen@edifyedu.com'
 ---
 
 <section id="slider" class="boxed-slider">
@@ -193,32 +182,35 @@ kristen_email: 'mailto:kristen@edifyedu.com'
   <div class="section">
     <div class="row common-height  bottommargin-lg clearfix">
 
-      <div class="col-sm-5 col-padding" style="background: url('/img/{{ page.kristen_image }}') center center no-repeat; background-size: cover;"></div>
+      <div class="col-sm-5 col-padding" style="background: url('/img/{{ site.data.kristens_info.image }}') center center no-repeat; background-size: cover;"></div>
 
       <div class="col-sm-7 col-padding">
         <div>
           <div class="heading-block">
-            <span class="before-heading color">{{ page.kristen_title }}</span>
-            <h4>{{ page.kristen_name }}</h4>
+            <span class="before-heading color">{{ site.data.kristens_info.title }}</span>
+            <h4>{{ site.data.kristens_info.name }}</h4>
           </div>
 
           <div class="row clearfix">
 
             <div class="col-md-12">
-              {% include kristen_full_bio.html %}
-              <a href="{{ page.kristen_linkedin }}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+              <p>
+                {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}
+              </p>
+
+              <a href="{{ site.data.kristens_info.linkedin }}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
                 <i class="icon-linkedin"></i>
                 <i class="icon-linkedin"></i>
               </a>
-              <a href="{{ page.kristen_twitter }}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+              <a href="{{ site.data.kristens_info.twitter }}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
                 <i class="icon-twitter"></i>
                 <i class="icon-twitter"></i>
               </a>
-              <a href="{{ page.kristen_pinterest }}" class="social-icon inline-block si-small si-light si-rounded si-pinterest">
+              <a href="{{ site.data.kristens_info.pinterest }}" class="social-icon inline-block si-small si-light si-rounded si-pinterest">
                 <i class="icon-pinterest"></i>
                 <i class="icon-pinterest"></i>
               </a>
-              <a href="{{ page.kristen_email }}" class="social-icon inline-block si-small si-light si-rounded si-email3">
+              <a href="{{ site.data.kristens_info.email }}" class="social-icon inline-block si-small si-light si-rounded si-email3">
                 <i class="icon-email3"></i>
                 <i class="icon-email3"></i>
               </a>

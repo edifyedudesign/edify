@@ -35,15 +35,10 @@ exclude:
   - READMD.md
   - vendor
 
-
 collections:
   pages:
     output: true
     permalink: /:name
-
-  clients:
-    output: true
-    permalink: /clients/:name
 
   posts:
     output: true

@@ -57,7 +57,7 @@ layout: home-layout
     <div class="col-md-7 nobottommargin">
       <ul class="clients-grid grid-2 nobottommargin clearfix">
 
-        {% for client in site.clients %}
+        {% for client in site.data.clients %}
           <li>
             <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
           </li>
@@ -72,7 +72,7 @@ layout: home-layout
         <div class="flexslider">
           <div class="slider-wrap">
 
-            {% for client in site.clients %}
+            {% for client in site.data.clients %}
 
               <div class="slide">
                 <div class="testi-content">
