@@ -44,4 +44,4 @@ collections:
 
   clients:
     output: true
-    permalink: /:name
+    permalink: /clients/:name

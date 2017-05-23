@@ -1,3 +1,6 @@
+---
+layout: "page-layout"
+---
 <!-- START Client Section 3A -->
 <div class="section nobottommargin nobg" style="padding-bottom: 150px;">
   <div class="container clearfix">
@@ -12,7 +15,7 @@
 
         {% for client in site.clients %}
           <li>
-            {{content}}
+            <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
           </li>
         {% endfor %}
 
