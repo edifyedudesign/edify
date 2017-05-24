@@ -483,139 +483,20 @@ span.about-slider {
 /* ----------------------------------------------------------------
 Process Page Styles
 -----------------------------------------------------------------*/
-#process .feature-box.media-box.fbox-bg {
-  margin-bottom: 20%;
-  padding-left: 5%;
-  padding-right: 5%;
-
-}
-
-#process .feature-box {
-  width: 100%;
-}
-
-#process .feature-box:after {
-  content: "";
-  font-size: 2vw;
-  display: block;
-  padding-bottom: 100%;
-}
-
-.fboxcontent {
-  position:  absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-
-#process .aboutquote.quote:before {
-    font-family: 'font-icons';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    content: "\e7c6";
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 10vw;
-    top: 35px;
-    left: 0px;
-    color: rgba(101, 179, 153, 0.2);
-}
-
-#process .feature-box.media-box.fbox-bg .fbox-desc {
-    padding: 5px;
-    background-color: #fefefc;
-    border: 3px solid #65b399;
-    border-top: -1px;
-    border-radius: 0 0 5px 5px;
-}
-
-#process .feature-box.media-box.fbox-bg .fbox-desc blockquote {
-  padding-right: 0px;
-}
-
-#process .feature-box span.subtitle {
-    display: block;
-    margin-top: 1em;
-    color: #0a2323;
-    font-weight: 300;
-    text-transform: none;
-    font-family: 'filsonsoft-book';
-    font-size: 1.6vw;
-    letter-spacing: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 1em;
-}
-
-
-#process .feature-box:hover span.subtitle {
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-  -webkit-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-}
-
-#process .about-button .button.button-light {
-  margin-left: 35%;
-  position: absolute;
-  bottom: 20px;
-  font-size: 1vw;
-  height: 2.5vw;
-  line-height: 2.5vw;
-  padding-left: 1vw;
-  padding-right: .5vw;
-}
-
-#process .feature-box.media-box.fbox-bg, #process2 .feature-box.media-box.fbox-bg {
+#process2 .feature-box.media-box.fbox-bg, #process2 .feature-box.media-box.fbox-bg {
   -webkit-filter: drop-shadow(none);
   filter: drop-shadow(none);
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
-#process .feature-box.media-box.fbox-bg:hover, #process2 .feature-box.media-box.fbox-bg:hover  {
+
+#process2 .feature-box.media-box.fbox-bg:hover, #process2 .feature-box.media-box.fbox-bg:hover  {
   -webkit-filter: drop-shadow(4px 5px 6px rgba(10, 35, 35, 0.3));
   filter: drop-shadow(4px 5px 6px rgba(0,0,0,0.3));
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
-}
-#process2 i.icon-share-alt {
-  color: #0a2323;
-  font-size: 2em;
-  right: 20px;
-  text-align: right;
-  opacity: .5;
-
-}
-
- #process2 .flip-arrow {
-  margin-left: 80%;
-  bottom: 5px;
-  position: absolute;
-  z-index: 3;
-
- }
-
-#process .feature-box.media-box.fbox-bg:hover .about-button .button.button-light {
-  border-bottom: 3px solid rgba(94,94,18,.15);
-  -webkit-transition: all .01s ease;
-  -o-transition: all .01s ease;
-  transition: all .01s ease;
-}
-
-
-
-/*  =============================    */
-
-#process2 .feature-box.media-box.fbox-bg .about-button .button.button-light {
-  /*margin-top: 5%;*/
 }
 
 #process2 .feature-box.media-box.fbox-bg:hover .about-button .button.button-light {
@@ -623,6 +504,11 @@ Process Page Styles
   -webkit-transition: all .01s ease;
   -o-transition: all .01s ease;
   transition: all .01s ease;
+}
+
+i.icon-share-alt {
+  opacity: .5;
+  color: #0a2323;
 }
 
 #process2 .feature-box.media-box.fbox-bg:hover .fbox-desc h4, #process2 .feature-box.media-box.fbox-bg:hover i.icon-share-alt {
@@ -635,7 +521,6 @@ Process Page Styles
 }
 
 .feature-box.media-box .fbox-media {
-  /*overflow: hidden;*/
   max-height: 300px;
   position: relative;
 }
@@ -646,14 +531,9 @@ Process Page Styles
   position: absolute;
   width: 100%;
   padding-bottom: 0px;
-}
-.feature-box.media-box.fbox-bg .fbox-desc {
-
-    background-color: #FFF;
-    border: 1px solid #E5E5E5;
-    border-radius: 5px;
-    /*min-height: 16vw;*/
-
+  background-color: #FFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
 }
 
 
@@ -668,13 +548,6 @@ Process Page Styles
   min-height: 24.25vw;
 }
 
-/*.feature-box.media-box.fbox-bg .fbox-desc {
-    background-color: #FFF;
-    border: 1px solid #E5E5E5;
-    border-radius: 5px;
-    /* min-height: 16vw;
-}*/
-
 h4.flip-back {
   margin-top: 5%;
   margin-bottom: 13%;
@@ -683,11 +556,6 @@ h4.flip-back {
   font-weight: 400;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
-
-/*.feature-box.media-box.fbox-bg {
-  min-height: 5vw;
-}*/
-
 
 .fbox-media img {
   background-position: center;
@@ -699,6 +567,9 @@ h4.flip-back {
   margin-top: -90px;
 }
 
-/*#process2 .col_one_third {
-  min-height:4vw;
+#process2 .flip-arrow {
+ margin-left: 80%;
+ bottom: 5px;
+ position: absolute;
+ z-index: 3;
 }
