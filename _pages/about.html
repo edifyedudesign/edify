@@ -70,7 +70,7 @@ tagline: 'Everything you need to know about Edify'
 
 <div class="content-wrap">
 
-  <!-- values option 2 -->
+  <!-- START values -->
   <div class="container clearfix bottommargin-lg topmargin">
 
     <div class="heading-block topmargin-sm center bottommargin-lg">
@@ -126,23 +126,78 @@ tagline: 'Everything you need to know about Edify'
       </div>
     </div>
   </div>
-
+  <!-- END values -->
 
   <div class="divider divider-short divider-center topmargin bottommargin-lg"><img class="icon-edify-small" src="/img/edify-vectoricon.png"></div>
 
 
 
-  <!-- START Kristen Bio Section -->
+
+  <!-- START Kristen Bio Section  1 -->
+  <div class="section">
+    <div class="container">
+      <div class="row nobottommargin clearfix">
+
+        <div class="col-md-5">
+          <img src="/img/{{ site.data.kristens_info.image }}" style="background-size: contain; background-position: center top; ">
+        </div>
+
+        <div class="col-md-7 col-padding" style="padding-top: 0px;">
+          <div>
+            <div class="heading-block">
+              <span class="before-heading color">{{ site.data.kristens_info.title }}</span>
+              <h4>{{ site.data.kristens_info.name }} (option 1)</h4>
+            </div>
+
+            <div class="row clearfix">
+
+              <div class="col-md-12">
+                <p style="margin-bottom: 10px;">
+                  {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}
+                </p>
+
+                <a href="{{ site.data.kristens_info.linkedin }}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                  <i class="icon-linkedin"></i>
+                  <i class="icon-linkedin"></i>
+                </a>
+                <a href="{{ site.data.kristens_info.twitter }}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                  <i class="icon-twitter"></i>
+                  <i class="icon-twitter"></i>
+                </a>
+                <a href="{{ site.data.kristens_info.pinterest }}" class="social-icon inline-block si-small si-light si-rounded si-pinterest">
+                  <i class="icon-pinterest"></i>
+                  <i class="icon-pinterest"></i>
+                </a>
+                <a href="{{ site.data.kristens_info.email }}" class="social-icon inline-block si-small si-light si-rounded si-email3">
+                  <i class="icon-email3"></i>
+                  <i class="icon-email3"></i>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- END Kristen Bio Section 1  -->
+
+
+
+  <!-- START Kristen Bio Section 2 -->
   <div class="section">
     <div class="row common-height  bottommargin-lg clearfix">
 
-      <div class="col-sm-5 col-padding" style="background: url('/img/{{ site.data.kristens_info.image }}') center center no-repeat; background-size: cover;"></div>
+      <div class="col-sm-3 col-padding" style="background: url('/img/{{ site.data.kristens_info.image }}') center center no-repeat; background-size: cover;"></div>
 
-      <div class="col-sm-7 col-padding">
+      <div class="col-sm-9 col-padding">
         <div>
           <div class="heading-block">
             <span class="before-heading color">{{ site.data.kristens_info.title }}</span>
-            <h4>{{ site.data.kristens_info.name }}</h4>
+            <h4>{{ site.data.kristens_info.name }} (option 2)</h4>
           </div>
 
           <div class="row clearfix">
@@ -177,7 +232,56 @@ tagline: 'Everything you need to know about Edify'
 
     </div>
   </div>
-  <!-- END Kristen Bio Section -->
+  <!-- END Kristen Bio Section 2 -->
+
+
+
+  <!-- START Kristen Bio Section 3 -->
+  <div class="section">
+    <div class="row common-height  bottommargin-lg clearfix">
+
+      <div class="col-sm-5 col-padding" style="background: url('/img/{{ site.data.kristens_info.image }}') center center no-repeat; background-size: cover;"></div>
+
+      <div class="col-sm-7 col-padding">
+        <div>
+          <div class="heading-block">
+            <span class="before-heading color">{{ site.data.kristens_info.title }}</span>
+            <h4>{{ site.data.kristens_info.name }} (Option 3)</h4>
+          </div>
+
+          <div class="row clearfix">
+
+            <div class="col-md-12">
+              <p>
+                {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}
+              </p>
+
+              <a href="{{ site.data.kristens_info.linkedin }}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                <i class="icon-linkedin"></i>
+                <i class="icon-linkedin"></i>
+              </a>
+              <a href="{{ site.data.kristens_info.twitter }}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                <i class="icon-twitter"></i>
+                <i class="icon-twitter"></i>
+              </a>
+              <a href="{{ site.data.kristens_info.pinterest }}" class="social-icon inline-block si-small si-light si-rounded si-pinterest">
+                <i class="icon-pinterest"></i>
+                <i class="icon-pinterest"></i>
+              </a>
+              <a href="{{ site.data.kristens_info.email }}" class="social-icon inline-block si-small si-light si-rounded si-email3">
+                <i class="icon-email3"></i>
+                <i class="icon-email3"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- END Kristen Bio Section 3 -->
 
 
 </div>
