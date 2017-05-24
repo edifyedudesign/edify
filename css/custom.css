@@ -499,6 +499,12 @@ Process Page Styles
   transition: all .5s ease;
 }
 
+#process2 .feature-box.media-box.fbox-bg .about-button {
+  position: absolute;
+  bottom: 20px;
+  left: 85px;
+}
+
 #process2 .feature-box.media-box.fbox-bg:hover .about-button .button.button-light {
   border-bottom: 3px solid rgba(94,94,18,.15);
   -webkit-transition: all .01s ease;
@@ -534,6 +540,8 @@ i.icon-share-alt {
   background-color: #FFF;
   border: 1px solid #E5E5E5;
   border-radius: 5px;
+  min-height: 21.25vw;
+  max-height: 21.25vw;
 }
 
 
@@ -545,16 +553,22 @@ i.icon-share-alt {
   border-top: 1;
   border-radius: 5px;
   height: inherit;
-  min-height: 24.25vw;
+  min-height: 30vw;
+  max-height: 30vw;
 }
 
 h4.flip-back {
-  margin-top: 5%;
-  margin-bottom: 13%;
-  line-height: 2em;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  line-height: 1.75em;
   color: #FFF!important;
   font-weight: 400;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+h4.flip-front {
+  margin-top: 5%;
+  margin-bottom: 13%;
+  line-height: 1.75em;
 }
 
 .fbox-media img {
@@ -569,7 +583,7 @@ h4.flip-back {
 
 #process2 .flip-arrow {
  margin-left: 80%;
- bottom: 5px;
+ bottom: 15px;
  position: absolute;
  z-index: 3;
 }
