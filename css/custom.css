@@ -1,4 +1,4 @@
-/* ----------------------------------------------------------------
+ ----------------------------------------------------------------
 Custom CSS
 
 Add all your Custom Styled CSS here for New Styles or
@@ -93,7 +93,7 @@ img.icon-edify {
  height: 3em!important;
  line-height: 1em;
  margin: 0 10px 0 10px;
- opacity: .5;
+ opacity: 1;
 }
 img.icon-edify-color {
  width: 3em!important;
@@ -101,14 +101,6 @@ img.icon-edify-color {
  line-height: 1em;
  margin: 0 10px 0 10px;
  opacity: 1;
-}
-
-.feature-box.fbox-plain:hover img.icon-edify {
-  opacity: 1;
-  /*filter: drop-shadow(30px, 5px, 3px, rgba(10, 35, 35. 1));*/
-  -webkit-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
 }
 
 .divider:after, .divider.divider-center:before, .divider.divider-center.divider-short:before {
@@ -424,17 +416,15 @@ About Page Styles
     text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 }
 
-div.flex-caption.slider-caption-bg.slider-caption-bg-light.slider-caption-top-left h4, div.flex-caption.slider-caption-bg.slider-caption-top-right h4 {
-  margin-bottom: 10px;
-  margin-top: 0.3em;
+div.flex-caption.slider-caption-bg.slider-caption-bg-light.slider-caption-top-left h4, div.flex-caption.slider-caption-bg-light.slider-caption-top-right h4 {
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .slider-caption-bg {
     padding: 25px 32px;
     border-radius: 2px;
     background-color: rgba(0,0,0,0.6);
-    /*top: auto;
-    bottom: 50px;*/
     left: 100px;
 }
 .slider-caption-top-right {
@@ -442,42 +432,53 @@ div.flex-caption.slider-caption-bg.slider-caption-bg-light.slider-caption-top-le
     bottom: auto;
     left: auto;
     right: 100px;
+    background-color: rgba(255,255,255,0.8);
+    color: #0a2323;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 }
 
 .flex-caption {
   max-width: 700px;
+  padding: 2em;
+  /*padding-right: 1em;
+  padding-top: 2em;
+  padding-bottom: 3em;*/
+  font-size: 22px;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+  -webkit-transition: top .3s ease;
+  -o-transition: top .3s ease;
+  transition: top .3s ease;
 }
 
 blockquote.about-page {
-    padding: 10px 20px;
-    margin: 20px 0 20px;
+    padding: 0px 20px;
+    margin: 30px 0 30px;
     font-size: 17.5px;
-    border-left: 3px solid #EEE;
+    border-left: 3px solid rgba(10, 35, 35, 0.7);
     margin-left: 20px;
 }
 span.about-slider {
   margin-bottom: 1em;
+  font-weight: 300;
 }
 
-li img.icon-edify-small {
- width: 0.25em;
- height: 0.25em;
- line-height: 1em;
- margin: 0 10px 0 10px;
- opacity: 1;
+.flex-caption.slider-caption-bg-light.slider-caption-top-right ul {
+  margin-bottom: 0px;
 }
 
-.iconlist > li img.icon-edify-small:first-child, .iconlist > li img.icon-edify-small:first-child {
+.iconlist > li [class^="icon-"]:first-child, .iconlist > li [class*=" icon-"]:first-child {
     position: absolute;
-    left: -1.75em;
+    left: -2.75em;
     width: 1.75em;
     text-align: center;
     top: 1px;
-    width: 10px;
-    height: auto;
-    margin-top: 10px;
+    width: 14px;
+    font-size: 5px;
+    padding-top: 13px;
+    padding-right: 10px;
 }
-
 
 /* ----------------------------------------------------------------
 Process Page Styles
@@ -552,6 +553,7 @@ Process Page Styles
     padding-top: 1em;
 }
 
+
 #process .feature-box:hover span.subtitle {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
   -webkit-transition: all .5s ease;
@@ -570,24 +572,133 @@ Process Page Styles
   padding-right: .5vw;
 }
 
-#process .feature-box.media-box.fbox-bg {
+#process .feature-box.media-box.fbox-bg, #process2 .feature-box.media-box.fbox-bg {
   -webkit-filter: drop-shadow(none);
   filter: drop-shadow(none);
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
-#process .feature-box.media-box.fbox-bg:hover {
+#process .feature-box.media-box.fbox-bg:hover, #process2 .feature-box.media-box.fbox-bg:hover  {
   -webkit-filter: drop-shadow(4px 5px 6px rgba(10, 35, 35, 0.3));
   filter: drop-shadow(4px 5px 6px rgba(0,0,0,0.3));
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
+#process2 i.icon-share-alt {
+  color: #0a2323;
+  font-size: 2em;
+  right: 20px;
+  text-align: right;
+  opacity: .5;
+
+}
+
+ #process2 .flip-arrow {
+  margin-left: 80%;
+  bottom: 5px;
+  position: absolute;
+  z-index: 3;
+
+ }
 
 #process .feature-box.media-box.fbox-bg:hover .about-button .button.button-light {
   border-bottom: 3px solid rgba(94,94,18,.15);
   -webkit-transition: all .01s ease;
   -o-transition: all .01s ease;
   transition: all .01s ease;
+}
+
+
+
+/*  =============================    */
+
+#process2 .feature-box.media-box.fbox-bg .about-button .button.button-light {
+  /*margin-top: 5%;*/
+}
+
+#process2 .feature-box.media-box.fbox-bg:hover .about-button .button.button-light {
+  border-bottom: 3px solid rgba(94,94,18,.15);
+  -webkit-transition: all .01s ease;
+  -o-transition: all .01s ease;
+  transition: all .01s ease;
+}
+
+#process2 .feature-box.media-box.fbox-bg:hover .fbox-desc h4, #process2 .feature-box.media-box.fbox-bg:hover i.icon-share-alt {
+ text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+ -webkit-transition: all .5s ease;
+ -o-transition: all .5s ease;
+ transition: all .5s ease;
+ opacity: 1;
+ color: #0a2323;
+}
+
+.feature-box.media-box .fbox-media {
+  /*overflow: hidden;*/
+  max-height: 300px;
+  position: relative;
+}
+
+.fbox-desc {
+  z-index: 3;
+  top: 125px;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 0px;
+}
+.feature-box.media-box.fbox-bg .fbox-desc {
+
+    background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    /*min-height: 16vw;*/
+
+}
+
+
+.feature-box.media-box.fbox-bg .fbox-desc.fbox-desc-back {
+  background-color: #65b399;
+  border: 1px solid #65b399;
+  top: -1px;
+  padding-top: 50px;
+  border-top: 1;
+  border-radius: 5px;
+  height: inherit;
+  min-height: 24.25vw;
+}
+
+/*.feature-box.media-box.fbox-bg .fbox-desc {
+    background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    /* min-height: 16vw;
+}*/
+
+h4.flip-back {
+  margin-top: 5%;
+  margin-bottom: 13%;
+  line-height: 2em;
+  color: #FFF!important;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+/*.feature-box.media-box.fbox-bg {
+  min-height: 5vw;
+}*/
+
+
+.fbox-media img {
+  background-position: center;
+}
+
+.flipi {
+  max-width: 33%;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.2));
+  margin-top: -90px;
+}
+
+/*#process2 .col_one_third {
+  min-height:4vw;
 }
