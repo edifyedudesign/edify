@@ -468,7 +468,7 @@ span.about-slider {
   margin-bottom: 0px;
 }
 
-.iconlist > li [class^="icon-"]:first-child, .iconlist > li [class*=" icon-"]:first-child {
+#about-page .iconlist > li [class^="icon-"]:first-child, .iconlist > li [class*=" icon-"]:first-child {
     position: absolute;
     left: -2.75em;
     width: 1.75em;

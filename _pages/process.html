@@ -5,7 +5,7 @@ tagline: "Scaling a company isn’t easy. What is easy is working with Edify to 
 
 <div class="container nobottommargin" id="process">
 
-  <div class="heading-block title-center topmargin-lg section nobg">
+  <div class="heading-block title-center topmargin-lg nobottommargin section nobg">
     <h2>What's on your <span>mind</span>?</h2>
     <!-- <span>Scaling a company isn’t easy. What is easy is working with Edify to ship learning solutions that make your company even more amazing. <br>We start by learning about the things you’re dealing with - and identifying ways to take away the growing pains. Take a look at the kinds of problems we solve!</span> -->
   </div>
@@ -63,239 +63,46 @@ tagline: "Scaling a company isn’t easy. What is easy is working with Edify to 
 
   <div class="container clearfix bottommargin-lg">
 
-    <div class="col-md-4 col-sm-6 col-xs-12 bottommargin-lg flip">
-      <div class="card">
+    {% for question in site.data.questions %}
+      <div class="col-md-4 col-sm-6 col-xs-12 bottommargin-lg topmargin-sm flip">
+        <div class="card">
 
-        <!-- START FRONT -->
-        <div class="face front">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-media">
-              <img src="/img/slider-image1.jpg" alt="Image">
-            </div>
-            <div class="fbox-desc">
-              <img class="flipi" src="/img/logo-media.png">
-              <h4 class="flip-front">Feeling like you don’t have enough time to invest in onboarding, but want to?</h4>
-              <div class="flip-arrow"> <i class="icon-share-alt"></i> </div>
-            </div>
-          </div>
-        </div>
-        <!-- END FRONT -->
-
-        <!-- START BACK -->
-        <div class="face back">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-desc fbox-desc-back ">
-              <h4 class="flip-back">Onboarding in a Box gives you everything you need to ship an MVP onboarding program in just one week.</h4>
-              <div class="about-button">
-                <a href="/blog" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
+          <!-- START FRONT -->
+          <div class="face front">
+            <div class="feature-box center media-box fbox-bg">
+              <div class="fbox-media">
+                <img src="/img/{{ question.image }}" alt="{{ question.image_alt }}">
+              </div>
+              <div class="fbox-desc">
+                <img class="flipi" src="/img/logo-media.png">
+                <h4 class="flip-front">
+                  {{ question.question }}
+                </h4>
+                <div class="flip-arrow"> <i class="icon-share-alt"></i> </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- END BACK -->
+          <!-- END FRONT -->
 
-      </div>
-    </div>
-
-    <div class="clear visible-xs"></div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 bottommargin-lg flip">
-      <div class="card">
-
-        <!-- START FRONT -->
-        <div class="face front">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-media">
-              <img src="/img/slider-image1.jpg" alt="Image">
-            </div>
-            <div class="fbox-desc">
-              <img class="flipi" src="/img/logo-media.png">
-              <h4 class="flip-front">
-                Losing valuable time getting tangled in knowledge management knots?
-              </h4>
-              <div class="flip-arrow"> <i class="icon-share-alt"></i> </div>
-            </div>
-          </div>
-        </div>
-        <!-- END FRONT -->
-
-        <!-- START BACK -->
-        <div class="face back">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-desc fbox-desc-back ">
-              <h4 class="flip-back">
-                Knowledge Management for Startups shows your teams how to create, manage, and maintain documentation without pouring concrete into your growth path.
-              </h4>
-              <div class="about-button">
-                <a href="/blog" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
+          <!-- START BACK -->
+          <div class="face back">
+            <div class="feature-box center media-box fbox-bg">
+              <div class="fbox-desc fbox-desc-back ">
+                <h4 class="flip-back">
+                  {{ question.answer }}
+                </h4>
+                <div class="about-button">
+                  <a href="/blog/{{ question.post_url }}" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- END BACK -->
+          <!-- END BACK -->
 
+        </div>
       </div>
-    </div>
 
-    <div class="clear visible-sm visible-xs"></div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 bottommargin-lg flip">
-      <div class="card">
-
-        <!-- START FRONT -->
-        <div class="face front">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-media">
-              <img src="/img/slider-image1.jpg" alt="Image">
-            </div>
-            <div class="fbox-desc">
-              <img class="flipi" src="/img/logo-media.png">
-              <h4 class="flip-front">
-                Looking for a way to level-up your junior managers and their teams?
-              </h4>
-              <div class="flip-arrow"> <i class="icon-share-alt"></i> </div>
-            </div>
-          </div>
-        </div>
-        <!-- END FRONT -->
-
-        <!-- START BACK -->
-        <div class="face back">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-desc fbox-desc-back ">
-              <h4 class="flip-back">
-                Learn to Coach: Tech Managers & Teams is the manager program you’ve needed since yesterday without the hassle of intensive learning programs.
-              </h4>
-              <div class="about-button">
-                <a href="/blog" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END BACK -->
-
-      </div>
-    </div>
-
-    <div class="clear visible-lg visible-xs bottommargin-lg"></div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 bottommargin-lg flip">
-      <div class="card">
-
-        <!-- START FRONT -->
-        <div class="face front">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-media">
-              <img src="/img/slider-image1.jpg" alt="Image">
-            </div>
-            <div class="fbox-desc">
-              <img class="flipi" src="/img/logo-media.png">
-              <h4 class="flip-front">
-                Not sure where to start with holistic people operations for your company?
-              </h4>
-              <div class="flip-arrow"> <i class="icon-share-alt"></i> </div>
-            </div>
-          </div>
-        </div>
-        <!-- END FRONT -->
-
-        <!-- START BACK -->
-        <div class="face back">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-desc fbox-desc-back ">
-              <h4 class="flip-back">
-                People Operations Accelerator gives you just what you need, when you need it without having to hire on HR just yet.
-              </h4>
-              <div class="about-button">
-                <a href="/blog" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END BACK -->
-
-      </div>
-    </div>
-
-    <div class="clear visible-sm visible-xs"></div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 bottommargin-lg flip">
-      <div class="card">
-
-        <!-- START FRONT -->
-        <div class="face front">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-media">
-              <img src="/img/slider-image1.jpg" alt="Image">
-            </div>
-            <div class="fbox-desc">
-              <img class="flipi" src="/img/logo-media.png">
-              <h4 class="flip-front">
-                Ready to create a learning & development program, but not sure how to begin?
-              </h4>
-              <div class="flip-arrow"> <i class="icon-share-alt"></i> </div>
-            </div>
-          </div>
-        </div>
-        <!-- END FRONT -->
-
-        <!-- START BACK -->
-        <div class="face back">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-desc fbox-desc-back ">
-              <h4 class="flip-back">
-                L&D Strategy partners with your people ops team to rapidly design your learning and development roadmap.
-              </h4>
-              <div class="about-button">
-                <a href="/blog" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END BACK -->
-
-      </div>
-    </div>
-
-    <div class="clear visible-xs"></div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 bottommargin-lg flip">
-      <div class="card">
-
-        <!-- START FRONT -->
-        <div class="face front">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-media">
-              <img src="/img/slider-image1.jpg" alt="Image">
-            </div>
-            <div class="fbox-desc">
-              <img class="flipi" src="/img/logo-media.png">
-              <h4 class="flip-front">
-                Feeling the pain of “too long” time to productivity, poor employee experience, or high turnover?
-              </h4>
-              <div class="flip-arrow"> <i class="icon-share-alt"></i> </div>
-            </div>
-          </div>
-        </div>
-        <!-- END FRONT -->
-
-        <!-- START BACK -->
-        <div class="face back">
-          <div class="feature-box center media-box fbox-bg">
-            <div class="fbox-desc fbox-desc-back ">
-              <h4 class="flip-back">
-                Corporate, Engineering, and Sales onboarding programs take new hires from zero to happy, productive, and your best advocate in thirty days.
-              </h4>
-              <div class="about-button">
-                <a href="/blog" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END BACK -->
-
-      </div>
-    </div>
+    {% endfor %}
 
     <div class="clear"></div>
   </div>
