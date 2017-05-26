@@ -42,4 +42,4 @@ collections:
 
   posts:
     output: true
-    permalink: /blogs/:title
+    permalink: /blog/:title
