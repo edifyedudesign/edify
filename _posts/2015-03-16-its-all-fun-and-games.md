@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  It's all Fun and Games...
 date:   2015-03-16 18:03:26
 category_title: Instructional Design
-categories: instructional-design, orient-onboard
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 … until someone hands you an employee handbook. Far and wide, these hole-punched monstrosities are chucked down the ladder from HR and into employee hands. For most, the employee manual is a drudgery of sorts, only to be signed and forgotten. Despite the fact that there are some pretty important things in there, most of us have at one point just flipped through without reading.

@@ -4,6 +4,16 @@ title:  Happy New Year!
 date:   2017-01-03 04:03:26
 category_title: Knowledge Management
 categories: knowledge-management
+feature_post: false
+width: "half"
+
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 It's time to get to work.

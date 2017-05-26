@@ -4,6 +4,17 @@ title:  Rules of the Road
 date:   2015-01-02 18:03:26
 category_title: Instructional Design
 categories: instructional-design
+
+feature_post: false
+width: "half"
+
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 Education design is focused on creating new, valuable educational experiences that transcend the traditional boundaries of learning. One of my favorite blogs, Brain Pickings, recently ran an article about Bertrand Russell, a 20th Century historian who believed in responsible, not fanatical, change. Russell's ideas on the responsibilities of teachers lay out some wonderful, somewhat revolutionary (for our time!) guidelines for creating educational experiences.

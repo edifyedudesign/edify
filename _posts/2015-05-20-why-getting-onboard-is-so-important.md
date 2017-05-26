@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  Why Getting Onboard in So Important
 date:   2015-05-20 18:03:26
 category_title: Instructional Design
-categories: instructional-design, orient-onboard, knowledge-management
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 I've met quite a few people – both those leading organizations and those tasked with HR for those organizations – who have brilliant ideas for employee onboarding, mentoring, and policies. However, I've met more people who want all that, but don't have the time, resources, or internal know-how to do it right now. This short post looks at some of the questions I hear all the time, and how implementing a well-planned employee onboarding program can change your organization for long term and for the better.

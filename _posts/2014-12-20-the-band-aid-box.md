@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  The Band Aid Box
 date:   2014-12-20 18:03:26
 category_title: Human Centered Design
-categories: human-centered-design
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 I was recently reading several books on branding when I came across The Brand Bible – a lush edition edited by Debbie Millman, focused on making branding a little less foggy. I'm a page flipper rather than a cover-to-cover reader sometimes, and that day was one of those days. However, my fingers stopped on lovely full color spread of photos of the Band-Aid brand tins throughout history. Something that now feels so completely obvious dawned on me in that moment of poring over the tins: education design is the 1921 Band-Aid of today. You can see a lot of that history [here](http://www.kilmerhouse.com/2013/04/collect-a-piece-of-johnson-johnson-history-band-aid-brand-adhesive-bandages-tins/) at the Johnson & Johnson museum.

@@ -4,7 +4,16 @@ title:  "What L&D Forgot"
 date:   2015-07-02 18:03:26
 category_title: Orient-Onboard, Instructional Design
 categories: orient-onboard, instructional-design
-image-main:
+feature_post: false
+width: "half"
+
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: "Assuming you work for an organization of more than 40 or so employees, you likely have some experience with trainers or Learning & Development departments. When most companies grow and expand their offices, they start to look for support on onboarding and training their workforce."
 ---
 
 Assuming you work for an organization of more than 40 or so employees, you likely have some experience with trainers or Learning & Development departments. When most companies grow and expand their offices, they start to look for support on onboarding and training their workforce. Over the years, companies grow and L&D becomes a less-than-meaningful business area. Subsequently members of that business area are the most unempowered members of the team.

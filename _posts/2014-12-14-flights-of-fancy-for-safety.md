@@ -4,6 +4,17 @@ title:  Flights of Fancy for Safety
 date:   2014-12-14 18:03:26
 category_title: Alternative Learning
 categories: alternative-learning
+
+feature_post: false
+width: "half"
+
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 I'm sure you've suffered (sat… I mean, sat) through at least a few terrible in-flight safety demonstrations and videos in your time. Out of all the major US airlines, I can't think of one that's truly nailed the educational aspect of talking about flight safety – remember, the goal here is to make sure people can actually apply what they're being told should a disaster occur.

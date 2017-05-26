@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  Learning Design for Small Businesses
 date:   2015-04-13 18:03:26
 category_title: Instructional Design
-categories: instructional-design, knowledge-management
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 In my last post on using learning design, I mentioned a couple of ways businesses can benefit from using learning in their operations. In this post, I want to talk specifically about how online businesses, solopreneurs, and other awesome freelancers can use learning design to grow their businesses!

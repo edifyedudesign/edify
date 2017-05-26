@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  Making the Museum Fun
 date:   2014-10-27 18:03:26
 category_title: Instructional Design
-categories: instructional-design
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: "I wanted to give you a couple more ideas – perhaps ones that might offer some learning opportunities for the kids and the adults! Read on to see my recommendations on the best kid's museums across America – these aren't going to bore the adults, either."
 ---
 
 No snark intended, but you can always count on Conde Nast Traveler for a bit of the luxurious. This time, writer Janssen Bradshaw served up five tips for bringing little ones to (in)famous museums and cultural institutions (you can read the post [here](http://www.cntraveler.com/stories/2014-10-03/how-to-make-museums-fun-for-kids?mbid=tumblr)). Museums represent awesome (in all 19th century landscape-painting amazing senses of the word) learning opportunities. That said, it is hard to get kiddos interested in them sometimes, and the tips Bradshaw gave are really great for bringing little ones along and pacifying them while you enjoy the museum.

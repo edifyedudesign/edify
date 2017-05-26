@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  Patagonia's Big Teach
 date:   2014-12-1 18:03:26
 category_title: Instructional Design
-categories: instructional-design
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 Infographics have been pretty popular in the past few years, and they're getting a little more customer-centric and sophisticated as time goes on. I think a great example of that sophistication is Patagonia's partnership with [Geoff McFetridge of Champion Studios](http://championdontstop.com/site3/animations/PatagoniaDown/PatagoniaDown.html). The marketing campaign was geared at promoting Patagonia's new "Farm to Jacket" down feather process, a more ethical and animal-centered process for gathering jacket stuffing. The charming infographic-cum-illustrated flowchart done by Geoff is actually a great example of an educational marketing tool, and here's why.

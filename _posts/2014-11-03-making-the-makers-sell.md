@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  Making the Makers Sell
 date:   2014-11-03 18:03:26
 category_title: Alternative Learning
-categories: alternative-learning
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 I recently had a conversation with a project collaborator of mine and we got to talking about why I think the Maker Movement isn't connecting teachers and makers as best it could. Earlier that month, the Portland Mini Maker Faire had gone on, I'd connected with two old friends in North Carolina who were starting a maker-model business, and read the ever-prescient "Invent to Learn" by Sylvia Libow Martinez & Gary Stager – so I'd had quite a bit of "maker stuff" going on in my mind. However, I was also starting to observe that companies and nonprofits seeking to infuse the maker mindset into schools weren't succeeding at the rate one might think they should be.

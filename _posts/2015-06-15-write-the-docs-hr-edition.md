@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  "Write the Docs: HR Edition"
 date:   2015-06-15 18:03:26
 category_title: Knowledge Management
-categories: orient-onboard, knowledge-management
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: "It's no secret that company culture is a huge factor in both attracting and retaining stellar employees. The secret is actually more about communicating your company culture - and that's not as easy as it may sound. "
 ---
 
 It's no secret that company culture is a huge factor in both attracting and retaining stellar employees. The secret is actually more about communicating your company culture - and that's not as easy as it may sound. Each institution (yes, even start-ups are institutions) has its own ideas, methodologies, processes, and ideologies - even idiosyncrasies. This stuff grows from the people who start the company, and the tone they set and nurture as they add more people to the company is what sets the culture for years to come. Everything from the brand to the way people sit together is part of the company's culture. So if all this stuff feels so normal and obvious to people inside the company, how can it be that these concepts are so hard to communicate?

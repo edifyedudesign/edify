@@ -3,8 +3,16 @@ layout: single-post-layout
 title:  The Difference Between Onboarding & Orientation
 date:   2015-05-19 18:03:26
 category_title: Instructional Design
-categories: orient-onboard, knowledge-management
+feature_post: false
+width: "half"
 
+image_thumb: ""
+image_thumb_alt: ""
+
+image: ""
+image_alt: ""
+
+short_description: ""
 ---
 
 It can cost upwards of an employee's salary and a half to lose that employee – did you know? Aside from actually dealing with losing an employee (not fun!), no one wants to do the real calculation on the cost of losing employees – whether they're just moving on or they needed to be terminated. In fact, ERE has a great article on how to calculate the cost of losing an employee. Want an easy way to avoid having to do that math?

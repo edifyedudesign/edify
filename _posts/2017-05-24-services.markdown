@@ -3,7 +3,6 @@ layout: single-post-layout
 title:  "Services Edify Offers"
 date:   2017-05-24
 categories: Services
-tags: Services
 feature_post: false
 width: 'half'
 
