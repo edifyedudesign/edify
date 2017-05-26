@@ -1,8 +1,8 @@
- ----------------------------------------------------------------
+/*  ----------------------------------------------------------------
 Custom CSS
 
 Add all your Custom Styled CSS here for New Styles or
-Overwriting Default Theme Styles for Better Hanlding Updates
+Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
 
@@ -119,11 +119,7 @@ img.icon-edify-color {
   margin-left: 25px;
 }
 
-.feature-box {
-    position: relative;
-    margin-top: 20px;
-    padding: 0 0 0 80px;
-}
+
 /*
 
 H1:
@@ -186,6 +182,13 @@ a.social-icon {
   margin-right: 1em;
 }
 
+@media all and (max-width: 480px) {
+  #footer .footer-big-contacts {
+      font-size: 1em;
+      font-weight: bold;
+      letter-spacing: 1px;
+  }
+}
 
 /* ----------------------------------------------------------------
 Kristen Bio Styles
@@ -586,4 +589,44 @@ h4.flip-front {
  bottom: 15px;
  position: absolute;
  z-index: 3;
+}
+
+/* ----------------------------------------------------------------
+CONTACT Styles
+-----------------------------------------------------------------*/
+ #contact .feature-box {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 0 0 70px;
+}
+#contact .feature-box.fbox-plain .fbox-icon i {
+  font-size: 2.75em;
+  line-height: 1.25 !important;
+}
+
+@media all and (max-width: 480px) {
+  #contact .feature-box.fbox-plain .fbox-icon i {
+    font-size: 2.25em;
+    line-height: 1.25 !important;
+  }
+  #contact .feature-box h3 {
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  #contact .feature-box .fbox-icon {
+    width: 30px;
+    height: 64px;
+  }
+  #contact .feature-box {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 0 0 40px;
+  }
+
+ #contact h4 {
+    font-size: 1.25em;
+  }
 }
