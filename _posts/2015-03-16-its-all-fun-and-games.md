@@ -1,0 +1,22 @@
+---
+layout: single-post-layout
+title:  It's all Fun and Games...
+date:   2015-03-16 18:03:26
+category_title: Instructional Design
+categories: instructional-design, orient-onboard
+
+---
+
+… until someone hands you an employee handbook. Far and wide, these hole-punched monstrosities are chucked down the ladder from HR and into employee hands. For most, the employee manual is a drudgery of sorts, only to be signed and forgotten. Despite the fact that there are some pretty important things in there, most of us have at one point just flipped through without reading.
+
+What if we took a learning approach to the employee handbooks? As we know, culture always trumps strategy (thanks, Mr. Drucker) and a company culture can give rise to the best new products and services while also taking care of all employee — or it can spin out some decently evil by-products. Taking the higher road, we want to create a vehicle for acquainting new hires with the company culture. As part of the onboarding process, many companies have employee handbooks that they share with new hires (we'll talk more about the onboarding process in another post.) Even three person operations should have an onboarding process and an employee handbook, and the reason is simple: your culture morphs without you knowing it, and if you lead it in the right direction to begin with, you'll set your company up for success.
+
+Let's look at three great examples of modern employee handbooks – manuals that take the approach that working should be fun, and working at this specific place should be meaningful. After we look at these examples, we'll take a dive into what makes them successful and what you can do to use education design to create your own awesome employee handbook.
+
+[Valve Employee Handbook:](http://www.valvesoftware.com/company/Valve_Handbook_LowRes.pdf) This game software company takes a fresh look at the printed version of your typical handbook, and while it rings in at 37 pages, it's still a good read (which can't be said for many other handbooks!) The document features a well-written table of contents, a concise preface that sets the tone for the company culture, and information on how and why to use the handbook itself. It's decorated with entertaining Norman Rockwell-style cartoons that both draw interest and illustrate a point. The handbook focuses on helping new hires settle in, rather than boring them with legal jargon. While the book does include necessary legal requirements, they're couched in relatable, useful terms.
+
+[The Motley Fool Employee Handbook:](http://thefoolrules.com/) This interactive handbook is actually a website. Aside from being an all-around mould-breaking company, The Motley Fool has created an interactive, completely pared-down version of the employee handbook. The pull out left menu reveals a simple but thorough table of contents, which then reveals a two to four sentence explanation of the topic. Everything is written in plain English, there are no distractions, and the copy is designed to engage.
+
+[Zingerman's Guides:](http://www.inc.com/articles/2003/01/25083.html) While graphic designers may cringe at the typeface choices, this deli's set of downloadable employee guides demonstrate their commitment to service, quality, and employee engagement. Paper games, cut-outs, and worksheets dot the guides and intersperse activities that subtly encourage growth and learning. There's an emphasis on waste reduction not only in business practices, but also with their actual service delivery. A quick handout offers easy ways to go the extra mile for customers, while stories about stellar employees are strategically placed throughout.
+
+What makes these handbooks so great? In a nutshell, they're great because they educate instead of preach. They employ simplicity, thoughtfulness, and humor in company-specific ways to help make new hires as successful as possible. When employees are educated and empowered, they're successful – when they're successful, the business profits beyond revenue gains.
