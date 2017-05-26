@@ -27,7 +27,6 @@ layout: page-layout
         <ul class="entry-meta clearfix">
           <li><i class="icon-calendar3"></i>{{ page.date | date_to_string }}</li>
           <li><i class="icon-folder-open"></i> <a href="#">{{ page.categories }}</a></li>
-          <li><i class="icon-line-tag"></i> <a href="#">{{ page.tags[0] }}</a>, <a href="#">{{ page.tags[1] }}</a>, <a href="#">{{ page.tags[2] }}</a></li>
         </ul><!-- .entry-meta end -->
 
 
@@ -38,24 +37,13 @@ layout: page-layout
           <!-- Entry Image
           ============================================= -->
           <div class="entry-image">
-            <a href="#"><img src="/img/{{ page.image }}" alt="{{ page.image_alt }}"></a>
+            <a href="#"><img src="/img/blog/{{ page.image }}" alt="{{ page.image_alt }}"></a>
           </div><!-- .entry-image end -->
 
 
           {{ content }}
 
           <!-- Post Single - Content End -->
-
-          <!-- Tag Cloud
-          ============================================= -->
-          <div class="tagcloud clearfix bottommargin">
-            <a href="#">general</a>
-            <a href="#">information</a>
-            <a href="#">media</a>
-            <a href="#">press</a>
-            <a href="#">gallery</a>
-            <a href="#">illustration</a>
-          </div><!-- .tagcloud end -->
 
           <div class="clear"></div>
 
