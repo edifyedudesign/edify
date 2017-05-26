@@ -6,13 +6,10 @@ category_title: Orient-Onboard
 categories: orient-onboard
 feature_post: false
 width: "half"
-
 image_thumb: ""
 image_thumb_alt: ""
-
 image: ""
 image_alt: ""
-
 short_description: ""
 ---
 
