@@ -9,14 +9,14 @@ tagline: 'Everything you need to know about Edify'
 
   <section id="slider" class="boxed-slider">
 
-    <div class="clearfix"> <!-- <div class="container clearfix"> -->
+    <div class="container clearfix"> <!-- <div class="container clearfix"> -->
 
       <div class="fslider" data-easing="easeInQuad" data-pause="11000">
         <div class="flexslider">
           <div class="slider-wrap">
-            <div class="slide" data-thumb="/img/slider-image-1.jpg">
+            <div class="slide" data-thumb="/img/site-images/slider-image-1.jpg">
               <a href="#">
-                <img src="/img/slider-image-1.jpg" alt="About Edify">
+                <img src="/img/site-images/slider-image-1.jpg" alt="About Edify">
                 <div class="flex-caption slider-caption-bg slider-caption-bg-light slider-caption-top-left">
                 <h4 style="font-size: 1.25em;">
                   Edify was founded to bring the human experience back to learning & development.
@@ -25,9 +25,9 @@ tagline: 'Everything you need to know about Edify'
                 </div>
               </a>
             </div>
-            <div class="slide" data-thumb="/img/slider-image-2.jpg">
+            <div class="slide" data-thumb="/img/site-images/slider-image-2.jpg">
               <a href="#">
-                <img src="/img/slider-image-2.jpg" alt="About Edify">
+                <img src="/img/site-images/slider-image-2.jpg" alt="About Edify">
                 <div class="flex-caption slider-caption-bg-light slider-caption-top-right">
                   <h4>At Edify, we believe that great learning design means:</h4>
                   <ul class="iconlist">
@@ -51,9 +51,9 @@ tagline: 'Everything you need to know about Edify'
 
               </a>
             </div>
-            <div class="slide" data-thumb="/img/slider-image-3.jpg">
+            <div class="slide" data-thumb="/img/site-images/slider-image-3.jpg">
               <a href="#">
-                <img src="/img/slider-image-3.jpg" alt="About Edify">
+                <img src="/img/site-images/slider-image-3.jpg" alt="About Edify">
                 <div class="flex-caption slider-caption-bg-light slider-caption-top-right">
                   <h4>What’s it like to work with Edify?</h4>
                   <span class="about-slider">Well, take it from our clients: </span>
@@ -83,7 +83,7 @@ tagline: 'Everything you need to know about Edify'
     <div class="col_half" style="padding-right: 2em;">
       <div class="feature-box fbox-plain">
         <div class="fbox-icon">
-          <img class="icon-edify" src="/img/edify-vectoricon.png">
+          <img class="icon-edify" src="/img/edify-logos/edify-vectoricon.png">
         </div>
         <h4 style="margin-bottom: 20px;">Integrity</h4>
         <p>
@@ -95,7 +95,7 @@ tagline: 'Everything you need to know about Edify'
     <div class="col_half col_last" style="padding-left: 2em;">
       <div class="feature-box fbox-plain">
         <div class="fbox-icon">
-          <img class="icon-edify" src="/img/edify-vectoricon.png">
+          <img class="icon-edify" src="/img/edify-logos/edify-vectoricon.png">
         </div>
         <h4 style="margin-bottom: 20px;">Empathy</h4>
         <p>
@@ -107,7 +107,7 @@ tagline: 'Everything you need to know about Edify'
     <div class="col_half" style="padding-right: 2em;">
       <div class="feature-box fbox-plain">
         <div class="fbox-icon">
-          <img class="icon-edify" src="/img/edify-vectoricon.png">
+          <img class="icon-edify" src="/img/edify-logos/edify-vectoricon.png">
         </div>
         <h4 style="margin-bottom: 20px;">Curiosity</h4>
         <p>
@@ -119,7 +119,7 @@ tagline: 'Everything you need to know about Edify'
     <div class="col_half col_last" style="padding-left: 2em;">
       <div class="feature-box fbox-plain">
         <div class="fbox-icon">
-          <img class="icon-edify-color" src="/img/edify-vectoricon.png">
+          <img class="icon-edify-color" src="/img/edify-logos/edify-vectoricon.png">
         </div>
         <h4 style="margin-bottom: 20px;">Tenacity</h4>
         <p>
@@ -130,7 +130,7 @@ tagline: 'Everything you need to know about Edify'
   </div>
   <!-- END values -->
 
-  <div class="divider divider-short divider-center topmargin bottommargin-lg"><img class="icon-edify-small" src="/img/edify-vectoricon.png"></div>
+  <div class="divider divider-short divider-center topmargin bottommargin-lg"><img class="icon-edify-small" src="/img/edify-logos/edify-vectoricon.png"></div>
 
 
 
@@ -141,7 +141,7 @@ tagline: 'Everything you need to know about Edify'
       <div class="row nobottommargin clearfix">
 
         <div class="col-md-5">
-          <img src="/img/{{ site.data.kristens_info.image }}" style="background-size: contain; background-position: center top; ">
+          <img src="/img/site-images/{{ site.data.kristens_info.image }}" style="background-size: contain; background-position: center top; ">
         </div>
 
         <div class="col-md-7 col-padding" style="padding-top: 0px;">
@@ -186,104 +186,6 @@ tagline: 'Everything you need to know about Edify'
 
   </div>
   <!-- END Kristen Bio Section 1  -->
-
-
-
-  <!-- START Kristen Bio Section 2 -->
-  <div class="section">
-    <div class="row common-height  bottommargin-lg clearfix">
-
-      <div class="col-sm-3 col-padding" style="background: url('/img/{{ site.data.kristens_info.image }}') center center no-repeat; background-size: cover;"></div>
-
-      <div class="col-sm-9 col-padding">
-        <div>
-          <div class="heading-block">
-            <span class="before-heading color">{{ site.data.kristens_info.title }}</span>
-            <h4>{{ site.data.kristens_info.name }} (option 2)</h4>
-          </div>
-
-          <div class="row clearfix">
-
-            <div class="col-md-12">
-              <p>
-                {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}
-              </p>
-
-              <a href="{{ site.data.kristens_info.linkedin }}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                <i class="icon-linkedin"></i>
-                <i class="icon-linkedin"></i>
-              </a>
-              <a href="{{ site.data.kristens_info.twitter }}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                <i class="icon-twitter"></i>
-                <i class="icon-twitter"></i>
-              </a>
-              <a href="{{ site.data.kristens_info.pinterest }}" class="social-icon inline-block si-small si-light si-rounded si-pinterest">
-                <i class="icon-pinterest"></i>
-                <i class="icon-pinterest"></i>
-              </a>
-              <a href="{{ site.data.kristens_info.email }}" class="social-icon inline-block si-small si-light si-rounded si-email3">
-                <i class="icon-email3"></i>
-                <i class="icon-email3"></i>
-              </a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <!-- END Kristen Bio Section 2 -->
-
-
-
-  <!-- START Kristen Bio Section 3 -->
-  <div class="section">
-    <div class="row common-height  bottommargin-lg clearfix">
-
-      <div class="col-sm-5 col-padding" style="background: url('/img/{{ site.data.kristens_info.image }}') center center no-repeat; background-size: cover;"></div>
-
-      <div class="col-sm-7 col-padding">
-        <div>
-          <div class="heading-block">
-            <span class="before-heading color">{{ site.data.kristens_info.title }}</span>
-            <h4>{{ site.data.kristens_info.name }} (Option 3)</h4>
-          </div>
-
-          <div class="row clearfix">
-
-            <div class="col-md-12">
-              <p>
-                {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}
-              </p>
-
-              <a href="{{ site.data.kristens_info.linkedin }}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                <i class="icon-linkedin"></i>
-                <i class="icon-linkedin"></i>
-              </a>
-              <a href="{{ site.data.kristens_info.twitter }}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                <i class="icon-twitter"></i>
-                <i class="icon-twitter"></i>
-              </a>
-              <a href="{{ site.data.kristens_info.pinterest }}" class="social-icon inline-block si-small si-light si-rounded si-pinterest">
-                <i class="icon-pinterest"></i>
-                <i class="icon-pinterest"></i>
-              </a>
-              <a href="{{ site.data.kristens_info.email }}" class="social-icon inline-block si-small si-light si-rounded si-email3">
-                <i class="icon-email3"></i>
-                <i class="icon-email3"></i>
-              </a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <!-- END Kristen Bio Section 3 -->
 
 
 </div>

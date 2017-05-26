@@ -1800,7 +1800,7 @@ only screen and (                min-resolution: 2dppx) {
 	.preloader,
 	.preloader2,
 	.form-process {
-		background-image: url('../img/preloader@2x.gif');
+		background-image: url('../img/theme-images/preloader@2x.gif');
 		background-size: 24px 24px;
 	}
 
@@ -1837,7 +1837,7 @@ only screen and (                min-resolution: 2dppx) {
 	.dark .widget_categories li a,
 	.dark .widget_pages li a,
 	.dark .widget_rss li a,
-	.dark .widget_recent_comments li a { background-image: url("../img/icons/widget-link-dark@2x.png"); }
+	.dark .widget_recent_comments li a { background-image: url("../img/theme-images/icons/widget-link-dark@2x.png"); }
 
 }
 
