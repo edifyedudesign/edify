@@ -1,16 +1,12 @@
 ---
 layout: single-post-layout
-title:  Get Onboard - The Whitepaper
-date:   2015-09-20 18:03:26
+title: Get Onboard - The Whitepaper
+date: {}
 category_title: Orient-Onboard
 categories: orient-onboard
 feature_post: false
-width: "half"
-image_thumb: ""
-image_thumb_alt: ""
-image: ""
-image_alt: ""
-short_description: ""
+width: half
+published: true
 ---
 
 Read an excerpt of the whitepaper here - for the full paper, click [here](http://eepurl.com/bA2WV9)!
