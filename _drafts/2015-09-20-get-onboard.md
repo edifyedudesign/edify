@@ -1,7 +1,6 @@
 ---
 layout: single-post-layout
 title: Get Onboard - The Whitepaper
-date: {}
 category_title: Orient-Onboard
 categories: orient-onboard
 feature_post: false
