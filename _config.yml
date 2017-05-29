@@ -43,3 +43,87 @@ collections:
   posts:
     output: true
     permalink: /blogs/:title
+    
+    
+#Prose.io config details
+prose:
+  rooturl: ''
+  siteurl: ''
+  media: 'img/blog'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "single-post-layout"
+      - name: "title"
+            field:
+              element: "text"
+              label: "title"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Add Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Alternative Learning"
+              value: "alternative_learning"
+            - name: "Onboarding"
+              value: "onboarding"
+            - name: "Learning Management"
+              value: "learning_management"
+            - name: "Managers"
+              value: "managers"
+            - name: "Instructional Design"
+              value: "instructional_design"
+            - name: "Human Centered Design"
+              value: "human_centered_design"
+      - name: "feature_post"
+        field:
+          element: "checkbox"
+          label: "Feature Post"
+          help: "Feature posts are displayed on the home page. Check the box if this post is a feature post."
+          value: "true"
+      - name: "width"
+        field:
+          element: "select"
+          label: "Post Type"
+          placeholder: "select one"
+          options:
+            - name: "Half"
+              value: "half"
+            - name: "Full"
+              value: "full"
+      - name: "image_thumb"
+            field:
+              element: text
+              label: "Image Thumb File Name"
+              help: "Enter the name of the image file with the extension, ie: featuredpost2-thumb.png"
+              value: ""
+              placeholder: ""
+      - name: "image"
+            field:
+              element: text
+              label: "Image File Name"
+              help: "Enter the name of the image file with the extension, ie: featuredpost2.png"
+              value: ""
+              placeholder: ""
+      - name: "image_alt"
+            field:
+              element: text
+              label: "Image Alt Text"
+              help: "Descriptive text for each image - important for universal design"
+              value: ""
+              placeholder: "Edify Blog Post Image"
+      - name: "short_description"
+        field:
+          element: textarea
+          label: "Short Description"
+          help: "This text will be displayed on the blog listing page"
+          value: ""
+          placeholder: ""
