@@ -1,9 +1,9 @@
 ---
 layout: single-post-layout
 title: Get Onboard - The Whitepaper
-date: {}
+date: 2015-09-20
 category_title: Orient-Onboard
-categories: orient-onboard
+category: orient-onboard
 feature_post: false
 width: half
 published: true

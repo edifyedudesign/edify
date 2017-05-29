@@ -40,11 +40,15 @@ collections:
     output: true
     permalink: /:name
 
+  categories:
+    output: true
+    permalink: /blog/:title
+
   posts:
     output: true
-    permalink: /blogs/:title
-    
-    
+    permalink: /blog/:categories/:title
+
+
 #Prose.io config details
 prose:
   rooturl: ''
