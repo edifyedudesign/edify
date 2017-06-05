@@ -43,8 +43,8 @@ collections:
   posts:
     output: true
     permalink: /blogs/:title
-    
-    
+
+
 #Prose.io config details
 prose:
   rooturl: ''
@@ -62,9 +62,9 @@ prose:
           element: "hidden"
           value: "single-post-layout"
       - name: "title"
-            field:
-              element: "text"
-              label: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "category"
         field:
           element: "select"
@@ -100,26 +100,26 @@ prose:
             - name: "Full"
               value: "full"
       - name: "image_thumb"
-            field:
-              element: text
-              label: "Image Thumb File Name"
-              help: "Enter the name of the image file with the extension, ie: featuredpost2-thumb.png"
-              value: ""
-              placeholder: ""
+        field:
+          element: text
+          label: "Image Thumb File Name"
+          help: "Enter the name of the image file with the extension, ie: featuredpost2-thumb.png"
+          value: ""
+          placeholder: ""
       - name: "image"
-            field:
-              element: text
-              label: "Image File Name"
-              help: "Enter the name of the image file with the extension, ie: featuredpost2.png"
-              value: ""
-              placeholder: ""
+        field:
+          element: text
+          label: "Image File Name"
+          help: "Enter the name of the image file with the extension, ie: featuredpost2.png"
+          value: ""
+          placeholder: ""
       - name: "image_alt"
-            field:
-              element: text
-              label: "Image Alt Text"
-              help: "Descriptive text for each image - important for universal design"
-              value: ""
-              placeholder: "Edify Blog Post Image"
+        field:
+          element: text
+          label: "Image Alt Text"
+          help: "Descriptive text for each image - important for universal design"
+          value: ""
+          placeholder: "Edify Blog Post Image"
       - name: "short_description"
         field:
           element: textarea
