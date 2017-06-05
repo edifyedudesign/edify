@@ -47,8 +47,6 @@ collections:
 
 #Prose.io config details
 prose:
-  rooturl: ''
-  siteurl: ''
   media: 'img/blog'
   ignore:
     - index.md
@@ -92,7 +90,7 @@ prose:
       - name: "width"
         field:
           element: "select"
-          label: "Post Type"
+          label: "Post Width"
           placeholder: "select one"
           options:
             - name: "Half"
