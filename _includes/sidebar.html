@@ -29,7 +29,7 @@
     </div>
 
     <!-- Post Categories -->
-    <div class="widget clearfix">
+    <!-- <div class="widget clearfix">
       <h4>Category Lists (option 1)</h4>
       <div id="category-list-sidebar">
         <div class="spost clearfix">
@@ -48,7 +48,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- Post Categories -->
@@ -59,10 +59,13 @@
           <ul class="entry-meta2 iconlist">
 
             {% for category in site.categories %}
-
               <li style="margin-bottom: 10px;">
                 <div class="entry-title">
-                  <h4><span><i class="icon-folder-close-alt"></i></span>{{ category[0] }}</h4>
+                  {% if category != "" %}
+                    <h4><span><a href="{{ site.data.categories.category_url }}"><i class="icon-folder-close-alt"></i></span>{{ category[0] }}</h4></a>
+                    {% else %}
+                    <h4><span><a href="{{ site.data.categories.category_url }}"><i class="icon-folder-close-alt"></i></span>Misc</h4></a>
+                  {% endif %}
                 </div>
                 <ul>
                   {% for post in category[1] %}

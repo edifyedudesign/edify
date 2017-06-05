@@ -26,7 +26,7 @@ layout: page-layout
         ============================================= -->
         <ul class="entry-meta clearfix">
           <li><i class="icon-calendar3"></i>{{ page.date | date_to_string }}</li>
-          <li><i class="icon-folder-open"></i> <a href="#">{{ page.categories }}</a></li>
+          <li><i class="icon-folder-open"></i> <a href="#">{{ page.category | default: "misc" }}</a></li>
         </ul><!-- .entry-meta end -->
 
 
@@ -80,10 +80,15 @@ layout: page-layout
       ============================================= -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Posted by <span>{{ page.author }}</span></h3>
+          <h3 class="panel-title">Posted by <span>{{ site.data.kristens_info.name }}</span></h3>
         </div>
         <div class="panel-body">
-          {% include kristen_full_bio.html %}
+          <div class="col-md-4 col-sm-4">
+            <img  class="blog-bio" src="/img/site-images/{{ site.data.kristens_info.image_md }}" alt="{{ site.data.kristens_info.image_alt }}">
+          </div>
+          <div class="col-md-8 col-sm-8">
+            {% include kristen_full_bio.html %}
+          </div>
         </div>
       </div><!-- Post Single - Author End -->
 

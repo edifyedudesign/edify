@@ -212,6 +212,10 @@ img.scale {
   -ms-interpolation-mode: bicubic;
 }
 
+img.blog-bio {
+  padding-bottom: 2em;
+}
+
 
 /* ----------------------------------------------------------------
 HOME Page Styles
@@ -370,27 +374,23 @@ Blog Page Styles
     max-width: 100%;
 }
 
-div.entry-content.entry-image-half-width.entry-image img:nth-of-type(1n) {
+div.entry-content.entry-image-half-width.entry-image img {
   display: block;
   position: relative;
-  width: 45%!important;
+  width: 50%!important;
   float: left;
   height: auto;
   padding-right: 3em;
   margin-bottom: 3em;
 }
 
-div.entry-content.entry-image-half-width.entry-image img:nth-of-type(2n) {
-  display: block;
-  position: relative;
-  width: 100%!important;
+div.entry-content.entry-image-half-width.entry-image img:not(:first-of-type) {
   float: right;
-  height: auto;
-  padding-right: 3em;
-  margin-bottom: 3em;
+  padding-left: 3em;
+  padding-right: 0px;
 }
 
-div.entry-content.entry-image-full-width  .entry-image img:nth-of-type(1) {
+div.entry-content.entry-image-full-width.entry-image img {
   display: block;
   position: relative;
   width: 100%!important;
@@ -476,10 +476,7 @@ div.flex-caption.slider-caption-bg.slider-caption-bg-light.slider-caption-top-le
 .flex-caption {
   max-width: 700px;
   padding: 2em;
-  /*padding-right: 1em;
-  padding-top: 2em;
-  padding-bottom: 3em;*/
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
   -webkit-transition: top .3s ease;
@@ -513,6 +510,53 @@ span.about-slider {
     font-size: 5px;
     padding-top: 13px;
     padding-right: 10px;
+}
+
+
+#about-page div.col_half {
+  padding-right: 2em;
+}
+#about-page div.col_half.col_last {
+  padding-left: 2em;
+}
+
+@media all and (max-width: 767px) {
+  #about-page div.col_half.col_last {
+    padding-left: 0px;
+  }
+  #about-page div.col_half {
+    padding-right: 0px;
+  }
+}
+
+#about-page #slider h4 {
+  font-size: 1.25em;
+}
+
+@media all and (max-width: 991px) {
+  #about-page #slider h4{
+    margin-bottom:10px;
+  }
+  .flex-caption {
+    max-width: 500px;
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    -webkit-transition: top .3s ease;
+    -o-transition: top .3s ease;
+    transition: top .3s ease;
+  }
+  blockquote.about-page {
+    padding: 0px 20px;
+    margin: 15px 0 15px;
+    font-size: 15px;
+    border-left: 3px solid rgba(10, 35, 35, 0.7);
+    margin-left: 20px;
+  }
+}
+@media all and (max-width: 767px) {
+
 }
 
 /* ----------------------------------------------------------------
