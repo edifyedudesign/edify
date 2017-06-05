@@ -358,6 +358,11 @@ p.services-text {
 /* ----------------------------------------------------------------
 Blog Page Styles
 -----------------------------------------------------------------*/
+.post-image {
+  background: url();
+}
+
+
 .highlight {
   clear: both;
 }
@@ -365,7 +370,7 @@ Blog Page Styles
     max-width: 100%;
 }
 
-div.entry-content.entry-image-half-width .entry-image img {
+div.entry-content.entry-image-half-width.entry-image img:nth-of-type(1n) {
   display: block;
   position: relative;
   width: 45%!important;
@@ -374,7 +379,18 @@ div.entry-content.entry-image-half-width .entry-image img {
   padding-right: 3em;
   margin-bottom: 3em;
 }
-div.entry-content.entry-image-full-width  .entry-image img {
+
+div.entry-content.entry-image-half-width.entry-image img:nth-of-type(2n) {
+  display: block;
+  position: relative;
+  width: 100%!important;
+  float: right;
+  height: auto;
+  padding-right: 3em;
+  margin-bottom: 3em;
+}
+
+div.entry-content.entry-image-full-width  .entry-image img:nth-of-type(1) {
   display: block;
   position: relative;
   width: 100%!important;

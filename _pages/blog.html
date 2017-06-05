@@ -14,9 +14,9 @@ layout: "page-layout"
         {% for post in site.posts %}
         <div class="entry clearfix">
           <div class="entry-image">
-            <a href="/img/{{post.image_thumb }}" data-lightbox="image">
+            <a href="{{post.url }}">
               {% if post.image and post.image != "" %}
-                <img class="image_fade" src="/img/blog/{{post.image_thumb }}" alt="{{ post.image_thumb_alt }}">
+                <img class="image_fade" src="/img/blog/{{post.image }}" alt="{{ post.image_alt }}">
               {% else %}
                 <!-- put something else here if no image -->
               {% endif %}
