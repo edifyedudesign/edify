@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  Why Getting Onboard in So Important
 date:   2015-05-20 18:03:26
-category_title: Instructional Design
+category: "Instructional Design"
 feature_post: false
 width: "half"
 
@@ -15,8 +15,6 @@ image_thumb_alt: ""
 
 image: ""
 image_alt: ""
-
-delete-line ""
 
 image: ""
 image_alt: ""

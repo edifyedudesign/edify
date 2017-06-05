@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  Making the Makers Sell
 date:   2014-11-03 18:03:26
-category_title: Alternative Learning
+category: "Alternative Learning"
 feature_post: false
 width: "half"
 

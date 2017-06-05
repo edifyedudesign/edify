@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 title:  Happy New Year!
-categories: knowledge-management
+category:  "Knowledge Management"
 feature_post: false
 width: "half"
 

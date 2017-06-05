@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="stretched">
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+      {% include header.html %}
+
+       <!--  Page Title
+      ============================================= -->
+      <section id="page-title" class="page-title">
+
+        <div class="container clearfix">
+          <h1>{{ page.title }}</h1>
+          <span>{{ page.tagline }}</span>
+          <ol class="breadcrumb">
+            <li><a href="/index">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li class="active">{{ page.title }}</li>
+          </ol>
+        </div>
+
+      </section>
+      <!-- #page-title end -->
+
+      <section id="content">
+
+
+        {{ content }}
+
+      </section><!-- #content end -->
+
+      {% include footer.html %}
+
+    </div><!-- #wrapper end -->
+
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/plugins.js"></script>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="/js/functions.js"></script>
+
+   </body>
+ </html>

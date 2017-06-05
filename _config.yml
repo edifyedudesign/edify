@@ -44,6 +44,10 @@ collections:
     output: true
     permalink: /blogs/:title
 
+  category-pages:
+    output: true
+    permalink: /blogs/:title
+
 
 #Prose.io config details
 prose:
@@ -63,6 +67,12 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Publish Date"
+          help: "Use this date field to indicate the last updated date without breaking a link by changing the date in the file name"
+          placeholder: "January 1, 2017"
       - name: "category"
         field:
           element: "select"

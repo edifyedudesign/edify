@@ -2,8 +2,7 @@
 layout: single-post-layout
 title:  Flights of Fancy for Safety
 date:   2014-12-14 18:03:26
-category_title: Alternative Learning
-categories: alternative-learning
+category: "Alternative Learning"
 
 feature_post: false
 width: "half"
@@ -17,8 +16,6 @@ image_thumb_alt: ""
 
 image: ""
 image_alt: ""
-
-delete-line ""
 
 image: ""
 image_alt: ""

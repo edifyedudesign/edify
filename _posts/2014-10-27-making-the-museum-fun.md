@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  Making the Museum Fun
 date:   2014-10-27 18:03:26
-category_title: Instructional Design
+category: "Instructional Design"
 feature_post: false
 width: "half"
 

@@ -339,6 +339,22 @@ p.services-text {
 }
 
 
+@media all and (max-width: 768px) {
+ #client-testimonial div.container {
+    width: 390px !important;
+  }
+  #client-testimonial blockquote {
+     font-size: 1.2em;
+
+   }
+  #client-testimonial .testi-content p {
+      font-style: normal;
+      font-weight: 300;
+      letter-spacing: 1px;
+  }
+}
+
+
 /* ----------------------------------------------------------------
 Blog Page Styles
 -----------------------------------------------------------------*/

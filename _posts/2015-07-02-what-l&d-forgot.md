@@ -2,8 +2,7 @@
 layout: single-post-layout
 title:  "What L&D Forgot"
 date:   2015-07-02 18:03:26
-category_title: Orient-Onboard, Instructional Design
-categories: orient-onboard, instructional-design
+category: "Instructional Design"
 feature_post: false
 width: "half"
 
@@ -16,8 +15,6 @@ image_thumb_alt: ""
 
 image: ""
 image_alt: ""
-
-delete-line ""
 
 image: ""
 image_alt: ""

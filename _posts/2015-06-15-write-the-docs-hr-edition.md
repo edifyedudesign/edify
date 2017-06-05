@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  "Write the Docs: HR Edition"
 date:   2015-06-15 18:03:26
-category_title: Knowledge Management
+category: "Knowledge Management"
 feature_post: false
 width: "half"
 
@@ -15,8 +15,6 @@ image_thumb_alt: ""
 
 image: ""
 image_alt: ""
-
-delete-line ""
 
 image: ""
 image_alt: ""

@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  "The Cost of (Not) Onboarding Your New Hire"
 date:   2017-05-21
-categories: Onboarding_costs
+category: "Onboarding"
 tags: onboarding knowledge new_hires
 feature_post: true
 width: 'half'

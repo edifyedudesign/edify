@@ -16,7 +16,7 @@ layout: home-layout
 
     {% for post in site.posts limit:5 %}
       {% if post.feature_post %}
-        <div class="col-md-4 nobottommargin">
+        <div class="col-md-4 bottommargin">
           <div class="ipost clearfix">
             <div class="entry-image">
               <a href="{{ post.url }}"><img class="image_fade" src="/img/blog/{{ post.image_thumb }}" alt="{{ post.image_thumb_alt }}" style="opacity: 0.8;"></a>
@@ -46,7 +46,7 @@ layout: home-layout
 
 
 <!-- START Client Section -->
-<div class="section nobottommargin nobg" style="padding-bottom: 150px;">
+<div id="client-testimonial" class="section nobottommargin nobg" style="padding-bottom: 150px;">
   <div class="container clearfix">
 
     <div class="heading-block">
@@ -54,8 +54,20 @@ layout: home-layout
       <span>These are the companies we have worked with.</span>
     </div>
 
-    <div class="col-md-7 nobottommargin">
+    <div class="col-md-7 nobottommargin hidden-xs">
       <ul class="clients-grid grid-2 nobottommargin clearfix">
+
+        {% for client in site.data.clients %}
+          <li>
+            <a href="{{ client.website }}"><img src="/img/clients/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+
+    <div class="bottommargin visible-xs">
+      <ul class="clients-grid grid-1 nobottommargin clearfix">
 
         {% for client in site.data.clients %}
           <li>
@@ -77,7 +89,7 @@ layout: home-layout
               <div class="slide">
                 <div class="testi-content">
                   <blockquote class="quote">
-                    <p>
+                    <p class="client-testimonial">
                       {{ client.testimonial }}
                     </p>
                   </blockquote>

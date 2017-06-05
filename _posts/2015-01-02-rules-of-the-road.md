@@ -2,8 +2,7 @@
 layout: single-post-layout
 title:  Rules of the Road
 date:   2015-01-02 18:03:26
-category_title: Instructional Design
-categories: instructional-design
+category: "Instructional Design"
 
 feature_post: false
 width: "half"
@@ -17,8 +16,6 @@ image_thumb_alt: ""
 
 image: ""
 image_alt: ""
-
-delete-line ""
 
 image: ""
 image_alt: ""

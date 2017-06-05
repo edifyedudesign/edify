@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  "MVP Onboarding For The 97% of Startups Who Have None"
 date:   2017-05-21
-categories: Onboarding_for_startups
+category: "Onboarding"
 tags: onboarding knowledge
 feature_post: true
 width: 'half'

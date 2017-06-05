@@ -1,8 +1,8 @@
 ---
 layout: single-post-layout
 title: Get Onboard - The Whitepaper
-category_title: Orient-Onboard
-categories: orient-onboard
+category: "Onboarding"
+
 feature_post: false
 width: half
 published: true

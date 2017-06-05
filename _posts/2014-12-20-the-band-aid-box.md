@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  The Band Aid Box
 date:   2014-12-20 18:03:26
-category_title: Human Centered Design
+category: "Human Centered Design"
 feature_post: false
 width: "half"
 
@@ -15,8 +15,6 @@ image_thumb_alt: ""
 
 image: ""
 image_alt: ""
-
-delete-line ""
 
 image: ""
 image_alt: ""
