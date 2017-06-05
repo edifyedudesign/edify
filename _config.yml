@@ -71,7 +71,7 @@ prose:
         field:
           element: "text"
           label: "Publish Date"
-          help: "Use this date field to indicate the last updated date without breaking a link by changing the date in the file name"
+          help: "Use this date field to indicate the most current date this post was updated. This allow you to update posts without breaking a link by changing the date in the file name"
           placeholder: "January 1, 2017"
       - name: "category"
         field:
@@ -96,11 +96,12 @@ prose:
           element: "checkbox"
           label: "Feature Post"
           help: "Feature posts are displayed on the home page. Check the box if this post is a feature post."
-          value: "true"
+          value: "false"
       - name: "width"
         field:
           element: "select"
           label: "Post Width"
+          help: "Select full to make main post image appear as full-width on the ingle post page. Select half to make the image appear half-width."
           placeholder: "select one"
           options:
             - name: "Half"

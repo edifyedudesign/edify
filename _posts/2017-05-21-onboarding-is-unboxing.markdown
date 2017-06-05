@@ -2,7 +2,7 @@
 layout: single-post-layout
 title:  "Onboarding is Unboxing"
 date:   2017-05-21
-categories: Onboarding
+category: "Onboarding"
 tags: onboarding knowledge
 feature_post: true
 width: 'half'
