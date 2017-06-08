@@ -14,3 +14,6 @@ Rules for client logos
 
  Note to myself:
  * remember to change the URL for the pinterest "share button" once the site goes live
+ * Plan for new client adding
+     - Kristen edits data file and reports back if it's too hard
+     - Uploading files done through a draft, klunky but not sure how to do better atm.
