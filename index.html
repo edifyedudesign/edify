@@ -26,7 +26,7 @@ layout: home-layout
             </div>
             <ul class="entry-meta clearfix">
               <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
-              <li><a href="#"><i class="icon-folder-close-alt"></i>{{ post.categories }}</a></li>
+              <li><a href="/category/{{ category[0] | slugify }}"><i class="icon-folder-close-alt"></i>{{ post.categories }}</a></li>
             </ul>
             <div class="entry-content">
               <p>

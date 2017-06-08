@@ -1,5 +1,6 @@
 ---
-layout: "category-page-layout"
+layout: "page-layout"
+title: "Blog"
 ---
 <div class="content-wrap">
 
@@ -11,12 +12,12 @@ layout: "category-page-layout"
 
       <div id="posts" class="small-thumbs alt">
 
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
         <div class="entry clearfix">
           <div class="entry-image">
-            <a href="/img/{{post.image_thumb }}" data-lightbox="image">
+            <a href="{{ post.url }}">
               {% if post.image and post.image != "" %}
-                <img class="image_fade" src="/img/blog/{{post.image_thumb }}" alt="{{ post.image_thumb_alt }}">
+                <img class="image_fade" src="/img/blog/{{post.image }}" alt="{{ post.image_alt }}">
               {% else %}
                 <!-- put something else here if no image -->
               {% endif %}
@@ -28,7 +29,7 @@ layout: "category-page-layout"
             </div>
             <ul class="entry-meta clearfix">
               <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
-              <li><i class="icon-folder-close-alt"></i><a href="#">{{ post.categories }}</a> </li>
+              <li><i class="icon-folder-close-alt"></i><a href="/category/{{ post.category | slugify }}">{{ post.categories }}</a> </li>
               <!-- <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a></li> -->
             </ul>
             <div class="entry-content">
@@ -42,15 +43,20 @@ layout: "category-page-layout"
       </div><!-- #posts end -->
 
       <div class="center">
-        <ul class="pagination pagination-lg">
-          <li><a href="#">«</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">»</a></li>
-        </ul>
+        {% if paginator.total_pages > 1 %}
+          <ul class="pagination pagination-lg">
+              {% if paginator.previous_page %}
+              <li class="previous">
+                  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+              </li>
+              {% endif %}
+              {% if paginator.next_page %}
+              <li class="next">
+                  <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+              </li>
+              {% endif %}
+          </ul>
+        {% endif %}
       </div>
 
 

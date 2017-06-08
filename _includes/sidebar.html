@@ -63,11 +63,7 @@
             {% for category in site.categories %}
               <li style="margin-bottom: 10px;">
                 <div class="entry-title">
-                  {% if category != "" %}
-                    <h4><span><a href="{{ site.data.categories.category_url }}"><i class="icon-folder-close-alt"></i></span>{{ category[0] }}</h4></a>
-                    {% else %}
-                    <h4><span><a href="{{ site.data.categories.category_url }}"><i class="icon-folder-close-alt"></i></span>Misc</h4></a>
-                  {% endif %}
+                  <h4><span><a href="/category/{{ category[0] | slugify }}"><i class="icon-folder-close-alt"></i></span>{{ category[0] }}</h4></a>
                 </div>
                 <ul>
                   {% for post in category[1] %}

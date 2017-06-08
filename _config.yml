@@ -27,7 +27,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -41,10 +41,22 @@ collections:
     output: true
     permalink: /blogs/:title
 
-  category-pages:
-    output: true
-    permalink: /blogs/:title
+# Jekyll-paginate-v2
 
+autopages:
+  enabled: true
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
 #Prose.io config details
 prose:
