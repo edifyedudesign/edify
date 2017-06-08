@@ -57,6 +57,15 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - .gitignore
+    - config.ru
+    - feed.xml
+    - Gemfile
+    - Gemfile.lock
+    - Procfile
+    - Rakefile
+    - README.md
+
   metadata:
     "":
       - name: "layout"
