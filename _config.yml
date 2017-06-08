@@ -27,6 +27,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -36,10 +37,6 @@ exclude:
   - vendor
 
 collections:
-  pages:
-    output: true
-    permalink: /:name
-
   posts:
     output: true
     permalink: /blogs/:title

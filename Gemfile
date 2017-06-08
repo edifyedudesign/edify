@@ -14,7 +14,8 @@ gem 'rack'
 gem 'rack-rewrite'
 gem 'rack-contrib'
 gem 'puma'
-gem "jekyll", "3.4.3"
+gem 'jekyll', '3.4.3'
+gem 'jekyll-paginate'
 
 gem 'kramdown'
 

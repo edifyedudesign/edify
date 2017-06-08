@@ -1,5 +1,6 @@
 ---
 layout: "page-layout"
+title: "Blog"
 ---
 <div class="content-wrap">
 
@@ -14,8 +15,12 @@ layout: "page-layout"
         {% for post in site.posts %}
         <div class="entry clearfix">
           <div class="entry-image">
-            <a href="/img/{{post.image_thumb }}" data-lightbox="image">
-              <img class="image_fade" src="/img/{{post.image_thumb }}" alt="{{ post.image_thumb_alt }}">
+            <a href="{{post.url }}">
+              {% if post.image and post.image != "" %}
+                <img class="image_fade" src="/img/blog/{{post.image }}" alt="{{ post.image_alt }}">
+              {% else %}
+                <!-- put something else here if no image -->
+              {% endif %}
             </a>
           </div>
           <div class="entry-c">
@@ -36,6 +41,19 @@ layout: "page-layout"
         {% endfor %}
 
       </div><!-- #posts end -->
+
+      <div class="center">
+        <ul class="pagination pagination-lg">
+          <li><a href="#">«</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">»</a></li>
+        </ul>
+      </div>
+
 
     </div><!-- .postcontent end -->
 
