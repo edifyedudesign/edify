@@ -26,7 +26,9 @@ layout: page-layout
         ============================================= -->
         <ul class="entry-meta clearfix">
           <li><i class="icon-calendar3"></i>{{ page.date | date_to_string }}</li>
-          <li><i class="icon-folder-open"></i> <a href="#">{{ page.category | default: "misc" }}</a></li>
+          {% if page.category %}
+          <li><i class="icon-folder-open"></i><a href="/category/{{ page.category | slugify }}">{{ page.category }}</a></li>
+          {% endif %}
         </ul><!-- .entry-meta end -->
 
 
