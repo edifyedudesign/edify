@@ -67,7 +67,7 @@ prose:
     - README.md
 
   metadata:
-    "":
+    _pages:
       - name: "layout"
         field:
           element: "hidden"
@@ -76,11 +76,6 @@ prose:
         field:
           element: "text"
           label: "title"
-    _data/clients.yml:
-      - name: "company_name"
-        field:
-          element: "text"
-          label: "Company Name"
     _posts:
       - name: "layout"
         field:
