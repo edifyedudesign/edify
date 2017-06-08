@@ -58,6 +58,20 @@ prose:
     - /_layouts
     - /_includes
   metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page-layout"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+    _data/clients.yml:
+      - name: "company_name"
+        field:
+          element: "text"
+          label: "Company Name"
     _posts:
       - name: "layout"
         field:
