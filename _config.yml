@@ -98,7 +98,7 @@ prose:
         field:
           element: "text"
           label: "Publish Date"
-          help: "Use this date field to indicate the most current date this post was updated. Format: Month Date, Year. This allow you to update posts without breaking a link by changing the date in the file name"
+          help: "Use this date field to indicate the most current date this post was updated. Format: Month Date, Year. This allows you to update posts without breaking a link by changing the date in the file name"
           placeholder: "January 1, 2017"
       - name: "category"
         field:
@@ -131,7 +131,7 @@ prose:
           element: "checkbox"
           label: "Feature Post"
           help: "Feature posts are displayed on the home page. Check the box if this post is a feature post."
-          value: "false"
+          value: ""
       - name: "width"
         field:
           element: "select"
