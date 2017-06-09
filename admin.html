@@ -24,14 +24,28 @@ Title: "Admin"
         <div class="tab-container">
 
           <div class="tab-content clearfix" id="blog">
+          <h4 style="margin-bottom: 5px;"><a href="http://prose.io/#elauervose/edify/tree/master/_posts">Start Blogging Now <i class="icon-arrow-right"></i> </a></h4>
+          <p><em>Click the link above to go directly to the Prose.io blog interface.</em></p>
+          <div class="clearfix bottommargin"></div>
 
-            <h4>How to Add, Edit, and Manage Blog Post Content</h4>
 
+          <h4>Watch the Blogging tutorial</h4>
+            <p>
+              This tutorial goes through the workflow for creating a new blog post and touches on how to find and add blog post content.
+            </p>
+            <div class="clearfix bottommargin"></div>
+
+
+            <h4>Learn about the important elements that make up a Blog Post</h4>
+            <p>
+
+            </p>
             <p>
               There are three parts to that make up a blog post and each is described below. <br>
               It's important to assemble these correctly as they will enable the code rending the files to do so properly.
             </p>
-            <div class="clearfix bottommargin"></div>
+
+            <div class="clearfix bottommargin-sm"></div>
 
             <h4>Part 1: The Content</h4>
 
@@ -62,38 +76,43 @@ Title: "Admin"
 
 
             <h5>Images:</h5>
-              <p>
-                Images are not necessary for a post to work, to make a post without an image, simply leave the image meta data blank.
-              </p>
-              <p>However, if you do have an image, follow these guidelines for best results:</p>
-              <ul class="iconlist">
-                <li>
-                  <i class="icon-wrench"></i>
-                  <strong>Image file names</strong> should have <strong>NO capital letters, NO spaces, and NO special characters</strong> <br>
+            <p>
+              Images are not necessary for a post to work, to make a post without an image, simply leave the image meta data blank.
+            </p>
+            <p>However, if you do have an image, follow these guidelines for best results:</p>
+            <ul class="iconlist">
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>Image file names</strong> should have <strong>NO capital letters, NO spaces, and NO special characters</strong> <br>
                 Characters like: <strong>?, /, &, $,</strong> will cause problems in any file name. However, dashes are encouraged. <em>for example: `image-file-name.jpg`</em>
-                </li>
-                <li>
-                  <i class="icon-wrench"></i>
-                  <strong>Image file formats</strong> try to stick with `.png` and `.jpg` file formats - some of the others can cause problems and these two are more than enough to get the job done!
-                </li>
-                <li>
-                  <i class="icon-wrench"></i>
-                  <strong>Image sizes:</strong>
-                  Images are rendered three different ways in the blog; on the post listing, in the sidebar, and in the body of the post itself. The image size defined here is intended to maximize load-time efficiency & accomodate layout proportions without compromising the image quality.
-                  <ul>
-                    <li>
-                      Image should be at least 4-5 inches tall in a landscape ratio (wider than tall) - css layout should adjust to accommodate some variation within these parameters.
-                    </li>
-                    <li>
-                      Image size assumes the picture resolution is 72 (common web image resolution - as opposed to print resolution which is 300)
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <i class="icon-wrench"></i>
-                  <strong>Image file location: </strong> all blog and client images are saved in the folder named "img". This is set to default in Prose.io so you shouldn't need to do anything with this.
-                </li>
-              </ul>
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>Image file formats</strong> try to stick with `.png` and `.jpg` file formats - some of the others can cause problems and these two are more than enough to get the job done!
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>Image sizes:</strong>
+                Images are rendered three different ways in the blog; on the post listing, in the sidebar, and in the body of the post itself. The image size defined here is intended to maximize load-time efficiency & accomodate layout proportions without compromising the image quality.
+                <ul>
+                  <li>
+                    Image should be at least 4-5 inches tall in a landscape ratio (wider than tall) - css layout should adjust to accommodate some variation within these parameters.
+                  </li>
+                  <li>
+                    Image size assumes the picture resolution is 72 (common web image resolution - as opposed to print resolution which is 300)
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>Multiple images: </strong> currently, blog post pages are not optimized for more than one image per post. While it is totally possible to add multiple images, they may not align perfectly.  <em>(Though they may align just fine - it depends on the rest of the content.) <strong>*This is current as of 6/9/2017</strong> </em>
+
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>Image file location: </strong> all blog and client images are saved in the folder named "img". This is set to default in Prose.io so you shouldn't need to do anything with this.
+              </li>
+            </ul>
 
 
             <h4>Part 2: The Meta Data</h4>
@@ -110,7 +129,7 @@ Title: "Admin"
               You open the metadata panel by clicking the metadata icon in the upper right corner <i class="icon-arrow-right"></i>
             </p>
             <div class="clearfix bottommargin"></div>
-            <div class="col-md-5">
+            <div class="col-md-7">
               <ol class="metadata-description">
                 <li>
                   <strong>Publish Date:</strong>
@@ -142,38 +161,58 @@ Title: "Admin"
                 <li>
                   <strong>Image File Name:</strong>
                   <p>
-                    This is
+                    This is where you type the file name of the image you will download using the prose.io download feature. This allows the image to appear in all the other locations blog images appear that are not the body of the post itself.
                   </p>
                 </li>
                 <li>
                   <strong>Image Alt Text:</strong>
                   <p>
-                    This is
+                    This is for Universal Design purposes - write a brief but descriptive bit about the image here.
                   </p>
                 </li>
                 <li>
                   <strong>Short Description:</strong>
                   <p>
-                    This is
+                    This is the text that will appear on the blog page and on the category list pages.
+                  </p>
+                </li>
+                <li>
+                  <strong>Raw Metadata:</strong>
+                  <p>
+                    This is just a default of prose.io - you can just ignore it.
                   </p>
                 </li>
               </ol>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-5">
               <h5>This is the Metadata panel</h5>
-              <img src="/img/site-images/edify-meta-data.png">
+              <p>
+                <em>Click to view larger image</em>
+              </p>
+              <a href="/img/site-images/edify-meta-data.png" data-lightbox="image">
+                <img src="/img/site-images/edify-meta-data.png" alt="Single Image">
+                <div class="overlay"><div class="overlay-wrap"><i class="icon-line-plus"></i></div></div>
+              </a>
+              <!-- <img src="/img/site-images/edify-meta-data.png"> -->
             </div>
 
             <div class="clearfix bottommargin"></div>
 
             <h4>Part 3: The Body</h4>
 
+            <p>
+              The body of the text is done in "markdown" - which is a much more simple way of recording and formating content than HTML.
+            </p>
+            <p>
+              You can find some basic prompts and guidelines in the prose.io editing panel here:
+              <img src="/img/site-images/markdown-help.png">
+            </p>
+            <p>
+              Here is another, more complete resource for markdown syntax: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> by <a href="https://github.com/adam-p">Adam Pritchard</a>
+            </p>
 
 
 
-            <ul>
-              <li><a href="http://prose.io/#elauervose/edify/tree/master/_posts">Edit Posts</a></li>
-            </ul>
           </div>
 
 
