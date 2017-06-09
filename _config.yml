@@ -57,12 +57,13 @@ autopages:
     layouts:
       - autopage_category.html
     enabled: true
+    title: ":cat"
 
 pagination:
   enabled: true
   per_page: 5
   permalink: '/:num/'
-  title: ':title | :num of :max'
+  title: ':title'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
