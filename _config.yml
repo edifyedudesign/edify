@@ -57,7 +57,7 @@ autopages:
     layouts:
       - autopage_category.html
     enabled: true
-    title: ":cat"
+    title: "Blog"
 
 pagination:
   enabled: true

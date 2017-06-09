@@ -5,17 +5,21 @@
   <div class="container clearfix">
     <h1>{{ page.title }}</h1>
     {% if page.url contains "/blog" or page.url contains "/category" %}
-    <span>{{ page.tagline | default: "The latest news from Edify" }}</span>
+      {% if page.tagline %}
+      <span>{{ page.tagline }}</span>
+      {% elsif page.categories | first %}
+      <span>{{ page.categories | first }} with Edify</span>
+      {% elsif page.autopages %}
+      <span>{{ page.autopages.display_name }} with Edify</span>
+      {% endif %}
     {% else %}
     <span>{{ page.tagline }}</span>
     {% endif %}
+    {% if page.url contains "/category" or (page.title != "Blog" and page.url contains "/blog") %}
     <ol class="breadcrumb">
-      <li><a href="/index">Home</a></li>
-      {% if page.title != "Blog" and page.url contains "/blog" or page.url contains "/category" %}
-        <li><a href="/blog">Blog</a></li>
-        {% if page.categories | first %}
-          <li><a href="/category/{{ page.categories | first | slugify }}">{{ page.categories | first }}</a></li>
-        {% endif %}
+      <li><a href="/blog">Blog</a></li>
+      {% if page.categories | first %}
+        <li><a href="/category/{{ page.categories | first | slugify }}">{{ page.categories | first }}</a></li>
       {% endif %}
       {% if page.autopages.display_name %}
         <li class="active">{{ page.autopages.display_name | truncate: 30 }}</li>
@@ -23,6 +27,7 @@
         <li class="active">{{ page.title | truncate: 30 }}</li>
       {% endif %}
     </ol>
+    {% endif %}
   </div>
 
 </section>
