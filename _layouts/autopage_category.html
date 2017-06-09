@@ -1,6 +1,5 @@
 ---
 layout: "page-layout"
-title: "Blog"
 ---
 <div class="content-wrap">
 
@@ -17,7 +16,7 @@ title: "Blog"
           <div class="entry-image">
             <a href="{{ post.url }}">
               {% if post.image and post.image != "" %}
-                <img class="image_fade" src="/img/blog/{{post.image }}" alt="{{ post.image_alt }}">
+                <img class="image_fade" src="/img/{{ post.image }}" alt="{{ post.image_alt }}">
               {% else %}
                 <!-- put something else here if no image -->
               {% endif %}
