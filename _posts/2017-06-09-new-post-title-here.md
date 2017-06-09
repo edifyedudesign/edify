@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: false
-published: false
+published: true
 title: New Post Title Here
 date: 'June 9, 2017'
 category:
