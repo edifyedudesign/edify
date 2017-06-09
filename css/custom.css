@@ -216,12 +216,78 @@ img.blog-bio {
   padding-bottom: 2em;
 }
 
+/* ----------------------------------------------------------------
+MAIL CHIMP Styles
+-----------------------------------------------------------------*/
+#contact #mc_embed_signup #mce-success-response.response {
+    color: #555!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    margin-top: 0px;
+    line-height: 1.5em;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    width: 100%!important;
+    display: none;
+}
+
+#contact #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    display: inline-block;
+    margin: 2px 0 1em 0;
+    padding: 5px 10px;
+    background-color: transparent!important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    z-index: 1;
+    /*color: #BBB!important;*/
+}
+#contact #mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    text-indent: 2%;
+    color: black!important;
+}
+
+#footer #mc_embed_signup #mce-success-response.response {
+    color: #BBB!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    width: 100%!important;
+    display: none;
+}
+
+#footer #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    display: inline-block;
+    margin: 2px 0 1em 0;
+    padding: 5px 10px;
+    background-color: transparent!important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    z-index: 1;
+    color: #BBB!important;
+}
+#footer #mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    text-indent: 2%;
+    color: black!important;
+}
 
 /* ----------------------------------------------------------------
 HOME Page Styles
 -----------------------------------------------------------------*/
 
-.button {
+.button,  #mc_embed_signup .button.button-blue {
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -241,7 +307,7 @@ HOME Page Styles
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
   border-radius: 50px;
 }
-.button:hover {
+.button:hover, #mc_embed_signup .button.button-blue:hover  {
 background-color: #257878;
 }
 

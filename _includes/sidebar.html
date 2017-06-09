@@ -13,6 +13,8 @@
             <div class="entry-image">
               {% if post.image_thumb %}
               <a href="{{ post.url }}" class="nobg"><img src="/img/blog/{{ post.image_thumb }}" alt=""></a>
+              {% else %}
+              <a href="{{ post.url }}" class="nobg"><img src="/img/edify-logos/edify-vectoricon.png" alt=""></a>
               {% endif %}
             </div>
             <div class="entry-c">
