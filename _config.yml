@@ -98,12 +98,13 @@ prose:
         field:
           element: "text"
           label: "Publish Date"
-          help: "Use this date field to indicate the most current date this post was updated. This allow you to update posts without breaking a link by changing the date in the file name"
+          help: "Use this date field to indicate the most current date this post was updated. Format: Month Date, Year. This allow you to update posts without breaking a link by changing the date in the file name"
           placeholder: "January 1, 2017"
       - name: "category"
         field:
           element: "select"
           label: "Add Category"
+          help: "Select a category from the dropdown menu. If you need a new category, leave this field blank and enter the new category in the text field below. Leave the field below blank if you use this field to select an existing category."
           placeholder: "Choose Category"
           options:
             - name: "Alternative Learning"
@@ -118,6 +119,13 @@ prose:
               value: "instructional_design"
             - name: "Human Centered Design"
               value: "human_centered_design"
+      - name: "category"
+        field:
+          element: "text"
+          label: "New Category"
+          help: "Use this field of the category options above don't fit. Leave this blank if you use a category option above. Leave the category select option above blank if you use this field to create a new category."
+          value: ""
+          placeholder: ""
       - name: "feature_post"
         field:
           element: "checkbox"
@@ -128,8 +136,8 @@ prose:
         field:
           element: "select"
           label: "Post Width"
-          help: "Select full to make main post image appear as full-width on the ingle post page. Select half to make the image appear half-width."
-          placeholder: "select one"
+          help: "Select full to make main post image appear as full-width on the single post page. Select half to make the image appear half-width. The default value is set to half"
+          placeholder: "half"
           options:
             - name: "Half"
               value: "half"
@@ -137,21 +145,21 @@ prose:
               value: "full"
       - name: "image"
         field:
-          element: text
+          element: "text"
           label: "Image File Name"
           help: "Enter the name of the image file with the extension, ie: featuredpost2.png"
           value: ""
           placeholder: ""
       - name: "image_alt"
         field:
-          element: text
+          element: "text"
           label: "Image Alt Text"
           help: "Descriptive text for each image - important for universal design"
           value: ""
           placeholder: "Edify Blog Post Image"
       - name: "short_description"
         field:
-          element: textarea
+          element: "textarea"
           label: "Short Description"
           help: "This text will be displayed on the blog listing page"
           value: ""
