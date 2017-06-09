@@ -106,7 +106,7 @@ prose:
           label: "Add Category"
           help: "Select a category from the dropdown menu. If you need a new category, leave this field blank and enter the new category in the text field below. Leave the field below blank if you use this field to select an existing category."
           placeholder: "Choose Category"
-          alterable: "true"
+          alterable: true
           options:
             - name: "Alternative Learning"
               value: "alternative_learning"
@@ -120,13 +120,6 @@ prose:
               value: "instructional_design"
             - name: "Human Centered Design"
               value: "human_centered_design"
-      - name: "category"
-        field:
-          element: "text"
-          label: "New Category"
-          help: "Use this field of the category options above don't fit. Leave this blank if you use a category option above. Leave the category select option above blank if you use this field to create a new category."
-          value: ""
-          placeholder: ""
       - name: "feature_post"
         field:
           element: "checkbox"
