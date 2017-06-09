@@ -8,7 +8,6 @@ require 'rack/rewrite'
 use Rack::Rewrite do
   # Capture a path with any extension
   r301 %r{\/whatwedo(.*)?}, "/process"
-  r301 %r{\/blogs}, "/blog"
 
   # Examples (probably just for chuck's reference):
   # r301 '/adventures-photography/2014/11/JOGLE-2/', '/adventures-photography/2014/12/JOGLE-2/$&'

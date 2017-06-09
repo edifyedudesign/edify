@@ -7,9 +7,6 @@ tags: onboarding knowledge new_hires
 feature_post: true
 width: 'half'
 
-image_thumb: 'featuredpost2-thumb.png'
-image_thumb_alt: 'The cost of not onboarding new hires'
-
 image: 'featuredpost2.jpg'
 image_alt: 'The cost of not onboarding new hires'
 

@@ -7,9 +7,6 @@ tags: onboarding knowledge
 feature_post: true
 width: 'half'
 
-image_thumb: 'featuredpost1-thumb.png'
-image_thumb_alt: 'Onboarding for startups'
-
 image: 'featuredpost1.jpg'
 image_alt: 'Onboarding for startups'
 

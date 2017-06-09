@@ -1,6 +1,5 @@
 ---
 layout: "page-layout"
-title: "Blog"
 ---
 <div class="content-wrap">
 
@@ -17,7 +16,7 @@ title: "Blog"
           <div class="entry-image">
             <a href="{{ post.url }}">
               {% if post.image and post.image != "" %}
-                <img class="image_fade" src="/img/blog/{{post.image }}" alt="{{ post.image_alt }}">
+                <img class="image_fade" src="/img/{{ post.image }}" alt="{{ post.image_alt }}">
               {% else %}
                 <!-- put something else here if no image -->
               {% endif %}
@@ -29,8 +28,8 @@ title: "Blog"
             </div>
             <ul class="entry-meta clearfix">
               <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
-              {% if post.category %}
-                <li><i class="icon-folder-open"></i><a href="/category/{{ post.category | slugify }}">{{ post.category }}</a></li>
+              {% if post.categories[0] %}
+                <li><i class="icon-folder-close-alt"></i><a href="/category/{{ post.categories | first | slugify }}">{{ post.categories | first }}</a></li>
               {% endif %}
             </ul>
             <div class="entry-content">

@@ -10,12 +10,7 @@
     <div id="wrapper" class="clearfix">
 
       {% include header.html %}
-
-      {% if page.title == "blog" %}
-        {% include blogbreadcrumb.html %}
-      {% else %}
-        {% include breadcrumb.html %}
-      {% endif %}
+      {% include breadcrumb.html %}
 
       <section id="content">
 

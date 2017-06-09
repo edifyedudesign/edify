@@ -39,18 +39,31 @@ exclude:
 collections:
   posts:
     output: true
-    permalink: /blogs/:title
+    permalink: /blog/:title
 
 # Jekyll-paginate-v2
 
 autopages:
   enabled: true
+  tags:
+    layouts:
+      - autopage_category.html
+    enabled: true
+  collections:
+    layouts:
+      - autopage_category.html
+    enabled: false
+  categories:
+    layouts:
+      - autopage_category.html
+    enabled: true
+    title: "Blog"
 
 pagination:
   enabled: true
   per_page: 5
   permalink: '/:num/'
-  title: ':title | :num of :max'
+  title: ':title'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
