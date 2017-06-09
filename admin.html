@@ -1,20 +1,213 @@
 ---
 layout: page-layout
+Title: "Admin"
 ---
 
-<div class="content-wrap" id="about-page">
-  <section id="slider" class="boxed-slider hidden-xs">
-    <div class="container clearfix"> <!-- <div class="container clearfix"> -->
 
-      <ul>
-        <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/categories.yaml">Edit Category List</a></li>
-        <li><a href="http://prose.io/#elauervose/edify/tree/master/_category-pages">Edit Category Pages</a></li>
-        <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/clients.yml">Edit Clients</a></li>
-        <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/kristens_info.yml">Edit Kristen's Info</a></li>
-        <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/questions.yml">Edit Question Cards</a></li>
-        <li><a href="http://prose.io/#elauervose/edify/tree/master/_pages">Edit Pages</a></li>
-        <li><a href="http://prose.io/#elauervose/edify/tree/master/_posts">Edit Posts</a></li>
-      </ul>
+
+
+
+<div class="content-wrap" id="admin-page">
+  <section class="bg">
+    <div class="container clearfix">
+
+      <div class="tabs side-tabs clearfix" id="tabs-6">
+
+        <ul class="tab-nav tab-nav2 clearfix">
+          <li><a href="#blog">Blogging</a></li>
+          <li><a href="#clients">Adding Clients</a></li>
+          <li><a href="#process">Adding & Editing Process Q&A Cards</a></li>
+          <li><a href="#bio">Editing Bio Content</a></li>
+          <li><a href="#pages">Editing Other Pages</a></li>
+        </ul>
+
+        <div class="tab-container">
+
+          <div class="tab-content clearfix" id="blog">
+
+            <h4>How to Add, Edit, and Manage Blog Post Content</h4>
+
+            <p>
+              There are three parts to that make up a blog post and each is described below. <br>
+              It's important to assemble these correctly as they will enable the code rending the files to do so properly.
+            </p>
+            <div class="clearfix bottommargin"></div>
+
+            <h4>Part 1: The Content</h4>
+
+            <h5>Files:</h5>
+            <p>
+              All blog post files live in the folder `_posts`.
+            </p>
+            <p>
+              There are a few key things to know about the blog post files:
+            </p>
+            <ul class="iconlist">
+              <li>
+                <i class="icon-wrench"></i>
+                The <strong>file ending</strong> is `.md` (short for markdown); <br>
+                this enables you to use a shorthand type of html that's faster and easier to type (more on this in a moment).
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                The <strong>file naming pattern</strong> is `YYYY-MM-DD-blog-post-name.md`; <br>
+                this is important in Jekyll so it lists and renders post chronologically (newest on top).  <em>The url for each post will only show `blog/blog-post-name`.</em>
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                An <strong>important thing about file naming</strong>: files names should have <strong>NO capital letters, NO spaces, and NO special characters</strong> <br>
+                Characters like: <strong>?, /, &, $,</strong> will cause problems in any file name. However, dashes are encouraged. <em>for example: `2017-05-25-blog-post-name.md`</em>
+              </li>
+            </ul>
+
+
+            <h5>Images:</h5>
+              <p>
+                Images are not necessary for a post to work, to make a post without an image, simply leave the image meta data blank.
+              </p>
+              <p>However, if you do have an image, follow these guidelines for best results:</p>
+              <ul class="iconlist">
+                <li>
+                  <i class="icon-wrench"></i>
+                  <strong>Image file names</strong> should have <strong>NO capital letters, NO spaces, and NO special characters</strong> <br>
+                Characters like: <strong>?, /, &, $,</strong> will cause problems in any file name. However, dashes are encouraged. <em>for example: `image-file-name.jpg`</em>
+                </li>
+                <li>
+                  <i class="icon-wrench"></i>
+                  <strong>Image file formats</strong> try to stick with `.png` and `.jpg` file formats - some of the others can cause problems and these two are more than enough to get the job done!
+                </li>
+                <li>
+                  <i class="icon-wrench"></i>
+                  <strong>Image sizes:</strong>
+                  Images are rendered three different ways in the blog; on the post listing, in the sidebar, and in the body of the post itself. The image size defined here is intended to maximize load-time efficiency & accomodate layout proportions without compromising the image quality.
+                  <ul>
+                    <li>
+                      Image should be at least 4-5 inches tall in a landscape ratio (wider than tall) - css layout should adjust to accommodate some variation within these parameters.
+                    </li>
+                    <li>
+                      Image size assumes the picture resolution is 72 (common web image resolution - as opposed to print resolution which is 300)
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <i class="icon-wrench"></i>
+                  <strong>Image file location: </strong> all blog and client images are saved in the folder named "img". This is set to default in Prose.io so you shouldn't need to do anything with this.
+                </li>
+              </ul>
+
+
+            <h4>Part 2: The Meta Data</h4>
+            <img style="float: right; height: 300px; margin-right: 2em;" src="/img/site-images/meta-data-icon.png">
+            <p>
+              Meta data (aka "FrontMatter" in Jekyll) is the list of variables that allow you to enter the information once and it can be duplicated all over the site - saving you a lot of time and effort.
+            </p>
+
+            <p>
+              Prose has some very handy config options that make editing this super easy (watch the video to see the workflow) but here's a breakdown and description of each part of the meta data you will find in prose.
+            </p>
+
+            <p>
+              You open the metadata panel by clicking the metadata icon in the upper right corner <i class="icon-arrow-right"></i>
+            </p>
+            <div class="clearfix bottommargin"></div>
+            <div class="col-md-5">
+              <ol class="metadata-description">
+                <li>
+                  <strong>Publish Date:</strong>
+                  <p>
+                    This is here so you can update a post (like the services post that the process cards link to) so the date will look current without having to rename a file.
+                  </p>
+                </li>
+                <li>
+                  <strong>Add Category:</strong>
+                  <p>
+                    This is set up using the tag feature in order to let you add your own categories by typing the name into the text field OR you can select an existing category from the dropdown menu. HOWEVER, the blog isn't set up to accept more than one category per post (we can create tags to do this if you want) so if you do accidentally add more than one category, the site will ignore all but the first category listed.
+                  </p>
+                  <p>
+                    One other cool thing - you can just type the format you want to be displayed - no need to mess around with "alternative_learning", you can now use "Alternative Learning". Or whatever you want.
+                  </p>
+                </li>
+                <li>
+                  <strong>Feature Post:</strong>
+                  <p>
+                    Check this option to have a post be automatically included on the home page. It is designed to accommodate three posts. Fewer posts may look unbalanced but you may be able to set six to show up there if you wish.
+                  </p>
+                </li>
+                <li>
+                  <strong>Post Width:</strong>
+                  <p>
+                    This will determine the size of the image in the main post body - the default is "half-width". If you have a post where you want a full width image, I recommend making sure the image is on the larger size of the image size guidelines (above) and that the image quality is reasonably high.
+                  </p>
+                </li>
+                <li>
+                  <strong>Image File Name:</strong>
+                  <p>
+                    This is
+                  </p>
+                </li>
+                <li>
+                  <strong>Image Alt Text:</strong>
+                  <p>
+                    This is
+                  </p>
+                </li>
+                <li>
+                  <strong>Short Description:</strong>
+                  <p>
+                    This is
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <div class="col-md-7">
+              <h5>This is the Metadata panel</h5>
+              <img src="/img/site-images/edify-meta-data.png">
+            </div>
+
+            <div class="clearfix bottommargin"></div>
+
+            <h4>Part 3: The Body</h4>
+
+
+
+
+            <ul>
+              <li><a href="http://prose.io/#elauervose/edify/tree/master/_posts">Edit Posts</a></li>
+            </ul>
+          </div>
+
+
+          <div class="tab-content clearfix" id="clients">
+            <ul>
+              <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/clients.yml">Edit Clients</a></li>
+            </ul>
+          </div>
+
+
+          <div class="tab-content clearfix" id="process">
+            <ul>
+              <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/questions.yml">Edit Question Cards</a></li>
+            </ul>
+          </div>
+
+
+          <div class="tab-content clearfix" id="bio">
+            <ul>
+              <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/kristens_info.yml">Edit Kristen's Info</a></li>
+            </ul>
+          </div>
+
+
+          <div class="tab-content clearfix" id="pages">
+            <ul>
+              <li><a href="http://prose.io/#elauervose/edify/tree/master/_category-pages">Edit Category Pages</a></li>
+              <li><a href="http://prose.io/#elauervose/edify/tree/master/_pages">Edit Pages</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
   </section>

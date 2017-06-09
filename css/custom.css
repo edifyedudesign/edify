@@ -182,6 +182,13 @@ a.social-icon {
   margin-right: 1em;
 }
 
+#copyrights a {
+  color: rgba(255,255,255,0.25);
+}
+#copyrights a:hover {
+  color: rgba(255,255,255,0.5);
+}
+
 @media all and (max-width: 480px) {
   #footer .footer-big-contacts {
       font-size: 1em;
@@ -214,6 +221,58 @@ img.scale {
 
 img.blog-bio {
   padding-bottom: 2em;
+}
+
+
+/* ----------------------------------------------------------------
+Admin Page Styles
+-----------------------------------------------------------------*/
+
+#admin-page ul.tab-nav.tab-nav2 li.ui-state-active a {
+  top: 0;
+  background-color: #43a1a0;
+  color: #FFF;
+}
+
+#admin-page .side-tabs ul.tab-nav {
+  float: left;
+  width: 270px;
+  padding: 20px 0;
+  border-bottom: 0;
+  border-right: 0px solid transparent;
+  margin-right: 20px;
+}
+
+#admin-page .side-tabs .tab-container {
+    overflow: hidden;
+    padding: 20px 0 0 0px;
+    margin-right: 30px;
+}
+#admin-page p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#admin-page li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#admin-page i {
+  margin-left: 10px;
+}
+#admin-page h5, h6 {
+  font-family: 'filsonsoft-regular';
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+#admin-page h4 {
+  margin-bottom: 20px;
+}
+#admin-page ol.metadata-description p {
+  font-size: 12px;
 }
 
 /* ----------------------------------------------------------------
