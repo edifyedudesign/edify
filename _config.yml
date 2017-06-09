@@ -135,13 +135,6 @@ prose:
               value: "half"
             - name: "Full"
               value: "full"
-      - name: "image_thumb"
-        field:
-          element: text
-          label: "Image Thumb File Name"
-          help: "Enter the name of the image file with the extension, ie: featuredpost2-thumb.png"
-          value: ""
-          placeholder: ""
       - name: "image"
         field:
           element: text
