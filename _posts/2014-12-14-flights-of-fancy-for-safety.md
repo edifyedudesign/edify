@@ -7,16 +7,6 @@ category: "Alternative Learning"
 feature_post: false
 width: "half"
 
-image_thumb: ""
-feature_post: false
-width: "half"
-
-image_thumb: ""
-image_thumb_alt: ""
-
-image: ""
-image_alt: ""
-
 image: ""
 image_alt: ""
 

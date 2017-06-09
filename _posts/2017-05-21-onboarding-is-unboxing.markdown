@@ -7,9 +7,6 @@ tags: onboarding knowledge
 feature_post: true
 width: 'half'
 
-image_thumb: 'featuredpost3-thumb.png'
-image_thumb_alt: 'Onboarding is unboxing'
-
 image: 'featuredpost3.jpg'
 image_alt: 'Onboarding is unboxing'
 

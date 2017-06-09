@@ -19,14 +19,16 @@ layout: home-layout
         <div class="col-md-4 bottommargin">
           <div class="ipost clearfix">
             <div class="entry-image">
-              <a href="{{ post.url }}"><img class="image_fade" src="/img/{{ post.image_thumb }}" alt="{{ post.image_thumb_alt }}" style="opacity: 0.8;"></a>
+              <a href="{{ post.url }}"><img class="image_fade" src="/img/{{ post.image }}" alt="{{ post.image_alt }}" style="opacity: 0.8;"></a>
             </div>
             <div class="entry-title">
               <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
             </div>
             <ul class="entry-meta clearfix">
               <li><i class="icon-calendar3"></i>{{ post.date | date_to_string }}</li>
-              <li><a href="/category/{{ category[0] | slugify }}"><i class="icon-folder-close-alt"></i>{{ post.categories }}</a></li>
+              {% if post.categories[0] %}
+                <li><i class="icon-folder-close-alt"></i><a href="/category/{{ post.categories | first | slugify }}">{{ post.categories | first }}</a></li>
+              {% endif %}
             </ul>
             <div class="entry-content">
               <p>
@@ -59,7 +61,7 @@ layout: home-layout
 
         {% for client in site.data.clients %}
           <li>
-            <a href="{{ client.website }}"><img src="/img/clients/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
+            <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
           </li>
         {% endfor %}
 
@@ -71,7 +73,7 @@ layout: home-layout
 
         {% for client in site.data.clients %}
           <li>
-            <a href="{{ client.website }}"><img src="/img/clients/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
+            <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
           </li>
         {% endfor %}
 
