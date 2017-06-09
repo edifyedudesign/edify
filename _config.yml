@@ -106,6 +106,7 @@ prose:
           label: "Add Category"
           help: "Select a category from the dropdown menu. If you need a new category, leave this field blank and enter the new category in the text field below. Leave the field below blank if you use this field to select an existing category."
           placeholder: "Choose Category"
+          alterable: "true"
           options:
             - name: "Alternative Learning"
               value: "alternative_learning"
