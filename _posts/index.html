@@ -12,12 +12,12 @@ title: "Blog"
 
       <div id="posts" class="small-thumbs alt">
 
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
         <div class="entry clearfix">
           <div class="entry-image">
             <a href="{{post.url }}">
               {% if post.image and post.image != "" %}
-                <img class="image_fade" src="/img/blog/{{post.image }}" alt="{{ post.image_alt }}">
+                <img class="image_fade" src="/img/{{post.image }}" alt="{{ post.image_alt }}">
               {% else %}
                 <!-- put something else here if no image -->
               {% endif %}

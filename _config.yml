@@ -60,7 +60,7 @@ pagination:
 
 #Prose.io config details
 prose:
-  media: 'img/blog'
+  media: 'img'
   ignore:
     - index.md
     - _config.yml

@@ -11,8 +11,8 @@
         {% for post in site.posts limit:5 %}
           <div class="spost clearfix">
             <div class="entry-image">
-              {% if post.image_thumb %}
-              <a href="{{ post.url }}" class="nobg"><img src="/img/blog/{{ post.image_thumb }}" alt=""></a>
+              {% if post.image %}
+              <a href="{{ post.url }}" class="nobg"><img src="/img/{{ post.image }}" alt=""></a>
               {% else %}
               <a href="{{ post.url }}" class="nobg"><img src="/img/edify-logos/edify-vectoricon.png" alt=""></a>
               {% endif %}
@@ -32,28 +32,6 @@
 
     </div>
 
-    <!-- Post Categories -->
-    <!-- <div class="widget clearfix">
-      <h4>Category Lists (option 1)</h4>
-      <div id="category-list-sidebar">
-        <div class="spost clearfix">
-          <ul class="entry-meta2 iconlist">
-
-            {% for category in site.category-pages %}
-
-              <li style="margin-bottom: 10px;">
-                <div class="entry-title">
-                  <h4><span><i class="icon-folder-close-alt"></i></span> <a href=" {{ category.url }} ">{{ category.title }}</a></h4>
-                </div>
-              </li>
-
-            {% endfor %}
-
-          </ul>
-        </div>
-      </div>
-    </div> -->
-
 
     <!-- Post Categories -->
     <div class="widget clearfix">
@@ -68,10 +46,12 @@
                   <h4><span><a href="/category/{{ category[0] | slugify }}"><i class="icon-folder-close-alt"></i></span>{{ category[0] }}</h4></a>
                 </div>
                 <ul>
-                  {% for post in category[1] %}
+                  {% for post in category[1] limit:3 %}
                     <li><a href="{{ post.url }}"><span><i class="icon-folder-open-alt"></i></span> {{ post.title }}</a></li>
                   {% endfor %}
+                  <li><a href="/category/{{ category[0] | slugify }}">See more ...<i class="icon-line-arrow-right" style="padding-left: 3px; left: 5em; color: #555;"></i></a></li>
                 </ul>
+
               </li>
 
             {% endfor %}

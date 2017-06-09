@@ -2,7 +2,7 @@
 layout: single-post-layout
 feature_post: false
 published: false
-title: ''
+title: 'Test Post 3'
 category:
   - New Category
 ---
