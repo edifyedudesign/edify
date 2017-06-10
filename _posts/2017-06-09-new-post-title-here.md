@@ -13,10 +13,10 @@ short_description: >-
   THis is where the text everyone sees on the blog landing page should go - the
   enticing teasers!
 ---
-## First Heading and then add your image below
+### First Heading and then add your image below
 ![using new relic ui]({{site.baseurl}}/img/zoom.png)
 
-## Use the buttons to help you create content
+#### Use the buttons to help you create content
 
 [add links](edifyedu.com "link")
 
