@@ -467,6 +467,15 @@ p.services-text {
   margin-right: -2em!important;
 }
 
+#feature-post .entry-image img {
+    display: block;
+    position: relative;
+    min-width: 100%;
+    min-height: 260px;
+    max-height: 260px;
+    overflow: hidden;
+}
+
 
 @media all and (max-width: 768px) {
  #client-testimonial div.container {
@@ -538,6 +547,12 @@ div.entry-content.entry-image-half-width blockquote {
   color: #999;
   font-family: 'filsonsoft-book', serif;
   font-style: normal;
+}
+
+#category-list-sidebar li.more-category-posts {
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 5px;
 }
 
 

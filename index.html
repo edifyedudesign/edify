@@ -8,13 +8,13 @@ layout: home-layout
 
 
 <!-- START Featured Posts Section -->
-<div class="section nobg notopmargin">
+<div class="section nobg notopmargin" id="feature-post">
   <div class="container">
     <div class="fancy-title title-border">
       <h4>Featured Posts</h4>
     </div>
 
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:4 %}
       {% if post.feature_post %}
         <div class="col-md-4 bottommargin">
           <div class="ipost clearfix">

@@ -49,7 +49,7 @@
                   {% for post in category[1] limit:3 %}
                     <li><a href="{{ post.url }}"><span><i class="icon-folder-open-alt"></i></span> {{ post.title }}</a></li>
                   {% endfor %}
-                  <li><a href="/category/{{ category[0] | slugify }}">See more ...<i class="icon-line-arrow-right" style="padding-left: 3px; left: 5em;"></i></a></li>
+                  <li class="more-category-posts"><a class="more-category-posts-link" href="/category/{{ category[0] | slugify }}">See all posts in this category...</a></li>
                 </ul>
 
               </li>
