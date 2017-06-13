@@ -476,6 +476,23 @@ p.services-text {
     overflow: hidden;
 }
 
+.testi-content p:before, .testi-content p:after {
+    content: '';
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 10px 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap:
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
 
 @media all and (max-width: 768px) {
  #client-testimonial div.container {

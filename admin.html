@@ -7,7 +7,6 @@ tagline: "How to do all the things"
 
 
 
-
 <div class="content-wrap" id="admin-page">
   <section class="bg">
     <div class="container clearfix">
@@ -25,12 +24,12 @@ tagline: "How to do all the things"
         <div class="tab-container">
 
           <div class="tab-content clearfix" id="blog">
-          <h4 style="margin-bottom: 5px;"><a href="http://prose.io/#elauervose/edify/tree/master/_posts">Start Blogging Now <i class="icon-arrow-right"></i> </a></h4>
-          <p><em>Click the link above to go directly to the Prose.io blog interface.</em></p>
-          <div class="clearfix bottommargin"></div>
+            <h4 style="margin-bottom: 5px;"><a href="http://prose.io/#elauervose/edify/tree/master/_posts">Start Blogging Now <i class="icon-arrow-right"></i> </a></h4>
+            <p><em>Click the link above to go directly to the Prose.io blog interface.</em></p>
+            <div class="clearfix bottommargin"></div>
 
 
-          <h4>Watch the Blogging tutorial</h4>
+            <h4>Watch the Blogging tutorial</h4>
             <p>
               This tutorial goes through the workflow for creating a new blog post and touches on how to find and add blog post content.
             </p>
@@ -44,7 +43,7 @@ tagline: "How to do all the things"
             </p>
             <p>
               There are three parts to that make up a blog post and each is described below. <br>
-              It's important to assemble these correctly as they will enable the code rending the files to do so properly.
+              It's important to assemble these correctly as they will enable the code rendering the files to do so properly.
             </p>
 
             <div class="clearfix bottommargin-sm"></div>
@@ -212,16 +211,105 @@ tagline: "How to do all the things"
             <p>
               Here is another, more complete resource for markdown syntax: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> by <a href="https://github.com/adam-p">Adam Pritchard</a>
             </p>
-
-
-
           </div>
 
 
           <div class="tab-content clearfix" id="clients">
-            <ul>
-              <li><a href="http://prose.io/#elauervose/edify/edit/master/_data/clients.yml">Edit Clients</a></li>
+
+            <h4>Watch the tutorial on adding new clients</h4>
+            <p>
+              This tutorial goes through the workflow for adding a new client or editing content for an existing client.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PeRbonMg3rA" frameborder="0" allowfullscreen></iframe>
+            <div class="clearfix bottommargin"></div>
+
+            <h4>There are 4 steps to adding a new Client:</h4>
+
+            <p>
+              All client text content goes into the file 'clients.yml' file and client logos get uploaded in the same way as blog posts. <br>
+              It's important to assemble these correctly as they will enable the code rendering the files to do so properly.
+            </p>
+            <img src="/img/site-images/clients.png" style="margin-bottom: 1em;">
+            <div class="clearfix bottommargin-sm"></div>
+
+
+            <h4>Step 1: Assemble your Content</h4>
+            <p>
+              Below are the data items you can include in a new client listing. Don't worry if you don't have all these pieces! You can leave a section blank by simply leaving empty quotes, like this => "".
+            </p>
+            <ol class="iconlist">
+              <li>1. Client Company Name</li>
+              <li>2. Project End Date</li>
+              <li>3. Client Website URL</li>
+              <li>4. Client Logo Image File</li>
+              <li>5. Client Name (The person who gives the testimonial)</li>
+              <li>6. Client Job Title</li>
+              <li>7. Testimonial Text</li>
+            </ol>
+
+
+            <h5>Guidelines for Client Logo Image Files:</h5>
+            <ul class="iconlist">
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>Image file names</strong> should have <strong>NO capital letters, NO spaces, and NO special characters</strong> <br>
+                Characters like: <strong>?, /, &, $,</strong> will cause problems in any file name. However, dashes are encouraged. <em>for example: `image-file-name.jpg`</em>
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>Image file formats</strong> should be `.jpg` or `.png` only
+              </li>
+              <li>
+                <i class="icon-wrench"></i>
+                <strong>The ideal image size = 3 inches wide x 1 inch tall</strong> (set largest dimension to the limit and then enlarge the canvas size to meet size requirements)
+              </li>
             </ul>
+
+            <div class="clearfix bottommargin-sm"></div>
+
+            <h4>Step 2: Copy the Template</h4>
+            <p>
+              Click the button below to copy the "New Client" template
+            </p>
+            <button id="copyButton" class="btn">Copy the Template</button>
+            <pre id="copyTarget">
+- company_name: "Insert client name here"
+  project_end_date: "Insert project end date here"
+  website: "Insert client website here"
+
+  logo: "insert client logo file name here"
+
+  client_testimonial_name: "Insert client name here"
+  client_testimonial_job_title: "Insert client job title here"
+
+  testimonial: |
+    "Insert testimonial text here"
+            </pre>
+            <div class="clearfix bottommargin-sm"></div>
+
+            <h4>Step 3: Paste & Edit the Template</h4>
+            <p>
+              Click the <a href="http://prose.io/#elauervose/edify/edit/master/_data/clients.yml" target="_blank">link to open the "New Client" page</a>.
+            </p>
+            <p>
+              Then paste the template at the bottom of the file and edit all the text fields.
+            </p>
+            <p>
+              <strong>Leave the fields you don't have content for empty like this -> ""</strong>
+            </p>
+            <div class="clearfix bottommargin-sm"></div>
+
+            <h4>Step 4: Upload the Client Logo file</h4>
+            <p>
+              This part is a bit unusual - Prose.io has a great interface for uploading images but it is only accessible through the blog posts section. Fortunately for us, we can upload a file without needing to publish a post!
+            </p>
+            <p>
+              The method for uploading a client logo is identical to uploading an image for a blog post - just be sure to put client logos in this unpublished draft post, then save the file with the new image but don't publish it!
+            </p>
+            <p>
+              Click the <a href="http://prose.io/#elauervose/edify/blob/master/_posts/2017-06-12-draft-for-uploading-new-client-images-do-not-publish.md" target="_blank">link to open the draft post where client logos get uploaded.</a>.
+            </p>
+            <div class="clearfix bottommargin-sm"></div>
           </div>
 
 
