@@ -1,14 +1,8 @@
 # edify
 Edify is a learning &amp; development consultancy that removes the pain of people operations with stellar onboarding, manager development, and knowledge management.
 
-
-<!--
-Rules for client logos
-----------------------
-  1. no spaces or capital letters in the name
-  2. only .png or .jpg files
-  3. image size = 3 inches wide x 1 inch tall (set largest dimension to the limit and then enlarge the canvas size to meet size requirements)
- -->
+This is where the noblog deploy button lives:
+https://dashboard.heroku.com/apps/edify-m-production/deploy/github
 
 
  Note to myself:
