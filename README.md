@@ -2,17 +2,10 @@
 Edify is a learning &amp; development consultancy that removes the pain of people operations with stellar onboarding, manager development, and knowledge management.
 
 
-<!--
-Rules for client logos
-----------------------
-  1. no spaces or capital letters in the name
-  2. only .png or .jpg files
-  3. image size = 3 inches wide x 1 inch tall (set largest dimension to the limit and then enlarge the canvas size to meet size requirements)
- -->
-
+*do i need the categories.yaml page?
+*add data file for taglines
+make includes visible
 
  Note to myself:
  * remember to change the URL for the pinterest "share button" once the site goes live
- * Plan for new client adding
-     - Kristen edits data file and reports back if it's too hard
-     - Uploading files done through a draft, klunky but not sure how to do better atm.
+ * change the prose links after I transfer ownership of the repo
