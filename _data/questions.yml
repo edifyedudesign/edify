@@ -1,37 +1,17 @@
 - question: "Feeling like you have don’t have enough time to invest in onboarding, but want to?"
   answer: "Onboarding in a Box gives you everything you need to ship an MVP onboarding program in just one week."
-  image: "slider-image1.jpg"
-  image_alt: "question image text"
-  post_url: "services"
 
 - question: "Losing valuable time getting tangled in knowledge management knots?"
   answer: "Knowledge Management for Startups shows your teams how to create, manage, and maintain documentation without pouring concrete into your growth path."
-  image: "slider-image2.jpg"
-  image_alt: "question image text"
-  post_url: "services"
 
 - question: "Looking for a way to level-up your junior managers and their teams?"
   answer: "Learn to Coach: Tech Managers & Teams is the manager program you’ve needed since yesterday without the hassle of intensive learning programs."
-  image: "slider-image3.jpg"
-  image_alt: "question image text"
-  post_url: "services"
 
 - question: "Not sure where to start with holistic people operations for your company?"
-  answer: "People Operations Accelerator gives you just what you need, when you need it
-      without having to hire on HR just yet."
-  image: "slider-image3.jpg"
-  image_alt: "question image text"
-  post_url: "services"
+  answer: "People Operations Accelerator gives you just what you need, when you need it  without having to hire on HR just yet."
 
 - question: "Ready to create a learning & development program, but not sure how to begin?"
   answer: "L&D Strategy partners with your people ops team to rapidly design your learning and development roadmap."
-  image: "slider-image2.jpg"
-  image_alt: "question image text"
-  post_url: "services"
 
 - question: "Feeling the pain of “too long” time to productivity, poor employee experience, or high turnover?"
   answer: "Corporate, Engineering, and Sales onboarding programs take new hires from zero to happy, productive, and your best advocate in thirty days."
-  image: "slider-image1.jpg"
-  image_alt: "question image text"
-  post_url: "services"
-
