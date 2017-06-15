@@ -3,11 +3,52 @@ layout: page-layout
 title: "Admin"
 tagline: "How to do all the things"
 ---
+<style type="text/css">
+  .form-group {
+    color: inherit;
+    font: inherit;
+    padding-top: 5px;
+    font-size: 1.5em;
+  }
+input.pswd {
+  width: 100%;
+  padding: 5px;
+}
+input.buttn {
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  line-height: normal;
+}
+</style>
 
+<div id="admin-access">
+  <section class="topmargin-lg bottommargin-lg">
+    <div class="container">
 
+      <!-- BEGIN PASSWORD INPUT FIELD -->
+      <div class="row" id="passwordSubmitWrapper">
+        <div class="clearfix topmargin-lg"></div>
+          <form id="passwordSubmit" class="form-inline">
+            <div class="form-group col-md-4 col-md-offset-3 col-xs-9">
+              <input class="pswd" type="password" placeholder="Password" id="passwordField"></input>
+            </div>
+            <div class="col-md-3 col-xs-3 form-group">
+              <div class="button button-blue" style="  margin-top: 0px;">
+                <input class="buttn" type="submit"></input>
+              </div>
+            </div>
+          </form>
+          <div class="clearfix bottommargin-lg"></div>
+        </div>
+      </div>
+        <!-- END PASSWORD INPUT FIELD -->
 
+    </div>
+  </section>
+</div>
 
-<div class="content-wrap" id="admin-page">
+<div class="content-wrap hide" id="admin-page">
   <section class="bg">
     <div class="container clearfix">
 
@@ -274,17 +315,17 @@ tagline: "How to do all the things"
             </p>
             <button id="copyButton" class="btn">Copy the Template</button>
             <pre id="copyTarget">
-- company_name: "Insert client name here"
-  project_end_date: "Insert project end date here"
-  website: "Insert client website here"
+              - company_name: "Insert client name here"
+                project_end_date: "Insert project end date here"
+                website: "Insert client website here"
 
-  logo: "insert client logo file name here"
+                logo: "insert client logo file name here"
 
-  client_testimonial_name: "Insert client name here"
-  client_testimonial_job_title: "Insert client job title here"
+                client_testimonial_name: "Insert client name here"
+                client_testimonial_job_title: "Insert client job title here"
 
-  testimonial: |
-    "Insert testimonial text here"
+                testimonial: |
+                  "Insert testimonial text here"
             </pre>
             <div class="clearfix bottommargin-sm"></div>
 
