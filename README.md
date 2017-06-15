@@ -6,5 +6,6 @@ Edify is a learning &amp; development consultancy that removes the pain of peopl
  Note to myself:
  * remember to change the URL for the pinterest "share button" once the site goes live
  * change the prose links after I transfer ownership of the repo
+ *change footer admin link
 
 
