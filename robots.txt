@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin.html
+Disallow: /admin
+Sitemap: http://edifyedu.com/sitemap.xml
