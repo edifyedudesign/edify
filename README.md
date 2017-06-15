@@ -3,8 +3,7 @@ Edify is a learning &amp; development consultancy that removes the pain of peopl
 
 
 *do i need the categories.yaml page?
-*add data file for taglines
-make includes visible
+*add data file for taglines?
 
  Note to myself:
  * remember to change the URL for the pinterest "share button" once the site goes live
