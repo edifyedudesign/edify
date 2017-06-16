@@ -16,6 +16,8 @@ short_description: >-
 published: true
 ---
 
+![Onboarding is Unboxing]({{site.baseurl}}/img/featuredpost3.jpg)
+
 It seems that lately the chatter about how important people are to tech companies has been rising (this is surprisingly not surprising to me). However, this post isn’t about that… this time, we’re going to talk about unboxing. That’s right, unboxing like the kind some 15 year old kid makes videos for on YouTube. Specifically, I’m going to show you that onboarding is the same as unboxing.  
 
 So why care about onboarding? Onboarding new hires — whether or not you have an onboarding program — is an expensive investment. What’s even more expensive? Losing those new hires within 6–12 months. I calculated for a client once that it cost them about **$350,000** to replace a junior engineer if she left at 12 months. We’ll go into that math another time, but suffice it to say, I’m not the one who’s going to explain to investors why a given company is spending millions of dollars on people not even on the payroll anymore.  
