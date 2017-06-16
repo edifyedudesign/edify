@@ -1,30 +1,42 @@
 ---
 layout: single-post-layout
-title:  "MVP Onboarding For The 97% of Startups Who Have None"
-date:   2017-05-21
-category: "Onboarding"
+title: MVP Onboarding For The 97% of Startups Who Have None
+date: 'Sat May 20 2017 17:00:00 GMT-0700 (PDT)'
+category:
+  - Onboarding
 tags: onboarding knowledge
 feature_post: true
-width: 'half'
-
-image: 'featuredpost1.jpg'
-image_alt: 'Onboarding for startups'
-
-short_description: 'Being a small, rapidly changing startup with no time to do onboarding doesn’t have to mean your employees don’t get onboarded at all.'
-
+width: half
+image: onboarding.jpg
+image_alt: Onboarding for startups
+short_description: >-
+  Being a small, rapidly changing startup with no time to do onboarding doesn’t
+  have to mean your employees don’t get onboarded at all.
+published: true
 ---
 
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+Being a small, rapidly changing startup with no time to do onboarding doesn’t have to mean your employees don’t get onboarded at all.  
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. [Curabitur blandit tempus porttitor](#). Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.
+I meet dozens of startup founders with just a few employees (and even some with 20–100 employees), and the reality is that they don’t have the time, resources, or internal know-how to do onboarding “right” right now. We already know how expensive it is to bring on a new hire, and that it’s even more expensive to have them leave. So, what can we do to ship an MVP of onboarding?
+This post looks at some of the questions I hear all the time, and how implementing even the most basic of employee onboarding programs can quickly change your organization for long term and for the better.  
 
-> Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+I often hear things like:
+- How can we avoid an abrasive “getting-up-to-speed” process for new hires?
+- How can we keep our turnover rate low (or lower it to start with) and retain our best employees?
+- How do we maintain a healthy, welcoming, and supportive environment for all hires, but especially those from underrepresented groups?
+- How can we create processes that evolve as we change?
+- We have no time. How do I get any of this done without taking a day off to write it all out?  
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.
+Here’s the thing to remember:  
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. [Nullam quis risus eget urna](#) mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+> **The point of onboarding is that it allows new hires to learn the basics easier, better, and faster.**  
 
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+Great onboarding programs cover the smallest topics (from using the copier and kitchen) to larger concepts (employee culture, where to find policies and procedures) and help both new and existing employees adapt to changing environments. Buddies and pair programming can support employees as they learn the context, but it can also facilitate knowledge transfer and reduce employee discomfort.  
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.
+I wrote about this in [Onboarding is Unboxing](/blog/onboarding-is-unboxing), but I’ve found that successful onboarding programs all have a few things in common:
+- They let everyone know what is expected
+- They’re designed to allow new hires to arrive ready to be productive
+- They offer open communication paths so that new hires can ask for help or offer critique
+- They are lightweight enough to evolve (read: they aren’t precious)
+
 
