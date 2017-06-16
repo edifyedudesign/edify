@@ -15,6 +15,8 @@ short_description: >-
 published: true
 ---
 
+![The Cost of NOT Onbaording]({{site.baseurl}}/img/featuredpost1.jpg)
+
 Being a small, rapidly changing startup with no time to do onboarding doesn’t have to mean your employees don’t get onboarded at all.  
 
 I meet dozens of startup founders with just a few employees (and even some with 20–100 employees), and the reality is that they don’t have the time, resources, or internal know-how to do onboarding “right” right now. We already know how expensive it is to bring on a new hire, and that it’s even more expensive to have them leave. So, what can we do to ship an MVP of onboarding?
