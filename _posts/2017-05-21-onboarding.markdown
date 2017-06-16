@@ -24,9 +24,7 @@ I meet dozens of startup founders with just a few employees (and even some with 
 So, what can we do to ship an MVP of onboarding?
 This post looks at some of the questions I hear all the time, and how implementing even the most basic of employee onboarding programs can quickly change your organization for long term and for the better.   
 
-
-
-
+<br><br><br>
 
 I often hear things like:
 - How can we avoid an abrasive “getting-up-to-speed” process for new hires?
