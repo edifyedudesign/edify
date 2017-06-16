@@ -19,8 +19,14 @@ published: true
 
 Being a small, rapidly changing startup with no time to do onboarding doesn’t have to mean your employees don’t get onboarded at all.  
 
-I meet dozens of startup founders with just a few employees (and even some with 20–100 employees), and the reality is that they don’t have the time, resources, or internal know-how to do onboarding “right” right now. We already know how expensive it is to bring on a new hire, and that it’s even more expensive to have them leave. So, what can we do to ship an MVP of onboarding?
-This post looks at some of the questions I hear all the time, and how implementing even the most basic of employee onboarding programs can quickly change your organization for long term and for the better.  
+I meet dozens of startup founders with just a few employees (and even some with 20–100 employees), and the reality is that they don’t have the time, resources, or internal know-how to do onboarding “right” right now. We already know how expensive it is to bring on a new hire, and that it’s even more expensive to have them leave.   
+
+So, what can we do to ship an MVP of onboarding?
+This post looks at some of the questions I hear all the time, and how implementing even the most basic of employee onboarding programs can quickly change your organization for long term and for the better.   
+
+
+
+
 
 I often hear things like:
 - How can we avoid an abrasive “getting-up-to-speed” process for new hires?
