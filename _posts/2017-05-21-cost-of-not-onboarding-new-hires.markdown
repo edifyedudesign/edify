@@ -19,12 +19,14 @@ published: true
 
 A few weeks ago, I wrote in another piece, [Onboarding is Unboxing](/blog/onboarding-is-unboxing), that I calculated for a client once that it cost them about $350,000 to replace a junior engineer if she left at 12 months. I want to revisit this concept and break it down a bit, and see how it’s related to retention — because it always surprises people when I mention it. Beware, we’re going to go into some math-y stuff in this read.  
 
-### So how did I get to that number — and why is it important?
+#### So how did I get to that number — and why is it important?
 
-It’s important primarily because the turnover rate in the tech industry hovers around 15%, depending on who you ask, and [Tech Republic](https://www.techrepublic.com/blog/career-management/tech-companies-have-highest-turnover-rate/) found that average tenure at tech companies, including Google and Amazon, was about 1.2 years. So, if we’re paying an average salary of [$98,260 for a junior software engineer](http://money.usnews.com/careers/best-jobs/software-developer/salary) and they only stay for 14 months, we’ve put down at least $108,000 just in salary. Add in the cost of aggregated time spent by HR, recruiting, the manager, and the employee’s team, and you can see how the cost balloons. I got to the number I quoted above using this formula:  
+It’s important primarily because the turnover rate in the tech industry hovers around 15%, depending on who you ask, and [Tech Republic](https://www.techrepublic.com/blog/career-management/tech-companies-have-highest-turnover-rate/) found that average tenure at tech companies, including Google and Amazon, was about 1.2 years.   
 
-> Salary+Benefits of New Hire + [(Manager Salary/2080) * 3hrs/week * 24 weeks]  
-> [(Avg. Team Member Salary/2080) * 2 hrs/week * 24 weeks * 3 team members] + Onboarding Cost + Unrealized, Indirect Costs
+So, if we’re paying an average salary of [$98,260 for a junior software engineer](http://money.usnews.com/careers/best-jobs/software-developer/salary) and they only stay for 14 months, we’ve put down at least $108,000 just in salary. Add in the cost of aggregated time spent by HR, recruiting, the manager, and the employee’s team, and you can see how the cost balloons. I got to the number I quoted above using this formula:  
+
+**Salary + Benefits of New Hire + [(Manager Salary/2080)  3hrs/week  24 weeks]  
+[(Avg. Team Member Salary/2080)  2 hrs/week  24 weeks  3 team members] + Onboarding Cost + Unrealized, Indirect Costs**
 
 
 So, in the case above, the salary and benefits totaled $130,000, and the manager time cost totaled $5,192, and the team member cost totaled $9,346. The onboarding cost was about $7,000 (you can see more about that later in this piece). Our total now is $151,538, and we only calculated the manager’s time for onboarding-specific activities at a very conservative estimate. We haven’t added in the unrealized, indirect costs of a manager’s time over the first year, HR costs, administrative costs like rent, software and license costs, backfill costs (a conservative 20% of the salary, so in this case $26,000), and the sunk cost of paying an employee who perhaps was not adding value back into the business. And of course, replacing that employee also means paying another one a similar or even higher salary.  
@@ -33,7 +35,7 @@ So, in the case above, the salary and benefits totaled $130,000, and the manager
 
 So while you’re thinking about that expense, think too about what you could be doing — or changing — for free that might have an impact on retention. [A TinyPulse report](https://www.tinypulse.com/lt-employee-retention-report) on employee turnover looked at trends from 400 employees from across the US and found a host of factors that play into employee retention, including having a manager who respects your work, a nourishing culture, and colleagues with whom you like to work.    
 
-> Retention is involves more than just having benefits, or bean bag chairs, or hack days, or even an onboarding program. It involves leveraging those elements successfully to support an employee as a complete person.
+> #### Retention is involves more than just having benefits, or bean bag chairs, or hack days, or even an onboarding program. It involves leveraging those elements successfully to support an employee as a complete person.
 
 ![Onboarding Retention]({{site.baseurl}}/img/cost-of-not-onboarding2.jpg)
 
@@ -61,7 +63,3 @@ Remember that average 15% turnover rate? Applied to a company of 100, that means
 > If you take only one thing away from this long-winded proof of onboarding costs, take the fact that you choose how you want to invest in your company. You can choose how to invest the cost of hiring and onboarding — hopefully with an eye toward retention. Investing in a system that automates as much of the process, or at minimum provides a template to use, will help you stretch your budget.  
 
 I’d love to hear from you — have you ever calculated these costs for your own team? What are they? I’d be interested to see if your estimates are drastically different, or if you’ve come up with new ways to spread cost out. Reach me at @kristenmaeve or kristen@edifyedu.com!
-
-
-
-
