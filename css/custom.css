@@ -541,7 +541,7 @@ div.entry-content.entry-image-half-width.entry-image img {
   float: left;
   height: auto;
   padding-right: 3em;
-  margin-bottom: 3em;
+  margin-bottom: 10px;
 }
 
 div.entry-content.entry-image-half-width.entry-image img:not(:first-of-type) {
@@ -608,6 +608,10 @@ h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > 
 
 #single-post ul {
   margin-left: 30px;
+}
+
+#single-post p {
+    margin-bottom: 20px;
 }
 
 /* ----------------------------------------------------------------
