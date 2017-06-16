@@ -69,7 +69,7 @@ published: true
         <div class="card">
 
           <!-- START FRONT -->
-          <div class="face front" data-cardNameFront="{{ site.data.questions.card_name }}" >
+          <div class="face front" data-cardNameFront="{{ question.card_name }}" >
             <div class="feature-box center media-box fbox-bg">
               <div class="fbox-media">
                 <img src="/img/site-images/process-page-small.png" alt="flip card process question">
@@ -93,7 +93,7 @@ published: true
                   {{ question.answer }}
                 </h4>
                 <div class="about-button">
-                  <a href="/contact" data-cardNameButton="{{ site.data.questions.card_name }}" target="_blank" class="button button-light">Contact me <i class="icon-line-arrow-right"></i></a>
+                  <a href="/contact" data-cardNameButton="{{ question.card_name }}" target="_blank" class="button button-light">Contact me <i class="icon-line-arrow-right"></i></a>
                 </div>
                 <!-- <div class="about-button">
                   <a href="/blog/services" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
