@@ -7,7 +7,7 @@ category:
 tags: onboarding knowledge
 feature_post: true
 width: half
-image: onboarding.jpg
+image: featuredpost1.jpg
 image_alt: Onboarding for startups
 short_description: >-
   Being a small, rapidly changing startup with no time to do onboarding doesn’t
