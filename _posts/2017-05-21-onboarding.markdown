@@ -29,7 +29,7 @@ I often hear things like:
 
 Here’s the thing to remember:  
 
-> **The point of onboarding is that it allows new hires to learn the basics easier, better, and faster.**  
+**The point of onboarding is that it allows new hires to learn the basics easier, better, and faster.**  
 
 Great onboarding programs cover the smallest topics (from using the copier and kitchen) to larger concepts (employee culture, where to find policies and procedures) and help both new and existing employees adapt to changing environments. Buddies and pair programming can support employees as they learn the context, but it can also facilitate knowledge transfer and reduce employee discomfort.  
 
@@ -38,5 +38,3 @@ I wrote about this in [Onboarding is Unboxing](/blog/onboarding-is-unboxing), bu
 - They’re designed to allow new hires to arrive ready to be productive
 - They offer open communication paths so that new hires can ask for help or offer critique
 - They are lightweight enough to evolve (read: they aren’t precious)
-
-
