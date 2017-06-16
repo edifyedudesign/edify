@@ -25,8 +25,8 @@ It’s important primarily because the turnover rate in the tech industry hovers
 
 So, if we’re paying an average salary of [$98,260 for a junior software engineer](http://money.usnews.com/careers/best-jobs/software-developer/salary) and they only stay for 14 months, we’ve put down at least $108,000 just in salary. Add in the cost of aggregated time spent by HR, recruiting, the manager, and the employee’s team, and you can see how the cost balloons. I got to the number I quoted above using this formula:  
 
-###### **Salary + Benefits of New Hire + [(Manager Salary/2080)  3hrs/week  24 weeks]  
-###### **[(Avg. Team Member Salary/2080)  2 hrs/week  24 weeks  3 team members] + Onboarding Cost + Unrealized, Indirect Costs**
+###### Salary + Benefits of New Hire + [(Manager Salary/2080)  3hrs/week  24 weeks]  
+###### [(Avg. Team Member Salary/2080)  2 hrs/week  24 weeks  3 team members] + Onboarding Cost + Unrealized, Indirect Costs
 
 
 So, in the case above, the salary and benefits totaled $130,000, and the manager time cost totaled $5,192, and the team member cost totaled $9,346. The onboarding cost was about $7,000 (you can see more about that later in this piece). Our total now is $151,538, and we only calculated the manager’s time for onboarding-specific activities at a very conservative estimate. We haven’t added in the unrealized, indirect costs of a manager’s time over the first year, HR costs, administrative costs like rent, software and license costs, backfill costs (a conservative 20% of the salary, so in this case $26,000), and the sunk cost of paying an employee who perhaps was not adding value back into the business. And of course, replacing that employee also means paying another one a similar or even higher salary.  
