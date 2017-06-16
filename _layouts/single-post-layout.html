@@ -50,15 +50,15 @@ layout: page-layout
           <div class="si-share noborder clearfix fleft">
             <span>Share this Post:</span>
             <div>
-              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url }}&title={{ page.title | truncate:190 }}&summary={{ page.short_description | truncate:250 }}&source=LinkedIn" target="_blank" class="social-icon si-borderless si-linkedin">
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title | truncate:190 | uri_escape }}&summary={{ page.short_description | truncate:250 | uri_escape }}&source=LinkedIn" target="_blank" class="social-icon si-borderless si-linkedin">
                 <i class="icon-linkedin"></i>
                 <i class="icon-linkedin"></i>
               </a>
-              <a href="https://twitter.com/share" data-text="{{ page.title | truncate:40 }}" data-size="large" data-text="Loved this post by Edify" target="_blank" class="social-icon si-borderless si-twitter">
+              <a href="https://twitter.com/intent/tweet?text=Loved%20this%20post%20by%20Edify%21%20{{ page.title | truncate:40 | uri_escape }}%20{{ page.url | absolute_url }}" data-size="large" target="_blank" class="social-icon si-borderless si-twitter twitter-share-button">
                 <i class="icon-twitter"></i>
                 <i class="icon-twitter"></i>
               </a>
-              <a data-pin-do="buttonPin" data-pin-round="true" data-pin-save="false" href="https://www.pinterest.com/pin/create/button/?url=https://edify-staging.herokuapp.com/img/{{page.image}}&media=https://edify-staging.herokuapp.com/img/{{page.image}}&description={{page.short_description}}" target="_blank" class="social-icon si-borderless si-pinterest">
+              <a data-pin-do="buttonPin" data-pin-round="true" data-pin-save="false" href="https://www.pinterest.com/pin/create/button/?url={{ site.url }}/img/{{ page.image }}&media={{ site.url }}/img/{{ page.image }}&description={{ page.short_description | uri_escape }}" target="_blank" class="social-icon si-borderless si-pinterest">
                 <i class="icon-pinterest"></i>
                 <i class="icon-pinterest"></i>
               </a>
@@ -66,7 +66,7 @@ layout: page-layout
                 <i class="icon-rss"></i>
                 <i class="icon-rss"></i>
               </a>
-              <a href="{{site.data.kristens_info.email}}?subject=Edify Blog Post:{{page.title}}&amp;body={{page.short_description}} visit:{{site.url}}{{page.url}}" title="Share by Email" target="_blank" class="social-icon si-borderless si-email3">
+              <a href="mailto:{{site.data.kristens_info.email}}?subject=Edify%20Blog%20Post%3A{{ page.title | uri_escape }}&body={{ page.short_description | uri_escape }}%20visit:{{ site.url }}/{{page.url}}" title="Share by Email" target="_blank" class="social-icon si-borderless si-email3">
                 <i class="icon-email3"></i>
                 <i class="icon-email3"></i>
               </a>
