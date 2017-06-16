@@ -44,7 +44,7 @@ layout: "page-layout"
 
       <div class="center">
         {% if paginator.total_pages > 1 %}
-          <ul class="pagination pagination-lg">
+          <ul class="pagination pagination">
               {% if paginator.previous_page %}
               <li class="previous">
                   <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>

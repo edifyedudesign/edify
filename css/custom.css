@@ -470,10 +470,19 @@ p.services-text {
 #feature-post .entry-image img {
     display: block;
     position: relative;
-    min-width: 100%;
-    min-height: 260px;
-    max-height: 260px;
+    width: 100%;
+    height: 260px;
+    /*max-height: 260px;*/
     overflow: hidden;
+}
+@media all and (max-width: 991px) {
+  #feature-post .entry-image img.image_fade {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
 }
 
 .testi-content p:before, .testi-content p:after {
@@ -597,6 +606,9 @@ h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > 
     color: #43a1a0;
 }
 
+#single-post ul {
+  margin-left: 30px;
+}
 
 /* ----------------------------------------------------------------
 About Page Styles
