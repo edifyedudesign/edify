@@ -49,29 +49,29 @@
 
                     <div class="footer-big-contacts">
                       <span>Call Us:</span>
-                      (503) 734-0839
+                      <a href="tel:+1{{ site.data.kristens_info.phone }}">{{ site.data.kristens_info.phone }}</a>
                     </div>
                     <div class="visible-sm visible-xs bottommargin-sm"></div>
 
                     <div class="footer-big-contacts topmargin-sm">
                       <span>Send an Email:</span>
-                      kristen@edifyedu.com
+                      <a href="mailto:{{ site.data.kristens_info.email }}">{{ site.data.kristens_info.email }}</a>
                     </div>
                     <div class="visible-xs bottommargin-sm"></div>
 
                     <div class="clearfix topmargin-sm" data-class-lg="fleft" data-class-md="fright" data-class-sm="fright" data-class-xs="" data-class-xxs="">
 
-                      <a href="https://twitter.com/edifyedu/" class="social-icon si-small si-light si-twitter">
+                      <a href="{{ site.data.kristens_info.twitter }}" class="social-icon si-small si-light si-twitter">
                         <i class="icon-twitter"></i>
                         <i class="icon-twitter"></i>
                       </a>
 
-                      <a href="https://www.linkedin.com/in/kristenmg/" class="social-icon si-small si-light si-linkedin">
+                      <a href="{{ site.data.kristens_info.linkedin }}" class="social-icon si-small si-light si-linkedin">
                         <i class="icon-linkedin"></i>
                         <i class="icon-linkedin"></i>
                       </a>
 
-                      <a href="https://www.pinterest.com/edifyedu/" class="social-icon si-small si-light si-pinterest">
+                      <a href="{{ site.data.kristens_info.pinterest }}" class="social-icon si-small si-light si-pinterest">
                         <i class="icon-pinterest"></i>
                         <i class="icon-pinterest"></i>
                       </a>
@@ -87,7 +87,6 @@
                   <li><a href="/index">Home</a></li>
                   <li><a href="/process">Process</a></li>
                   <li><a href="/about">About</a></li>
-                  <!-- <li><a href="/blog">Blog</a></li> -->
                   <li><a href="/coming-soon">Blog</a></li>
                   <li><a href="/contact">Contact</a></li>
                 </ul>
@@ -103,12 +102,10 @@
 
         <div class="col-md-6">
 
-          {% if page.url != "/contact.html" and page.url != "/coming-soon.html"  %}
-
-
+          {% if page.url != "/contact.html" and page.url != "/coming-soon.html" %}
+          <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">
             <form action="//edifyedu.us8.list-manage.com/subscribe/post?u=adcd41d2f3227baeb65cced0a&amp;id=9037589678" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
               <div id="mc_embed_signup_scroll">
                 <div class="mc-field-group col-md-9" style="padding-left: 0px;">
                   <label for="mce-EMAIL">Email Address </label>
@@ -147,7 +144,7 @@
 
     <div class="container center uppercase clearfix">
 
-      Copyrights &copy; 2017 All Rights Reserved by Edify.
+      Copyrights &copy; 2017 All Rights Reserved by <a href="http://edify-staging.herokuapp.com/admin">Edify</a>.
 
     </div>
 

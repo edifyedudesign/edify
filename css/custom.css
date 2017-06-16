@@ -574,6 +574,9 @@ div.entry-content.entry-image-half-width blockquote {
   font-family: 'filsonsoft-book', serif;
   font-style: normal;
 }
+.iconlist li {
+  text-align: left;
+}
 
 #category-list-sidebar li.more-category-posts {
   font-size: 12px;
@@ -688,6 +691,17 @@ span.about-slider {
 }
 #about-page div.col_half.col_last {
   padding-left: 2em;
+}
+
+/*#about-page i.social-color {
+  padding-bottom: 0px;
+    margin-bottom: 0px;
+    bottom: 30px;
+    z-index: -1;
+}*/
+
+#about-page a.social-icon:hover i.social-plain {
+  display: none;
 }
 
 @media all and (max-width: 767px) {
@@ -832,6 +846,7 @@ h4.flip-front {
  position: absolute;
  z-index: 3;
 }
+
 @media all and (max-width: 1199px) {
   h4 {
     font-size: 1.4em;
@@ -847,6 +862,20 @@ h4.flip-front {
   }
 }
 
+@media all and (max-width: 767px){
+  #process .flip-arrow span.visible-xs {
+   margin-left: -145px;
+   bottom: 5px;
+   position: absolute;
+   z-index: 3;
+   width: 150px;
+   font-size: 13px!important;
+   font-style: italic;
+   opacity: .4;
+   color: #0a2323;
+   font-size: 1.4em;
+  }
+}
 
 /* ----------------------------------------------------------------
 CONTACT Styles
