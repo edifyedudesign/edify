@@ -173,6 +173,15 @@ color: #43a1a0;
 color: #0a2323;
 }
 
+.swiper_wrapper .swiper-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: transparent;
+    /*background: url(/img/theme-images/pattern2.png) repeat;*/
+}
+
 
 /* ----------------------------------------------------------------
 FOOTER Styles
@@ -670,6 +679,9 @@ span.about-slider {
     padding-right: 10px;
 }
 
+#about-page .iconlist li {
+   text-align: left;
+}
 
 #about-page div.col_half {
   padding-right: 2em;
