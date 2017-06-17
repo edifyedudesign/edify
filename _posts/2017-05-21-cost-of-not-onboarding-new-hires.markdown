@@ -44,7 +44,9 @@ Lest I get too off track, let’s go back to onboarding…
 
 In the conversation of employee retention and costs, it’s important to also talk about the money you can save by implementing a few simple processes. Let’s take a look at onboarding programs as one of those systems. Though it’s a classic ‘gotta spend money to make money’ scenario, there is real data that shows investing in onboarding helps retain top talent for longer.  
 
-Bersin by Deloitte and [HR onboard](https://hronboard.me/blog/how-much-does-it-really-cost-to-onboard-a-new-candidate-employee-onboarding/) both agree that the average cost to onboard a new employee is $4,000. I’ve elaborated on that estimate and tried to make it more concrete by analyzing the cost structures for onboarding (upfront and indirect) and the leading and lagging indicators for understanding onboarding effectiveness.   
+Bersin by Deloitte and [HR onboard](https://hronboard.me/blog/how-much-does-it-really-cost-to-onboard-a-new-candidate-employee-onboarding/) both agree that the average cost to onboard a new employee is $4,000. I’ve elaborated on that estimate and tried to make it more concrete by analyzing the cost structures for onboarding (upfront and indirect) and the leading and lagging indicators for understanding onboarding effectiveness.  
+
+<br><br><br>
 
 First, we’ll take a look at the costs associated with onboarding:
 
