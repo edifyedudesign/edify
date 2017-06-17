@@ -606,12 +606,13 @@ h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > 
     color: #43a1a0;
 }
 
-#single-post ul {
+#single-post ul, #single-post ol {
   margin-left: 30px;
 }
 
 #single-post p {
-    margin-bottom: 20px;
+    margin-bottom: 20px
+    font-size: 16px;
 }
 
 /* ----------------------------------------------------------------
