@@ -608,10 +608,11 @@ h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > 
 
 #single-post ul, #single-post ol {
   margin-left: 30px;
+  font-size: 16px;
 }
 
 #single-post p {
-    margin-bottom: 20px
+    margin-bottom: 20px;
     font-size: 16px;
 }
 
