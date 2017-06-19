@@ -1,9 +1,8 @@
 ---
 layout: page-layout
+tagline: "Scaling a company isn’t easy. What is easy is working with Edify to ship learning solutions that make your company even more amazing."
 title: Process
-tagline: >-
-  Scaling a company isn’t easy. What is easy is working with Edify to ship
-  learning solutions that make your company even more amazing.
+
 meta_title: Edify Learning Design Process is data-driven & human-focused
 meta_tag: >-
   At Edify, we believe that great learning design means; designing for people
@@ -58,6 +57,7 @@ published: true
 
   <div class="heading-block title-center topmargin-lg nobottommargin section nobg">
     <h2>What's on your <span>mind</span>?</h2>
+    <!-- <span>Scaling a company isn’t easy. What is easy is working with Edify to ship learning solutions that make your company even more amazing. <br>We start by learning about the things you’re dealing with - and identifying ways to take away the growing pains. Take a look at the kinds of problems we solve!</span> -->
   </div>
 
   <div class="clear"></div>
@@ -69,7 +69,7 @@ published: true
         <div class="card">
 
           <!-- START FRONT -->
-          <div class="face front">
+          <div class="face front" data-cardNameFront="{{ question.card_name }}" >
             <div class="feature-box center media-box fbox-bg">
               <div class="fbox-media">
                 <img src="/img/site-images/process-page-small.png" alt="flip card process question">
@@ -79,25 +79,25 @@ published: true
                 <h4 class="flip-front">
                   {{ question.question }}
                 </h4>
-                <div class="flip-arrow"> <i class="icon-line-square-plus"></i> </div>
+                <div class="flip-arrow"> <span class="visible-xs">Tap to flip the card over</span> <i class="icon-line-square-plus"></i> </div>
               </div>
             </div>
           </div>
           <!-- END FRONT -->
 
           <!-- START BACK -->
-          <div class="face back">
+          <div class="face back" >
             <div class="feature-box center media-box fbox-bg">
               <div class="fbox-desc fbox-desc-back ">
                 <h4 class="flip-back">
                   {{ question.answer }}
                 </h4>
-                <!-- <div class="about-button">
-                  <a href="/contact" target="_blank" class="button button-light">Contact me <i class="icon-line-arrow-right"></i></a>
-                </div> -->
                 <div class="about-button">
-                  <a href="/blog/services" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
+                  <a href="/contact" data-cardNameButton="{{ question.card_name }}" target="_blank" class="button button-light">Contact me <i class="icon-line-arrow-right"></i></a>
                 </div>
+                <!-- <div class="about-button">
+                  <a href="/blog/services" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
+                </div> -->
               </div>
             </div>
           </div>

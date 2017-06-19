@@ -552,6 +552,18 @@ div.entry-content.entry-image-half-width.entry-image img {
   padding-right: 3em;
   margin-bottom: 10px;
 }
+/*Check this:
+div.entry-content.entry-image-half-width.entry-image img {
+  display: block;
+  position: relative;
+  width: 50%!important;
+  float: left;
+  height: auto;
+  padding-right: 3em;
+  **margin-bottom: 3em;
+}
+
+*/
 
 div.entry-content.entry-image-half-width.entry-image img:not(:first-of-type) {
   float: right;
@@ -583,6 +595,12 @@ div.entry-content.entry-image-half-width blockquote {
   font-family: 'filsonsoft-book', serif;
   font-style: normal;
 }
+
+/*Check this*/
+.iconlist li {
+  text-align: left;
+}
+
 
 #category-list-sidebar li.more-category-posts {
   font-size: 12px;
@@ -696,6 +714,17 @@ span.about-slider {
     padding-top: 13px;
     padding-right: 10px;
 }
+
+/*  Check this  */
+#about-page .iconlist li {
+   text-align: left;
+}
+
+/*  Check this  */
+#about-page a.social-icon:hover i.social-plain {
+  display: none;
+}
+
 
 
 #about-page div.col_half {
@@ -862,6 +891,21 @@ h4.flip-front {
   }
 }
 
+/* Check this */
+@media all and (max-width: 767px){
+  #process .flip-arrow span.visible-xs {
+   margin-left: -145px;
+   bottom: 5px;
+   position: absolute;
+   z-index: 3;
+   width: 150px;
+   font-size: 13px!important;
+   font-style: italic;
+   opacity: .4;
+   color: #0a2323;
+   font-size: 1.4em;
+  }
+}
 
 /* ----------------------------------------------------------------
 CONTACT Styles

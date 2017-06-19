@@ -1,4 +1,7 @@
 User-agent: *
 Disallow: /admin.html
 Disallow: /admin
+Disallow: /portfolio/
+Disallow: /sign-up/
+Disallow: /approach/
 Sitemap: http://edifyedu.com/sitemap.xml
