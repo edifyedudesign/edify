@@ -49,13 +49,13 @@
 
                     <div class="footer-big-contacts">
                       <span>Call Us:</span>
-                      {{ site.data.kristens_info.phone }}
+                      <a href="tel:+1{{ site.data.kristens_info.phone }}">{{ site.data.kristens_info.phone }}</a>
                     </div>
                     <div class="visible-sm visible-xs bottommargin-sm"></div>
 
                     <div class="footer-big-contacts topmargin-sm">
                       <span>Send an Email:</span>
-                      {{ site.data.kristens_info.email }}
+                      <a href="mailto:{{ site.data.kristens_info.email }}">{{ site.data.kristens_info.email }}</a>
                     </div>
                     <div class="visible-xs bottommargin-sm"></div>
 
@@ -87,7 +87,7 @@
                   <li><a href="/index">Home</a></li>
                   <li><a href="/process">Process</a></li>
                   <li><a href="/about">About</a></li>
-                  <li><a href="/blog">Blog</a></li>
+                  <li><a href="/coming-soon">Blog</a></li>
                   <li><a href="/contact">Contact</a></li>
                 </ul>
               </div>
@@ -102,7 +102,7 @@
 
         <div class="col-md-6">
 
-          {% if page.url != "/contact.html" %}
+          {% if page.url != "/contact.html" and page.url != "/coming-soon.html" %}
           <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">
             <form action="//edifyedu.us8.list-manage.com/subscribe/post?u=adcd41d2f3227baeb65cced0a&amp;id=9037589678" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -144,7 +144,7 @@
 
     <div class="container center uppercase clearfix">
 
-      Copyrights &copy; 2017 All Rights Reserved by <a href="http://edify-staging.herokuapp.com/admin">Edify</a>.
+      Copyrights &copy; 2017 All Rights Reserved by <a href="http://edifyedu.com/admin">Edify</a>.
 
     </div>
 

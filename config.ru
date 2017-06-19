@@ -50,7 +50,8 @@ use Rack::TryStatic,
   :gzip => true,     # enable compressed files
   :header_rules => [
     [:all, {'Cache-Control' => 'public, max-age=86400'}],
-    [['css', 'js'], {'Cache-Control' => 'public, max-age=604800'}]
+    [['css', 'js'], {'Cache-Control' => 'public, max-age=604800'}],
+    [:fonts, {'Access-Control-Allow-Origin' => '*'}]
   ]
 
 # otherwise 404 NotFound

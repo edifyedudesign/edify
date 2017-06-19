@@ -17,6 +17,8 @@ gem 'puma'
 gem 'jekyll', '3.4.3'
 gem 'jekyll-paginate-v2'
 
+gem 'newrelic_rpm'
+
 gem 'kramdown'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
