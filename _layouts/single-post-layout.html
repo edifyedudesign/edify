@@ -89,7 +89,7 @@ layout: page-layout
             <img  class="blog-bio" src="/img/site-images/{{ site.data.kristens_info.image_md }}" alt="{{ site.data.kristens_info.image_alt }}">
           </div>
           <div class="col-md-8 col-sm-8">
-            {% include kristen_full_bio.html %}
+            {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}
           </div>
         </div>
       </div><!-- Post Single - Author End -->
