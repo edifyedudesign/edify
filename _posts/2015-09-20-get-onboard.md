@@ -3,6 +3,9 @@ layout: single-post-layout
 title: Get Onboard - The Whitepaper
 category: "Onboarding"
 
+image: ''
+image_alt: ""
+
 feature_post: false
 width: half
 published: true

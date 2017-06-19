@@ -10,7 +10,7 @@ image: 'featuredpost1.jpg'
 image_alt: 'Services'
 
 short_description: 'Read more about the services Edify offers. Or you can flip the fun flippy cards and click the pretty button to see this post content.'
-
+published: false
 ---
 
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.

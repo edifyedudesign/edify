@@ -5,6 +5,9 @@ category:  "Knowledge Management"
 feature_post: false
 width: "half"
 
+image: ""
+image_alt: ""
+
 short_description: ""
 ---
 
