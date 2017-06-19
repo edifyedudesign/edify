@@ -445,6 +445,17 @@ body:not(.device-touch) .clients-grid li a {
   transition: all .5s ease;
 }
 
+.testimonial .flex-control-nav li {
+  margin: 0 10px;
+  width: 15px;
+  height: 15px;
+}
+.testimonial .flex-control-nav li a {
+  width: 15px !important;
+  height: 15px !important;
+  border: none;
+}
+
 
 .testimonial .flex-control-nav li a {
 background-color: #43a1a0;
@@ -718,6 +729,11 @@ span.about-slider {
 /*  Check this  */
 #about-page .iconlist li {
    text-align: left;
+}
+#about-page .iconlist {
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 1.75em;
 }
 
 /*  Check this  */

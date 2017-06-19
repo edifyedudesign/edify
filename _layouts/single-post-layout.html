@@ -10,7 +10,7 @@ layout: page-layout
     <!-- Post Content
     ============================================= -->
 
-    <div class="single-post nobottommargin">
+    <div class="single-post nobottommargin" id="single-post" >
 
       <!-- Single Post
       ============================================= -->
@@ -36,8 +36,6 @@ layout: page-layout
         <!-- Entry Content
         ============================================= -->
         <div class="entry-content entry-image-{{ page.width }}-width entry-image notopmargin">
-          <!-- <img src="/img/{{ page.image }}" alt="{{ page.image_alt }}"> -->
-
 
           {{ content }}
 
@@ -90,6 +88,25 @@ layout: page-layout
           </div>
           <div class="col-md-8 col-sm-8">
             {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}
+            <div>
+              <div style="float: left; padding-top: 5px; padding-right: 20px; margin-bottom: 10px;"><em>Follow:</em></div>
+              <a href="{{ site.data.kristens_info.linkedin }}" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                <i class="icon-linkedin"></i>
+                <i class="icon-linkedin"></i>
+              </a>
+              <a href="{{ site.data.kristens_info.twitter }}" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                <i class="icon-twitter"></i>
+                <i class="icon-twitter"></i>
+              </a>
+              <a href="{{ site.data.kristens_info.pinterest }}" class="social-icon inline-block si-small si-light si-rounded si-pinterest">
+                <i class="icon-pinterest"></i>
+                <i class="icon-pinterest"></i>
+              </a>
+              <a href="mailto:{{ site.data.kristens_info.email }}" class="social-icon inline-block si-small si-light si-rounded si-email3">
+                <i class="icon-email3"></i>
+                <i class="icon-email3"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div><!-- Post Single - Author End -->

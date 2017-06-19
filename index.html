@@ -97,7 +97,12 @@ layout: home-layout
                   </blockquote>
                   <div class="testi-meta">
                     {{ client.company_name }}
-                    <span>{{ client.client_testimonial_name }}, {{ client.client_testimonial_job_title }}</span>
+                    {% if client.client_testimonial_name != "" %}
+                      <span>{{ client.client_testimonial_name }}, &nbsp; {{ client.client_testimonial_job_title }}</span>
+                    {% else %}
+
+                    {% endif %}
+
                   </div>
                 </div>
               </div>
