@@ -6,7 +6,7 @@ Edify is a learning &amp; development consultancy that removes the pain of peopl
  Note to myself:
  * remember to change the URL for the pinterest "share button" once the site goes live
  * change the prose links after I transfer ownership of the repo
- *change footer admin link
+
 
 ###Add to admin pg:
 
@@ -15,4 +15,5 @@ Edify is a learning &amp; development consultancy that removes the pain of peopl
 <div class="clearfix"></div>
 <img style="width: 80%!important;" alt="upfront & indirect onboarding costs for mid-level engineer" src="/img/cost-of-not-onboarding4.png">
 
-*explain that html won't render properly in prose - have to save and view on site
+*explain that html won't render properly in prose - have to save and view on staging site
+** add flip card names to tutorial info
