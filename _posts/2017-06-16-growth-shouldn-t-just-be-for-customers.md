@@ -1,10 +1,11 @@
 ---
 layout: single-post-layout
-feature_post: false
+feature_post: true
 published: false
 title: Growth Shouldn’t Just Be for Customers
-image: ''
-image_alt: ""
+date: 'June 12, 2017'
+category:
+  - onboarding
 ---
 ![onboarding.jpg]({{site.baseurl}}/img/onboarding.jpg)
 
