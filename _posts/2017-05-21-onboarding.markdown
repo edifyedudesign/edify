@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 title: MVP Onboarding For The 97% of Startups Who Have None
-date: 'Sat May 20 2017 17:00:00 GMT-0700 (PDT)'
+date: 'May 4, 2017'
 category:
   - Onboarding
 tags: onboarding knowledge
