@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 title: MVP Onboarding For The 97% of Startups Who Have None
-date: 'Sat May 20 2017 17:00:00 GMT-0700 (PDT)'
+date: 'May 4, 2017'
 category:
   - Onboarding
 tags: onboarding knowledge
@@ -15,7 +15,7 @@ short_description: >-
 published: true
 ---
 
-![The Cost of NOT Onbaording]({{site.baseurl}}/img/featuredpost1.jpg)
+![MVP Onboarding for the 97% of Startups Who Have None]({{site.baseurl}}/img/featuredpost1.jpg)
 
 Being a small, rapidly changing startup with no time to do onboarding doesn’t have to mean your employees don’t get onboarded at all.
 

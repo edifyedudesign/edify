@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 title: The Cost of (Not) Onboarding Your New Hire
-date: 'Sat May 20 2017 17:00:00 GMT-0700 (PDT)'
+date: 'March 1, 2017'
 category:
   - Onboarding
 tags: onboarding knowledge new_hires
