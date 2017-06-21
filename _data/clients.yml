@@ -29,12 +29,18 @@
 
   logo: "retailmakr.png"
 
-  client_testimonial_name: ""
-  client_testimonial_job_title: ""
+  client_testimonial_name: "Anthony Scholtfeldt"
+  client_testimonial_job_title: "CTO"
 
   testimonial: |
-    "We've been able to begin to add the meat to the structure that our meetings produced. We're implementing much needed workflows and policies that will help Retailmakr to hire well, perform well, and terminate well. Kristen is knowledgeable, respectable, and a very good listener. These things, coupled with being able to facilitate discussion and keep moving forward helped us stay on target to completing what we set out to do. At our first meeting, I was afraid of a cookie-cutter approach. It didn't take very long for me to realize that the fear was not founded."
+    "You are patient, you ask a lot of the right questions and intuitive. Most of the nuances of our team, I didn't have to explain to you. You quickly caught on and understood how our teams work together."
+    
+    - company_name: "Zapproved"
+  project_end_date: ""
+  website: "www.zapproved.com"
 
+  logo: "zapproved-logo.png"
 
-
+  client_testimonial_name: "Ilana Davis, SPHR"
+  client_testimonial_job_title: "HR Manager"
 
