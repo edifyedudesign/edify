@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 title: Onboarding is Unboxing
-date: 'Sat May 20 2017 17:00:00 GMT-0700 (PDT)'
+date: 'February 2, 2017'
 category:
   - Onboarding
 tags: onboarding knowledge
