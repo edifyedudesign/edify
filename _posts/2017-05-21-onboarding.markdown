@@ -15,7 +15,7 @@ short_description: >-
 published: true
 ---
 
-![The Cost of NOT Onbaording]({{site.baseurl}}/img/featuredpost1.jpg)
+![MVP Onboarding for the 97% of Startups Who Have None]({{site.baseurl}}/img/featuredpost1.jpg)
 
 Being a small, rapidly changing startup with no time to do onboarding doesn’t have to mean your employees don’t get onboarded at all.
 
