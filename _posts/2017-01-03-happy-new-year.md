@@ -1,14 +1,11 @@
 ---
 layout: single-post-layout
-title:  Happy New Year!
-category:  "Knowledge Management"
+title: Happy New Year!
+category:
+  - Knowledge Management
 feature_post: false
-width: "half"
-
-image: ""
-image_alt: ""
-
-short_description: ""
+width: half
+published: false
 ---
 
 It's time to get to work.
