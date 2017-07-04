@@ -1,8 +1,11 @@
 ---
 layout: single-post-layout
-feature_post: false
+feature_post: true
 published: false
 title: What's Your Dark Pattern?
+date: 'July 3, 2017'
+category:
+  - onboarding
 ---
 In my most [recent post about employee growth](https://medium.com/@kristenmaeve/growth-shouldnt-just-be-for-customers-5902d432a95d) at your company, I paraphrased Brian Balfour’s words on authentic growth and applied them to employee onboarding. Now, I want to explore the idea of dark patterns, another concept he speaks about as it relates to customer growth. Companies make and practice dark patterns not just on their customers, but on their employees, too.
 
