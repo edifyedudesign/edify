@@ -3,6 +3,9 @@ layout: single-post-layout
 feature_post: false
 published: false
 title: 'Podcast Episode 4 - It May Be Working, But It May Not Be Right'
+date: 'June 5, 2017'
+category:
+  - managers
 ---
 <iframe src="https://www.podbean.com/media/player/iemkj-6b897f?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Helvetica&auto=0&download=0&rtl=0" height="100" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
 
