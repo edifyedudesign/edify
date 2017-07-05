@@ -1,23 +1,17 @@
+- question: "Feeling the pain of “too long” time to productivity, poor employee experience, or high turnover?"
+  answer: "Corporate, Engineering, and Sales onboarding programs take new hires from zero to happy, productive, and your best advocate in thirty days."
+  card_name: "Zero to Happy in 30 days"
+  
 - question: "Feeling like you have don’t have enough time to invest in onboarding, but want to?"
   answer: "Onboarding in a Box gives you everything you need to ship an MVP onboarding program in just one week."
   card_name: "Onboarding"
-
-- question: "Losing valuable time getting tangled in knowledge management knots?"
-  answer: "Knowledge Management for Startups shows your teams how to create, manage, and maintain documentation without pouring concrete into your growth path."
-  card_name: "Knowledge Management"
 
 - question: "Looking for a way to level-up your junior managers and their teams?"
   answer: "Learn to Coach: Tech Managers & Teams is the manager program you’ve needed since yesterday without the hassle of intensive learning programs."
   card_name: "Learn to Coach"
 
-- question: "Not sure where to start with holistic people operations for your company?"
-  answer: "People Operations Accelerator gives you just what you need, when you need it  without having to hire on HR just yet."
-  card_name: "People Operations"
-
-- question: "Ready to create a learning & development program, but not sure how to begin?"
-  answer: "L&D Strategy partners with your people ops team to rapidly design your learning and development roadmap."
+- question: "Ready to create a manager program or learning & development program, but not sure how to begin?"
+  answer: "Manager and L&D Strategy Workshops partner with your people ops team to rapidly design your program roadmap."
   card_name: "L&D Strategy"
 
-- question: "Feeling the pain of “too long” time to productivity, poor employee experience, or high turnover?"
-  answer: "Corporate, Engineering, and Sales onboarding programs take new hires from zero to happy, productive, and your best advocate in thirty days."
-  card_name: "Zero to Happy in 30 days"
+

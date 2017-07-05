@@ -1,30 +1,31 @@
 ---
 layout: single-post-layout
-title:  "Services Edify Offers"
-date:   2017-05-24
+title: Services Edify Offers
+date: 'Tue May 23 2017 17:00:00 GMT-0700 (PDT)'
 categories: Services
 feature_post: false
-width: 'half'
-
-image: 'featuredpost1.jpg'
-image_alt: 'Services'
-
-short_description: 'Read more about the services Edify offers. Or you can flip the fun flippy cards and click the pretty button to see this post content.'
+width: half
+image: featuredpost1.jpg
+image_alt: Services
+short_description: >-
+  Read more about the services Edify offers. Or you can flip the fun flippy
+  cards and click the pretty button to see this post content.
 published: true
 ---
+## Feeling the pain of “too long” time to productivity, poor employee experience, or high turnover?
 
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+We know how challenging it is to balance all the asks on your time as an HR leader or CEO. Shipping a functional, experience-rich onboarding program sounds like something that you could 'get to' next month - but if it keeps getting pushed down the schedule, we should talk. Edify partners with people operations and learning & development teams to architect, develop, and produce world-class onboarding programs at the company, department, and team levels. Our experience with employee-centric onboarding programs, building for time-to-productivity, and planning for program evolution from the start is unmatched. Curious about how Edify builds onboarding programs, budgets, timelines, and more? Get our short guide to **producing onboarding programs with Edify!**
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. [Curabitur blandit tempus porttitor](#). Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.
+## Feeling like you have don’t have enough time to invest in onboarding, but want to?
 
-> Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. [Nullam quis risus eget urna](#) mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.
+At rapid growth, ever-changing startups, it's unlikely that things ever stand still long enough to write them down. Edify knows how critical it is to bring new team members on quickly, help them absorb knowledge, and integrate into the organization quickly in that sticky 10-100 employee range. That's exactly why we built our easy to use, "Onboard Me Now" program. Using our proprietary guides, you'll answer just a few easy questions and the system will produce your MVP onboarding program for you! Want to know more? **Check out the Onboard Me Now guide.**
 
 
+## Looking for a way to level-up your junior managers and their teams?
+
+Growth companies the world over have the same challenge: they grow so quickly that great contributors are often pushed into management quickly, and without a lot of fundamental skill development. It's the ultimate sink or swim environment: someone skilled at their IC role moving into management may not always have the people skills to adjust well. This is a fact of life at startups, and Edify has created a totally unique way to approach junior manager development. Edify's "Coaching for Tech Managers" program takes a tech-manager centric look at developing fundamental skills in giving feedback, active listening, earning trust, and coaching teams. Learn more in our guide to **Skilling Up New Tech Managers.**
+
+
+## Ready to create a manager or learning & development program, but not sure how to begin?
+
+It's hard to juggle the daily demands of being an HR leader; from the regular fire fighting to the strategy conversations in the hall, your time is constantly called upon. Setting aside the brainpower and energy to build a case for employee learning and development or manager development is hard enough, but what about actually building out that strategy and the programming that goes with it? Edify compresses months of work into one, four or eight hour workshop, specifically calling on key leaders and team members for only minutes at a time. We partner with you as the people leader and culture creator at your company to develop a development strategy that's as far from cookie-cutter as possible, and tailored to grow with your team. Then we help you build out the programs you've prioritized. Curious about how it works? **Our L&D Strategy Map tells you all about it.**
