@@ -35,7 +35,14 @@
     <!-- Footer Scripts
     ============================================= -->
     <script type="text/javascript" src="/js/functions.js"></script>
-    <script type="text/javascript" src="/js/copytoclipboard.js"></script>
+
+
+    {% if page.url contains "/admin" %}
+      <script type="text/javascript" src="/js/copytoclipboard.js"></script>
+    {% else %}
+
+    {% endif %}
+
     <script type="text/javascript" src="/js/custom.js"></script>
 
    </body>
