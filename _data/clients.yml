@@ -1,6 +1,6 @@
 - company_name: "Switchboard"
   project_end_date: ""
-  website: "http://www.switchboard.com"
+  website: "www.switchboard.com"
 
   logo: "switchboard_wordmark.png"
 
@@ -10,10 +10,9 @@
   testimonial: |
     "Kristen has changed the way I think not only about employee onboarding, but about building a company. I'm more mindful about creating a healthy culture where everyone grows and thrives, and co-creating that plan with our team. Companies can't succeed without strong, capable, empowered, successful teams. And successful teams cannot be built without a champion there to create that path to success. Kristen is that champion."
 
-
 - company_name: "Elemental"
   project_end_date: ""
-  website: "http://www.elemental.com/"
+  website: "www.elemental.com"
 
   logo: "elemental-logo.png"
 
@@ -25,7 +24,7 @@
 
 - company_name: "Retailmakr"
   project_end_date: ""
-  website: "http://www.retailmakr.com"
+  website: "www.retailmakr.com"
 
   logo: "retailmakr.png"
 
@@ -34,20 +33,20 @@
 
   testimonial: |
     "You are patient, you ask a lot of the right questions and intuitive. Most of the nuances of our team, I didn't have to explain to you. You quickly caught on and understood how our teams work together."
-    
- - company_name: "Zapproved"
-   project_end_date: ""
-   website: "www.zapproved.com"
 
-   logo: "zapproved-logosmall.png"
+- company_name: "Zapproved"
+  project_end_date: ""
+  website: "www.zapproved.com"
 
-   client_testimonial_name: "Ilana Davis, SPHR"
-   client_testimonial_job_title: "HR Manager"
-   
-   testimonial: |
+  logo: "zapproved-logosmall.png"
+
+  client_testimonial_name: "Ilana Davis, SPHR"
+  client_testimonial_job_title: "HR Manager"
+
+  testimonial: |
     "You are patient, you ask a lot of the right questions and are intuitive. You quickly caught on and understood how our teams work together. The team felt at ease with you, and I also really appreciated the amount of time you spent with everyone so you could truly understand the ins and outs of our process."
-    
-    - company_name: "SurveyMonkey"
+
+- company_name: "SurveyMonkey"
   project_end_date: ""
   website: "www.surveymonkey.com"
 
