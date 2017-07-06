@@ -35,19 +35,19 @@
   testimonial: |
     "You are patient, you ask a lot of the right questions and intuitive. Most of the nuances of our team, I didn't have to explain to you. You quickly caught on and understood how our teams work together."
     
- - company_name: "Zapproved"
-   project_end_date: ""
-   website: "www.zapproved.com"
+- company_name: "Zapproved"
+  project_end_date: ""
+  website: "www.zapproved.com"
 
-   logo: "zapproved-logosmall.png"
-
-   client_testimonial_name: "Ilana Davis, SPHR"
-   client_testimonial_job_title: "HR Manager"
+  logo: "zapproved-logosmall.png"
+  
+  client_testimonial_name: "Ilana Davis, SPHR"
+  client_testimonial_job_title: "HR Manager"
    
-   testimonial: |
+  testimonial: |
     "You are patient, you ask a lot of the right questions and are intuitive. You quickly caught on and understood how our teams work together. The team felt at ease with you, and I also really appreciated the amount of time you spent with everyone so you could truly understand the ins and outs of our process."
     
-    - company_name: "SurveyMonkey"
+ - company_name: "SurveyMonkey"
   project_end_date: ""
   website: "www.surveymonkey.com"
 
@@ -58,4 +58,3 @@
 
   testimonial: |
     "You are an amazingly knowledgable and skilled facilitator. You made me feel really comfortable in the learning environment. I think our managers will become better & more mindful around at asking questions. I also think our managers will build relationships with one another that will further their learning."
-
