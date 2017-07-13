@@ -629,7 +629,7 @@ li.category-list {
   text-align: left;
   font-size: 12px;
   line-height: 1.7em;
-  padding-left: 15px;
+  /*padding-left: 10px;*/
 }
 
 
@@ -637,7 +637,7 @@ li.category-list {
   font-size: 12px;
   font-style: italic;
   padding-top: 5px;
-  padding-left: 15px;
+  /*padding-left: 10px;*/
 }
 
 
