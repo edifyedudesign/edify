@@ -625,11 +625,19 @@ div.entry-content.entry-image-half-width blockquote {
   text-align: left;
 }
 
+li.category-list {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.7em;
+  padding-left: 15px;
+}
+
 
 #category-list-sidebar li.more-category-posts {
   font-size: 12px;
   font-style: italic;
   padding-top: 5px;
+  padding-left: 15px;
 }
 
 
@@ -650,9 +658,16 @@ h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > 
     border-color: #43a1a0 !important;
     color: #43a1a0 !important;
 }
-.spost .entry-title h4 a:hover, .mpost .entry-title h4 a:hover {
-    color: #43a1a0;
+
+.spost .entry-title h4 a, .mpost .entry-title h4 a {
+  text-decoration: none !important;
+  color: #43a1a0;
 }
+.spost .entry-title h4 a:hover, .mpost .entry-title h4 a:hover {
+    color: #222;
+}
+
+
 .breadcrumb a:hover {
     color: #43a1a0;
 }

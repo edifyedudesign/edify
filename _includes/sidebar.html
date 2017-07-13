@@ -43,11 +43,11 @@
             {% for category in site.categories %}
               <li style="margin-bottom: 10px;">
                 <div class="entry-title">
-                  <h4><i class="icon-folder-close-alt"></i><a href="/category/{{ category[0] | slugify }}">{{ category[0] }}</h4></a>
+                  <h4><a href="/category/{{ category[0] | slugify }}"><i class="icon-folder-close-alt"></i>{{ category[0] }}</h4></a>
                 </div>
                 <ul>
                   {% for post in category[1] limit:3 %}
-                    <li><a href="{{ post.url }}"><span><i class="icon-folder-open-alt"></i></span> {{ post.title }}</a></li>
+                    <li class="category-list"><a href="{{ post.url }}">{{ post.title }}</a></li>
                   {% endfor %}
                   <li class="more-category-posts"><a class="more-category-posts-link" href="/category/{{ category[0] | slugify }}">See all posts in this category...</a></li>
                 </ul>
