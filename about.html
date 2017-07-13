@@ -12,6 +12,17 @@ published: true
 
 
 
+<!-- Page Title
+============================================= -->
+<section id="page-title" class="page-title">
+
+  <div class="container clearfix">
+    <h1>{{ page.title }}</h1>
+    <span>{{ site.data.headers.about_page_tagline }}</span>
+  </div>
+
+</section>
+<!-- #page-title end -->
 <div class="content-wrap" id="about-page">
 
   <section id="slider" class="boxed-slider hidden-xs">
@@ -83,8 +94,8 @@ published: true
   <div class="container clearfix bottommargin-lg topmargin">
 
     <div class="heading-block topmargin-sm center bottommargin-lg">
-      <h2>Our <span>Values</span>.</h2>
-      <span>Edify was founded to bring the human experience back to learning & development.</span>
+      <h2>{{ site.data.headers.about_page_values_header }}</h2>
+      <span>{{ site.data.headers.about_page_values_sub_header }}</span>
     </div>
 
     <div class="col_half">
@@ -92,9 +103,9 @@ published: true
         <div class="fbox-icon">
           <img class="icon-edify" src="/img/edify-logos/edify-vectoricon.png">
         </div>
-        <h4 style="margin-bottom: 20px;">Integrity</h4>
+        <h4 style="margin-bottom: 20px;">{{ site.data.values.value_one }}</h4>
         <p>
-          We don’t opt to take the more traveled path just because that’s the norm. We opt for the path that bodes the best for our world and our clients.
+          {{ site.data.values.value_one_text }}
         </p>
       </div>
     </div>
@@ -104,10 +115,10 @@ published: true
         <div class="fbox-icon">
           <img class="icon-edify" src="/img/edify-logos/edify-vectoricon.png">
         </div>
-        <h4 style="margin-bottom: 20px;">Empathy</h4>
+        <h4 style="margin-bottom: 20px;">{{ site.data.values.value_two }}</h4>
         <p>
-        We realize that we cannot understand what it is truly like to be someone else. We realize that to be, in our hearts and our actions, truly empathetic, we must drink a tall glass of humility every morning
-      </p>
+          {{ site.data.values.value_two_text }}
+        </p>
       </div>
     </div>
 
@@ -116,9 +127,9 @@ published: true
         <div class="fbox-icon">
           <img class="icon-edify" src="/img/edify-logos/edify-vectoricon.png">
         </div>
-        <h4 style="margin-bottom: 20px;">Curiosity</h4>
+        <h4 style="margin-bottom: 20px;">{{ site.data.values.value_three }}</h4>
         <p>
-          We are a company that helps other people learn to learn, and teach to teach. To do that successfully, we must be ever-vigilant that our curiosity levels are abnormally high.
+          {{ site.data.values.value_three_text }}
         </p>
       </div>
     </div>
@@ -128,9 +139,9 @@ published: true
         <div class="fbox-icon">
           <img class="icon-edify-color" src="/img/edify-logos/edify-vectoricon.png">
         </div>
-        <h4 style="margin-bottom: 20px;">Tenacity</h4>
+        <h4 style="margin-bottom: 20px;">{{ site.data.values.value_four }}</h4>
         <p>
-          Problems don’t just go away. The most wicked challenges of our world must be approached head-on. We choose to be tenacious in our research, listening, openness, and problem-solving.
+          {{ site.data.values.value_four_text }}
         </p>
       </div>
     </div>

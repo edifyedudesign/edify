@@ -10,7 +10,7 @@
     {% endif %}
     {% if page.url contains "/blog" or page.url contains "/category" %}
       {% if page.tagline %}
-      <span>{{ page.tagline }}</span>
+      <span>{{ site.data.headers.blog_page_tagline }}</span>
       {% elsif page.categories | first %}
       <span>{{ page.categories | first }} with Edify</span>
       {% elsif page.autopages %}

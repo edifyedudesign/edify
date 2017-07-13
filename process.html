@@ -10,6 +10,17 @@ meta_tag: >-
   and providing scaffolding and offer accessible options.
 published: true
 ---
+<!-- Page Title
+============================================= -->
+<section id="page-title" class="page-title">
+
+  <div class="container clearfix">
+    <h1>{{ page.title }}</h1>
+    <span>{{ site.data.headers.process_page_tagline }}</span>
+  </div>
+
+</section>
+<!-- #page-title end -->
 
 <!--
 Flip Cards based on  post by CSS Tricks
@@ -19,8 +30,8 @@ Flip Cards based on  post by CSS Tricks
 <div class="bottommargin-lg" id="process">
 
   <div class="heading-block title-center topmargin-lg nobottommargin section nobg">
-    <h2>What's on your <span>mind</span>?</h2>
-    <!-- <span>Scaling a company isn’t easy. What is easy is working with Edify to ship learning solutions that make your company even more amazing. <br>We start by learning about the things you’re dealing with - and identifying ways to take away the growing pains. Take a look at the kinds of problems we solve!</span> -->
+    <h2>{{ site.data.headers.process_page_header }}</h2>
+    <span>{{ site.data.headers.process_page_sub_header }}</span>
   </div>
 
   <div class="clear"></div>
@@ -35,7 +46,7 @@ Flip Cards based on  post by CSS Tricks
           <div class="face front" data-cardNameFront="{{ question.card_name }}" >
             <div class="feature-box center media-box fbox-bg">
               <div class="fbox-media">
-                <img src="/img/site-images/process-page-small.png" alt="flip card process question">
+                <img src="/img/{{ question.card_image }}" alt="flip card process question">
               </div>
               <div class="fbox-desc">
                 <img class="fliplogo" src="/img/edify-logos/logo-media.png">
@@ -55,12 +66,12 @@ Flip Cards based on  post by CSS Tricks
                 <h4 class="flip-back">
                   {{ question.answer }}
                 </h4>
-                <div class="about-button">
-                  <a href="/contact" data-cardNameButton="{{ question.card_name }}" target="_blank" class="button button-light">Contact me <i class="icon-line-arrow-right"></i></a>
-                </div>
                 <!-- <div class="about-button">
-                  <a href="/blog/services" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
+                  <a href="/contact" data-cardNameButton="{{ question.card_name }}" target="_blank" class="button button-light">Contact me <i class="icon-line-arrow-right"></i></a>
                 </div> -->
+                <div class="about-button">
+                  <a href="/blog/{{ question.button_link }}" target="_blank" class="button button-light">Learn more <i class="icon-line-arrow-right"></i></a>
+                </div>
               </div>
             </div>
           </div>

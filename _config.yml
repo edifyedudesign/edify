@@ -133,6 +133,8 @@ prose:
               value: "instructional_design"
             - name: "Human Centered Design"
               value: "human_centered_design"
+            - name: "Services"
+              value: "services"
       - name: "feature_post"
         field:
           element: "checkbox"
