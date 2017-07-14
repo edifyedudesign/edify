@@ -89,15 +89,6 @@ prose:
     - README.md
 
   metadata:
-    _pages:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page-layout"
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
     _posts:
       - name: "layout"
         field:

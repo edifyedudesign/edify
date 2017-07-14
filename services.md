@@ -2,7 +2,6 @@
 layout: single-post-layout
 title: Services Edify Offers
 date: 'Tue May 23 2017 17:00:00 GMT-0700 (PDT)'
-categories: Services
 feature_post: false
 width: half
 image: featuredpost1.jpg
