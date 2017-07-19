@@ -61,7 +61,7 @@ layout: home-layout
 
         {% for client in site.data.clients %}
           <li>
-            <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
+            <a href="http://{{ client.client_website_url }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
           </li>
         {% endfor %}
 
@@ -73,7 +73,7 @@ layout: home-layout
 
         {% for client in site.data.clients %}
           <li>
-            <a href="{{ client.website }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
+            <a href="{{ client.client_website_url }}"><img src="/img/{{ client.logo }}" alt="{{ client.company_name }} Logo"></a>
           </li>
         {% endfor %}
 

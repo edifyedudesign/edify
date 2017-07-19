@@ -1,6 +1,6 @@
 - company_name: "Switchboard"
   project_end_date: ""
-  website: "www.switchboard.com"
+  client_website_url: "www.switchboard.com"
 
   logo: "switchboard_wordmark.png"
 
@@ -12,7 +12,7 @@
 
 - company_name: "Elemental"
   project_end_date: ""
-  website: "www.elemental.com"
+  client_website_url: "www.elemental.com"
 
   logo: "elemental-logo.png"
 
@@ -24,7 +24,7 @@
 
 - company_name: "Retailmakr"
   project_end_date: ""
-  website: "www.retailmakr.com"
+  client_website_url: "www.retailmakr.com"
 
   logo: "retailmakr.png"
 
@@ -36,7 +36,7 @@
 
 - company_name: "Zapproved"
   project_end_date: ""
-  website: "www.zapproved.com"
+  client_website_url: "www.zapproved.com"
 
   logo: "zapproved-logosmall.png"
 
@@ -48,7 +48,7 @@
 
 - company_name: "SurveyMonkey"
   project_end_date: ""
-  website: "www.surveymonkey.com"
+  client_website_url: "www.surveymonkey.com"
 
   logo: "surveymonkey.png"
 
