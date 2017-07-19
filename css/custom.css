@@ -264,11 +264,12 @@ Admin Page Styles
 #admin-page li {
   margin-bottom: 10px;
   font-size: 16px;
-  padding-left: 10px;
+  padding-left: 25px;
 }
 #admin-page i {
-  margin-left: 10px;
+  margin-left: 30px;
 }
+
 #admin-page h5, h6 {
   font-family: 'filsonsoft-regular';
   font-weight: 400;
