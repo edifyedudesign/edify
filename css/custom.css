@@ -1059,3 +1059,17 @@ CONTACT Styles
     font-size: 1.25em;
   }
 }
+
+/* ----------------------------------------------------------------
+SERVICES Styles
+-----------------------------------------------------------------*/
+
+#services-page p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#services-page hr {
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
