@@ -24,7 +24,15 @@ img.metadata-img {
   max-width: 400px;
   padding: 10px 10px 10ox 0;
   /*margin-left: 50px;*/
-
+}
+.dropcap {
+  float: left;
+  font-size: 1em;
+  line-height: inherit;
+  margin: 0 0 0 0;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 </style>
 <!-- 768 -->
@@ -93,6 +101,7 @@ img.metadata-img {
           <li><a href="#blog">Blogging</a></li>
           <li><a href="#clients">Adding Clients</a></li>
           <li><a href="#process">Adding & Editing Flip Cards</a></li>
+          <li><a href="#services">Adding a New Services Page</a></li>
           <li><a href="#bio">Editing Bio Content</a></li>
           <li><a href="#pages">Editing Page Details</a></li>
           <li><a href="#google">Google Analytics & SEO</a></li>
@@ -455,6 +464,153 @@ img.metadata-img {
           </div>
 
 
+          <div class="tab-content clearfix" id="services">
+            <!-- <h4>Watch the tutorial on adding a new services page</h4>
+            <p>
+              This tutorial goes through the workflow for adding a new services page.
+            </p>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/RwikRepy6YU" frameborder="0" allowfullscreen></iframe>
+            <div class="clearfix bottommargin-sm"></div> -->
+
+            <h4>There are 4 steps to adding a New Services Page:</h4>
+
+            <div class="clearfix bottommargin-sm"></div>
+
+            <img style="float: right; width: 350px;" src="/img/site-images/root-folder.png">
+            <h4>Step 1: Create a New Page</h4>
+            <ul>
+              <li>
+                <span style="margin-left: -25px; padding-right: 10px;"><strong>1. </strong></span>
+                Go to the <a href="http://prose.io/#elauervose/edify">Edify Prose.io "root directory"</a>. This means you aren't in a folder and there isn't any bigger "container" you can click into. It should look something like the image to the right.
+              </li>
+
+              <li>
+                <span style="margin-left: -25px; padding-right: 10px;"><strong>2. </strong></span>
+                Click the green "New File" button. You will be taken to a new file page. Give the new services file a name - this should follow a somewhat simple and direct format - ideally it will begin with the word "services".
+                <p>
+                  <em>For example:<br>
+                  <span style="margin-left: 2em;">
+                    <strong>services-1.md</strong><br>
+                  </span>
+                  <span style="margin-left: 2em;">
+                    <strong>services-2.md</strong><br>
+                  </span>
+                  <span style="margin-left: 2em;">
+                    <strong>services-3.md</strong><br>
+                  </span>
+                    or <br>
+                  <span style="margin-left: 2em;">
+                    <strong>services-onboarding.md</strong><br>
+                  </span>
+                  <span style="margin-left: 2em;">
+                    <strong>services-managers.md</strong><br>
+                  </span>
+                  <span style="margin-left: 2em;">
+                    <strong>services-knowledge.md</strong> </em>
+                  </span>
+                </p>
+                <img style="float: right; width: 500px; margin-top: 10px;" src="/img/site-images/file-name.png">
+                <p>
+                  The simpler and more consistent the file name, the easier it will be to find, update, and edit later on.
+                </p>
+              </li>
+
+              <li>
+                <span style="margin-left: -25px; padding-right: 10px;"><strong>3. </strong></span>
+                Save the new file with a commit message the same way you do for any other save in Prose.
+              </li>
+              <div class="clearfix"></div>
+            </ul>
+
+            <div class="bottommargin-sm"></div>
+
+            <h4>Step 2: Add "Meta Data"</h4>
+            <p>
+              At this point, your new services file will not have the "meta data" icon on the right. The Meta Data is critical for the page to render properly and link to the flip cards the way you want.
+            </p>
+            <p>
+              To get this working correctly, you will need to add the Meta Data to the top of the body of the new file and then save it.
+            </p>
+            <h5>To Add Meta Data:</h5>
+            <ul>
+              <li>
+                <span style="margin-left: -25px; padding-right: 10px;"><strong>1. </strong></span> Click the Copy Button below to put the Services Meta Data template into your paste buffer.
+              </li>
+              <div class="clearfix"></div>
+              <li>
+                <span style="margin-left: -25px; padding-right: 10px;"><strong>2. </strong></span> Paste the template into the very top of the body of your new file.
+              </li>
+              <div class="clearfix"></div>
+              <li>
+                <span style="margin-left: -25px; padding-right: 10px;"><strong>3. </strong></span> Make absolutely certain the aligment is correct - in this case, each new line (layout, title, meta_title, meta_tag, and published) are all the way to the left. The line above "layout" should be three dashes like this: '---' and the line after "published" should also have three dashes '---'.
+              </li>
+              <div class="clearfix"></div>
+              <li>
+                <span style="margin-left: -25px; padding-right: 10px;"><strong>4. </strong></span>  Now save this with a commit message. <br>
+                <strong>Important Note:</strong> Remember your file name - although it will display as the name you gave it when you created it (so you can look in the root directory to check if you forget), once you add the Meta Data, the name of the file will appear as the title in the template you pasted in.
+              </li>
+            </ul>
+            <p>
+              Once you do this, the Meta Data icon should appear on the right. If you do not see it, try waiting about 30 seconds and then pressing "Command + Shift + R" or on a PC; "Control + Shift + R" to force the browser to display your most recent changes.
+            </p>
+
+            <button id="copyButton2" class="btn">Copy the Template</button>
+<pre id="copyTarget2">
+---
+layout: services-page-layout
+title: Services Edify Offers
+
+meta_title: Edify Learning Design Process is data-driven & human-focused
+meta_tag: >-
+  At Edify, we believe that great learning design means; designing for people
+  first, practicing empathy, anticipating needs, honoring diverse approaches,
+  and providing scaffolding and offer accessible options.
+published: true
+---
+</pre>
+
+            <div class="clearfix bottommargin-sm"></div>
+
+
+            <h4>Step 3: Add Page Content</h4>
+            <img style="float: right; width: 100px;" src="/img/site-images/meta-data.png">
+            <p>
+              Now you can update your Meta Data. To do this, click the Meta Data icon on the right - it's the one with several horizontal lines.
+            </p>
+            <p>
+              You can give the file a new title and a new meta_title and meta_tag. Click "Done" when you are finished.
+            </p>
+            <p>
+              <em>For more info about the Meta Title and Meta Tag, check out the tutorial info in the "Google Analytics and SEO" tab on this page.</em>
+            </p>
+            <p>
+              <strong>Important Note:</strong> Do Not change the top line labeled "layout" - changing this will cause the page to fail to render.
+            </p>
+            <img src="/img/site-images/meta-data-template.png">
+
+            <div class="clearfix bottommargin-sm"></div>
+
+
+            <h4>Step 4: Update Flip Card Button Link URL</h4>
+            <p>
+              Finally, you will need to change the URL for the corresponding flip card on the process page so that when people click the button on the back, they will be directed to the new services page.
+            </p>
+            <p>
+              To do this, open the <a href="http://prose.io/#elauervose/edify/edit/master/_data/questions.yml">questions.yml file in the _data folder</a> and find the question you want directed to the new services page.
+            </p>
+
+            <p>
+              Change the "button_link" text to be the name of the new file.
+            </p>
+            <img style="margin-bottom: 15px;" src="/img/site-images/ services-button-link.png">
+            <p>
+              <strong>Important Note: </strong> Make sure you change the file name to the actual file name - not the title that shows up after you add the Meta Data. This is the file name that (ideally) begins with the word "services"
+            </p>
+
+            <div class="clearfix bottommargin-sm"></div>
+          </div>
+
+
           <div class="tab-content clearfix" id="bio">
             <h4>How to Edit Personal Info:</h4>
             <p>
@@ -490,7 +646,6 @@ img.metadata-img {
 
 
           <div class="tab-content clearfix" id="pages">
-
             <h4>Editing Page Details</h4>
 
             <p>
@@ -546,13 +701,10 @@ img.metadata-img {
               </li>
             </ul>
             <div class="clearfix bottommargin-sm"></div>
-
-
           </div>
 
 
           <div class="tab-content clearfix" id="google">
-
             <h5>How to Find the Google Analytics Tracking Code & Add Users</h5>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/U3mO1Ov9hhw" frameborder="0" allowfullscreen></iframe>
             <div class="clearfix bottommargin"></div>
@@ -610,8 +762,6 @@ img.metadata-img {
                 <img class="metadata-img" src="/img/site-images/blog-meta.png">
               </li>
             </ul>
-
-
           </div>
 
         </div>

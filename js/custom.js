@@ -15,6 +15,18 @@ $(document).ready(function() {
     copyToClipboard($("#copyTarget")[0]);
   });
 
+  $("#copyButton2").on("click", function(event) {
+
+    // These two things will likely be needed if you want to use classes
+    // for the copyToClipboard function.
+    var buttonPressed = event.target;
+    var copyTarget = $(buttonPressed).data("target");
+
+    // Since copyToClipboard is Vanilla.js, we need to convert from jQuery syntax
+    // to Vanilla by adding [0] after the $().
+    copyToClipboard($("#copyTarget2")[0]);
+  });
+
 
   // NOTE: This is not meant to be secure!
   var password = "learningisfun!";
