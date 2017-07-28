@@ -1,7 +1,7 @@
 ## Manager Development
 ### Looking for a way to level-up your junior managers and their teams?
 
-Growth companies the world over have the same challenge: they grow so quickly that great contributors are often pushed into management quickly, and without a lot of fundamental skill development. It's the ultimate sink or swim environment: someone skilled at their IC role moving into management may not always have the people skills to adjust well. This is a fact of life at startups, and Edify has created a totally unique way to approach junior manager development. Edify's "Coaching for Tech Managers" program takes a tech-manager centric look at developing fundamental skills in giving feedback, active listening, earning trust, and coaching teams. Learn more in our guide to **Skilling Up New Tech Managers.**
+Growth companies the world over have the same challenge: they grow so quickly that great contributors are often pushed into management quickly, and without a lot of fundamental skill development. It's the ultimate sink or swim environment: someone skilled at their IC role moving into management may not always have the people skills to adjust well. This is a fact of life at startups, and Edify has created a totally unique way to approach junior manager development. By developing a strategy first, you're prepared to develop the programs you really need. Learn more in our guide to **Skilling Up New Tech Managers.**
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
