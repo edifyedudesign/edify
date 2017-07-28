@@ -25,7 +25,7 @@ Our experience with employee-centric onboarding programs, building for time-to-p
 <div id="mc_embed_signup">
 <form action="//edifyedu.us8.list-manage.com/subscribe/post?u=adcd41d2f3227baeb65cced0a&amp;id=db14592311" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
+	<h2>Download your guide to onboarding that works:</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
