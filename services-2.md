@@ -1,3 +1,13 @@
+---
+layout: services-page-layout
+title: Manager Development
+meta_title: Edify Learning Design Process is data-driven & human-focused
+meta_tag: >-
+  At Edify, we believe that great learning design means; designing for people
+  first, practicing empathy, anticipating needs, honoring diverse approaches,
+  and providing scaffolding and offer accessible options.
+published: true
+---
 ## Manager Development
 ### Looking for a way to level-up your junior managers and their teams?
 
