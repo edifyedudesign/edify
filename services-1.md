@@ -1,6 +1,6 @@
 ---
 layout: services-page-layout
-title: Services Edify Offers
+title: Onboarding
 meta_title: Edify Learning Design Process is data-driven & human-focused
 meta_tag: >-
   At Edify, we believe that great learning design means; designing for people
@@ -9,7 +9,7 @@ meta_tag: >-
 published: true
 ---
 
-## Onboarding Systems
+## Corporate, Departmental, and Team Level Onboarding
 ### Feeling the pain of “too long” time to productivity, poor employee experience, or high turnover?
 
 We know how challenging it is to balance all the asks on your time as an HR leader or CEO. Shipping a functional, experience-rich onboarding program sounds like something that you could 'get to' next month - but if it keeps getting pushed down the schedule, we should talk. Edify partners with people operations and learning & development teams to architect, develop, and produce world-class onboarding programs at the company, department, and team levels.
@@ -56,4 +56,3 @@ Our experience with employee-centric onboarding programs, building for time-to-p
     </div>
 </form>
 </div>
-
