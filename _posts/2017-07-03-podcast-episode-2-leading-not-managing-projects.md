@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: false
-published: false
+published: true
 title: 'Podcast Episode 2 - Leading, Not Managing, Projects'
 date: 'May 8, 2017'
 category:
