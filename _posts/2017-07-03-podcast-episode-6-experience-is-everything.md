@@ -6,6 +6,7 @@ title: 'Podcast Episode 6: Experience is Everything'
 date: 'July 3, 2017'
 category:
   - podcast
+image: podcastlogo.jpg
 ---
 <iframe src="https://www.podbean.com/media/player/tv6ni-6c8fa7?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Helvetica&auto=0&download=0&rtl=0" height="100" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
 
