@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: true
-published: false
+published: true
 title: 'Podcast Episode 6: Experience is Everything'
 date: 'July 3, 2017'
 category:
