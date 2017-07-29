@@ -4,4 +4,4 @@ feature_post: false
 published: false
 title: 'Draft for Uploading New Client Images [Do Not Publish]'
 ---
-![Potted Tree Stock Photo]({{site.baseurl}}/img/growthtree.jpeg)
+![Renew Financial Wordmark]({{site.baseurl}}/img/rflogo.png)
