@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: true
-published: false
+published: true
 title: Growth Shouldn’t Just Be for Customers
 date: 'June 12, 2017'
 category:
