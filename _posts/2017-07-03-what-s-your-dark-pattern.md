@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: true
-published: false
+published: true
 title: What's Your Dark Pattern?
 date: 'July 3, 2017'
 category:
@@ -48,4 +48,3 @@ You’re building the best product in your category in the world.
 
 **Why not build the best team?**
 Learn more about building the best team with Edify by your side at edifyedu.com!
- 
