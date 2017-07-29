@@ -7,6 +7,9 @@ date: 'July 3, 2017'
 category:
   - podcast
 image: podcastlogo.jpg
+short_description: >-
+  My guest today is Emily Griffith, an absolutely awesome person, whom you’ll
+  see why very soon. Emily is the Ambassador of Awesome at FINE...
 ---
 <iframe src="https://www.podbean.com/media/player/tv6ni-6c8fa7?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Helvetica&auto=0&download=0&rtl=0" height="100" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
 
