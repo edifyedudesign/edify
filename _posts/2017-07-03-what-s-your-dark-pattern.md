@@ -1,6 +1,6 @@
 ---
 layout: single-post-layout
-feature_post: true
+feature_post: false
 published: true
 title: What's Your Dark Pattern?
 date: 'July 3, 2017'
