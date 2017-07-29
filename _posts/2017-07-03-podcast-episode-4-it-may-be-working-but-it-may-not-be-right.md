@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: false
-published: false
+published: true
 title: 'Podcast Episode 4 - It May Be Working, But It May Not Be Right'
 date: 'June 5, 2017'
 category:
