@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: true
-published: false
+published: true
 title: MVP Onboarding for the 97% of Startups Who Have None
 date: 'May 4, 2017'
 category:
