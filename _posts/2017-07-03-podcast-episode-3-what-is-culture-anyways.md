@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: false
-published: false
+published: true
 title: 'Podcast Episode 3 - What Is Culture, Anyways?'
 date: 'May 21, 2017'
 category:

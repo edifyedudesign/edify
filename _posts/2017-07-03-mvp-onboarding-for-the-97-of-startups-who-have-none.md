@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: true
-published: false
+published: true
 title: MVP Onboarding for the 97% of Startups Who Have None
 date: 'May 4, 2017'
 category:
@@ -47,4 +47,3 @@ Once your new hire arrives, show them around (virtually or physically) and get t
 **Trying to carve out ten minutes a week (seriously, make yourself a recurring “onboarding thinking” stand-up for 10 minutes a week) really will pay off.**
 
 In fact, it’ll help you hire better, get people up to speed faster, and get your product to happy customers. Building onboarding doesn’t have to mean months of work, or even thousands of dollars. You can be as utilitarian as you like, as long as you’re making sure every new hire you bring on is getting what they need to become self-sufficient. **Now, go do it!**
- 

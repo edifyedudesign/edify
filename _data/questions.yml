@@ -1,25 +1,17 @@
 - question: "Feeling the pain of “too long” time to productivity, poor employee experience, or high turnover?"
   answer: "Corporate, Engineering, and Sales onboarding programs take new hires from zero to happy, productive, and your best advocate in thirty days."
   card_name: "Zero to Happy in 30 days"
-  card_image: "process-page-small.png"
-  button_link: "services-1"
-
-- question: "Feeling like you have don’t have enough time to invest in onboarding, but want to?"
-  answer: "Onboarding in a Box gives you everything you need to ship an MVP onboarding program in just one week."
-  card_name: "Onboarding"
-  card_image: "process-page-small.png"
+  card_image: "edifycardbkg.jpeg"
   button_link: "services-1"
 
 - question: "Looking for a way to level-up your junior managers and their teams?"
-  answer: "Learn to Coach: Tech Managers & Teams is the manager program you’ve needed since yesterday without the hassle of intensive learning programs."
+  answer: "Manager Development Strategy planning helps you define what you want before investing in something you might not need."
   card_name: "Learn to Coach"
-  card_image: "process-page-small.png"
-  button_link: "services-1"
+  card_image: "edifycardbkg.jpeg"
+  button_link: "services-2"
 
-- question: "Ready to create a manager program or learning & development program, but not sure how to begin?"
-  answer: "Manager and L&D Strategy Workshops partner with your people ops team to rapidly design your program roadmap."
+- question: "Ready to create a learning & development program, but not sure how to begin?"
+  answer: "L&D Strategy Workshops partner with your people ops team to rapidly design your program roadmap."
   card_name: "L&D Strategy"
-  card_image: "process-page-small.png"
-  button_link: "services-1"
-
-
+  card_image: "edifycardbkg.jpeg"
+  button_link: "services-3"

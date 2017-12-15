@@ -4,4 +4,4 @@ feature_post: false
 published: false
 title: 'Draft for Uploading New Client Images [Do Not Publish]'
 ---
-![Potted Tree Stock Photo]({{site.baseurl}}/img/growthtree.jpeg)
+![Podcast Logo]({{site.baseurl}}/img/podcastlogo.jpg)
