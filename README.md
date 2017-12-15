@@ -24,6 +24,6 @@ Pushing changes live
 ----------------------------------
 
 Owner(s) can go into Heroku and click the button "Promote to Production"
-![pipeline in heroku to push changes live](pipeline.png)
+![pipeline in heroku to push changes live](img/pipeline.png)
 
 Heroku Pipeline URL: https://dashboard.heroku.com/pipelines/11219314-f18a-4ea0-aa44-bd8c7add36a0
