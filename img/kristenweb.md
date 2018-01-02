@@ -1,1 +1,0 @@
-![]({{site.baseurl}}/img/kristenweb.png)
