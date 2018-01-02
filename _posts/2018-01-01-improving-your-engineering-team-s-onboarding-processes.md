@@ -3,7 +3,7 @@ layout: single-post-layout
 feature_post: true
 published: true
 title: Improving Your Engineering Team's Onboarding Processes
-date: 'January 2, 2018'
+date: 'January 1, 2018'
 category:
   - onboarding
 image: techonboardpost.png
