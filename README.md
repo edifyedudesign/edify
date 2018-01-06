@@ -37,3 +37,4 @@ bundle update
 ```
 
 * check for anything that had a major change (ie. 1.6.9 => 2.0.0, or 1.7.9 => 1.7.0)
+
