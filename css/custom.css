@@ -849,10 +849,12 @@ Process Page Styles
 }
 
 i.icon-line-square-plus {
-  opacity: .2;
-  color: #0a2323;
-  font-size: 1.4em;
+  /*opacity: .2;
+  color: #0a2323;*/
+  font-size: 16px;
+  padding: 5px;
 }
+
 
 #process .feature-box.media-box.fbox-bg:hover .fbox-desc h4, #process .feature-box.media-box.fbox-bg:hover i.icon-share-alt {
  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -954,10 +956,16 @@ h4.flip-front {
 }
 
 #process .flip-arrow {
- margin-left: 80%;
+ margin-left: 30%;
+ opacity: .4;
+  color: #0a2323;
  bottom: 15px;
  position: absolute;
  z-index: 3;
+ text-align: center;
+}
+#process .flip-arrow:hover {
+ opacity: .6;
 }
 @media all and (max-width: 1199px) {
   h4 {
@@ -967,7 +975,16 @@ h4.flip-front {
   .feature-box.media-box.fbox-bg .fbox-desc.fbox-desc-back {
     padding-top: 20px;
   }
+  #process .flip-arrow {
+   margin-left: 15%;
+  }
 }
+
+
+@media all and (max-width: 767px) {
+
+}
+
 @media all and (max-width: 479px) {
   #process .container {
     width: 390px !important;
@@ -1007,18 +1024,21 @@ h4.flip-front {
 /* Check this */
 @media all and (max-width: 767px){
   #process .flip-arrow span.visible-xs {
-   margin-left: -145px;
+   margin-left: -165px;
    bottom: 5px;
    position: absolute;
    z-index: 3;
-   width: 150px;
-   font-size: 13px!important;
+   /*width: 150px;*/
+   font-size: 16px!important;
    font-style: italic;
-   opacity: .4;
+   /*opacity: .4;*/
    color: #0a2323;
    font-size: 1.4em;
   }
 
+  #process .flip-arrow {
+   margin-left: 75%;
+  }
 
 }
 
