@@ -60,7 +60,7 @@
 
 - company_name: "Puppet"
   project_end_date: ""
-  client_website_url: "https://puppet.com/"
+  client_website_url: "www.puppet.com"
 
   logo: "puppet.png"
 
@@ -72,7 +72,7 @@
 
 - company_name: "Evisions"
   project_end_date: ""
-  client_website_url: "https://evisions.com/"
+  client_website_url: "www.evisions.com/"
 
   logo: "evisions2.png"
 
