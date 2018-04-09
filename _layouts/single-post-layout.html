@@ -84,7 +84,8 @@ layout: page-layout
         </div>
         <div class="panel-body">
           <div class="col-md-4 col-sm-4">
-            <img  class="blog-bio" src="/img/{{ site.data.kristens_info.image_md }}" alt="{{ site.data.kristens_info.image_alt }}">
+            <img  class="blog-bio" src="/img/{{ site.data.kristens_info.image }}" alt="{{ site.data.kristens_info.image_alt }}">
+            <p style="margin-bottom: 1em; font-weight: 300; font-size: 14px; color: #bbb;"><em>{{ site.data.kristens_info.photo_attribution }}</em></p>
           </div>
           <div class="col-md-8 col-sm-8">
             {{ site.data.kristens_info.bio | newline_to_br | newline_to_br }}

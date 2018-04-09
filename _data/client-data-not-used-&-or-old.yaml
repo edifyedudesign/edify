@@ -1,0 +1,46 @@
+# Client data not used (missing testimonial)
+
+- company_name: "FlightGlobal"
+  project_end_date: ""
+  client_website_url: ""
+
+  logo: "flightglobal.png"
+
+  client_testimonial_name: ""
+  client_testimonial_job_title: ""
+
+  testimonial: |
+    ""
+
+- company_name: "Cloudability"
+  project_end_date: ""
+  client_website_url: ""
+
+  logo: "cloudability.png"
+
+  client_testimonial_name: ""
+  client_testimonial_job_title: ""
+
+  testimonial: |
+    ""
+
+
+
+
+
+
+
+
+# Old Client Data
+
+- company_name: "Zapproved"
+  project_end_date: ""
+  client_website_url: "www.zapproved.com"
+
+  logo: "zapproved-logosmall.png"
+
+  client_testimonial_name: "Ilana Davis, SPHR"
+  client_testimonial_job_title: "HR Manager"
+
+  testimonial: |
+    "You are patient, you ask a lot of the right questions and are intuitive. You quickly caught on and understood how our teams work together. The team felt at ease with you, and I also really appreciated the amount of time you spent with everyone so you could truly understand the ins and outs of our process."

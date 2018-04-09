@@ -34,18 +34,6 @@
   testimonial: |
     "You are patient, you ask a lot of the right questions and intuitive. Most of the nuances of our team, I didn't have to explain to you. You quickly caught on and understood how our teams work together."
 
-- company_name: "Zapproved"
-  project_end_date: ""
-  client_website_url: "www.zapproved.com"
-
-  logo: "zapproved-logosmall.png"
-
-  client_testimonial_name: "Ilana Davis, SPHR"
-  client_testimonial_job_title: "HR Manager"
-
-  testimonial: |
-    "You are patient, you ask a lot of the right questions and are intuitive. You quickly caught on and understood how our teams work together. The team felt at ease with you, and I also really appreciated the amount of time you spent with everyone so you could truly understand the ins and outs of our process."
-
 - company_name: "SurveyMonkey"
   project_end_date: ""
   client_website_url: "www.surveymonkey.com"
@@ -57,7 +45,7 @@
 
   testimonial: |
     "You are an amazingly knowledgable and skilled facilitator. You made me feel really comfortable in the learning environment. I think our managers will become better & more mindful around at asking questions. I also think our managers will build relationships with one another that will further their learning."
-    
+
 - company_name: "Renew Financial"
   project_end_date: ""
   client_website_url: "www.renewfinancial.com"
@@ -69,3 +57,27 @@
 
   testimonial: |
     "We were able to successfully outline an onboarding program for our tech team members in Portland that accelerated their time to proficiency and effectiveness. It can be challenging to work with a consultant on a project like this because they are not ingrained in the culture. Kristen however did a good job of listening to our feedback and incorporating it into the work she did."
+
+- company_name: "Puppet"
+  project_end_date: ""
+  client_website_url: "https://puppet.com/"
+
+  logo: "puppet.png"
+
+  client_testimonial_name: ""
+  client_testimonial_job_title: ""
+
+  testimonial: |
+    "I have consistently heard from my leadership team that they wish they had this support years ago and are beyond thrilled to have Edify helping us out. You'd be crazy not to work with Edify - they are a true partner and will invest in seeing you through to success."
+
+- company_name: "Evisions"
+  project_end_date: ""
+  client_website_url: "https://evisions.com/"
+
+  logo: "evisions2.png"
+
+  client_testimonial_name: ""
+  client_testimonial_job_title: ""
+
+  testimonial: |
+    "You were extremely flexible and understanding during a difficult time in our company, you were approachable and down to earth (not preachy) with your knowledge. You were inclusive with all members of the session and made them feel a part of it. You representing me better than any other consultant/outside person has ever done! Managers and others are now actually talking about Performance Management in a way that is inspiring, realizing we need to do a better job at it and their openness and willingness to participate. People should know that you are excellent at what you do, extremely humble and so incredibly thorough."
