@@ -1,4 +1,5 @@
 - company_name: "Switchboard"
+  has_testimonial: true
   project_end_date: ""
   client_website_url: "www.switchboardhq.com"
 
@@ -11,6 +12,7 @@
     "Kristen has changed the way I think not only about employee onboarding, but about building a company. I'm more mindful about creating a healthy culture where everyone grows and thrives, and co-creating that plan with our team. Companies can't succeed without strong, capable, empowered, successful teams. And successful teams cannot be built without a champion there to create that path to success. Kristen is that champion."
 
 - company_name: "Elemental"
+  has_testimonial: true
   project_end_date: ""
   client_website_url: "www.elemental.com"
 
@@ -22,19 +24,9 @@
   testimonial: |
     "Kristen developed an amazing onboarding program for us in a time of intense change, led initiatives for learning & development in every department, and architected a knowledge management system that informed how delivered key information to employees."
 
-- company_name: "Retailmakr"
-  project_end_date: ""
-  client_website_url: "www.retailmakr.com"
-
-  logo: "retailmakr.png"
-
-  client_testimonial_name: "Anthony Scholtfeldt"
-  client_testimonial_job_title: "CTO"
-
-  testimonial: |
-    "You are patient, you ask a lot of the right questions and intuitive. Most of the nuances of our team, I didn't have to explain to you. You quickly caught on and understood how our teams work together."
 
 - company_name: "SurveyMonkey"
+  has_testimonial: true
   project_end_date: ""
   client_website_url: "www.surveymonkey.com"
 
@@ -47,6 +39,7 @@
     "You are an amazingly knowledgable and skilled facilitator. You made me feel really comfortable in the learning environment. I think our managers will become better & more mindful around at asking questions. I also think our managers will build relationships with one another that will further their learning."
 
 - company_name: "Renew Financial"
+  has_testimonial: true
   project_end_date: ""
   client_website_url: "www.renewfinancial.com"
 
@@ -59,6 +52,7 @@
     "We were able to successfully outline an onboarding program for our tech team members in Portland that accelerated their time to proficiency and effectiveness. It can be challenging to work with a consultant on a project like this because they are not ingrained in the culture. Kristen however did a good job of listening to our feedback and incorporating it into the work she did."
 
 - company_name: "Puppet"
+  has_testimonial: true
   project_end_date: ""
   client_website_url: "www.puppet.com"
 
@@ -71,8 +65,9 @@
     "I have consistently heard from my leadership team that they wish they had this support years ago and are beyond thrilled to have Edify helping us out. You'd be crazy not to work with Edify - they are a true partner and will invest in seeing you through to success."
 
 - company_name: "Evisions"
+  has_testimonial: true
   project_end_date: ""
-  client_website_url: "www.evisions.com/"
+  client_website_url: "www.evisions.com"
 
   logo: "evisions2.png"
 
@@ -82,3 +77,28 @@
   testimonial: |
     "You were extremely flexible and understanding during a difficult time in our company, you were approachable and down to earth (not preachy) with your knowledge. You were inclusive with all members of the session and made them feel a part of it. You representing me better than any other consultant/outside person has ever done! Managers and others are now actually talking about Performance Management in a way that is inspiring, realizing we need to do a better job at it and their openness and willingness to participate. People should know that you are excellent at what you do, extremely humble and so incredibly thorough."
 
+- company_name: "FlightGlobal"
+  has_testimonial: false
+  project_end_date: ""
+  client_website_url: "www.flightglobal.com"
+
+  logo: "flightglobal.png"
+
+  client_testimonial_name: ""
+  client_testimonial_job_title: ""
+
+  testimonial: |
+    ""
+
+- company_name: "Cloudability"
+  has_testimonial: false
+  project_end_date: ""
+  client_website_url: "www.cloudability.com"
+
+  logo: "cloudability.png"
+
+  client_testimonial_name: ""
+  client_testimonial_job_title: ""
+
+  testimonial: |
+    ""
