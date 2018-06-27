@@ -41,18 +41,28 @@ Our experience with employee-centric onboarding programs, building for time-to-p
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 <div class="mc-field-group input-group">
-    <strong>Edify Guides </strong>
-    <ul><li><input type="radio" value="1" name="group[49121]" id="mce-group[49121]-49121-0"><label for="mce-group[49121]-49121-0">Onboarding</label></li>
-<li><input type="radio" value="2" name="group[49121]" id="mce-group[49121]-49121-1"><label for="mce-group[49121]-49121-1">Manager Development</label></li>
-<li><input type="radio" value="4" name="group[49121]" id="mce-group[49121]-49121-2"><label for="mce-group[49121]-49121-2">Learning &amp; Development Strategy</label></li>
-</ul>
+  <strong>Edify Guides </strong>
+  <ul>
+    <li>
+      <input type="radio" value="1" name="group[49121]" id="mce-group[49121]-49121-0">
+      <label for="mce-group[49121]-49121-0" style="margin-left: 5px;">Onboarding</label>
+    </li>
+    <li>
+      <input type="radio" value="2" name="group[49121]" id="mce-group[49121]-49121-1">
+      <label for="mce-group[49121]-49121-1" style="margin-left: 5px;">Manager Development</label>
+    </li>
+    <li>
+      <input type="radio" value="4" name="group[49121]" id="mce-group[49121]-49121-2">
+      <label for="mce-group[49121]-49121-2" style="margin-left: 5px;">Learning &amp; Development Strategy</label>
+    </li>
+  </ul>
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_adcd41d2f3227baeb65cced0a_db14592311" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class=""><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-light"></div>
     </div>
 </form>
 </div>
