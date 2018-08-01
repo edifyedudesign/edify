@@ -14,7 +14,6 @@ category:
   - onboarding
 date: 'August 1, 2018'
 ---
-## Case Study: Puppet
 
 At the cusp of expansion across the globe, Puppet - the Portland-based software automation leader - faced inconsistent employee onboarding experiences and slow time-to-productivity. We were thrilled to be able to work with this trailblazing company to help them refine one area of their business.
 
