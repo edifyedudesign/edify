@@ -1,7 +1,7 @@
 ---
 layout: single-post-layout
 feature_post: true
-published: false
+published: true
 title: 'CASE STUDY: Global Onboarding for a Software Automation Leader'
 image: software-600.jpeg
 image_alt: 'Case Study #1'
