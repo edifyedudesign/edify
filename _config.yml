@@ -74,19 +74,19 @@ pagination:
 #Prose.io config details
 prose:
   media: 'img'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - .gitignore
-    - config.ru
-    - feed.xml
-    - Gemfile
-    - Gemfile.lock
-    - Procfile
-    - Rakefile
-    - README.md
+  # ignore:
+  #   - index.md
+  #   - _config.yml
+  #   - /_layouts
+  #   - /_includes
+  #   - .gitignore
+  #   - config.ru
+  #   - feed.xml
+  #   - Gemfile
+  #   - Gemfile.lock
+  #   - Procfile
+  #   - Rakefile
+  #   - README.md
 
   metadata:
     _posts:
