@@ -15,7 +15,6 @@ short_description: >-
 image: spratt-home.jpg
 image_alt: Your team isn't working
 ---
-![Your team isn't working]({{site.baseurl}}/img/spratt-home.jpg)
 
 You've added 10, 25, maybe 50 people to your team in the last year. You're probably interviewing quite a bit, and saying "no" twenty times as often as you're saying "yes." You only want to hire people who you think will make valuable contributions, who'll work the best with your existing team, and who'll be right for the stage your startup is in. Imagine all your hard work combing through resumes and running interviews just disappearing. Unfortunately, that happens - a lot. A great deal of the productivity and value you hired for is never realized due to ineffective team practices. If you're finding yourself still burnt out from last quarter's challenges, ask yourself, is your team really working? 
 
