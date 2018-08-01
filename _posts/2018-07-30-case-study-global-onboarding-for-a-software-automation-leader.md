@@ -16,8 +16,6 @@ date: 'August 1, 2018'
 ---
 ## Case Study: Puppet
 
-![Case Study]({{site.baseurl}}/img/software-600.jpeg)
-
 At the cusp of expansion across the globe, Puppet - the Portland-based software automation leader - faced inconsistent employee onboarding experiences and slow time-to-productivity. We were thrilled to be able to work with this trailblazing company to help them refine one area of their business.
 
 When the project began, an over-burdened human resources team needed support joining efforts and solidifying process and consistency across the company. The two teams growing the most - Engineering and Sales - struggled to maintain high-quality knowledge transfer for new hires. In the wake of rapid  change and scale, the team looked to Edify for help.
