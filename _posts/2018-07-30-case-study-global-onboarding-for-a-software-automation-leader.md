@@ -3,7 +3,7 @@ layout: single-post-layout
 feature_post: true
 published: false
 title: 'CASE STUDY: Global Onboarding for a Software Automation Leader'
-image: software.jpeg
+image: software-600.jpeg
 image_alt: 'Case Study #1'
 short_description: >-
   At the cusp of expansion across the globe, Puppet - the Portland-based
@@ -16,7 +16,7 @@ date: 'August 1, 2018'
 ---
 ## Case Study: Puppet
 
-![Case Study #1]({{site.baseurl}}/img/software.jpeg)
+![Case Study]({{site.baseurl}}/img/software-600.jpeg)
 
 At the cusp of expansion across the globe, Puppet - the Portland-based software automation leader - faced inconsistent employee onboarding experiences and slow time-to-productivity. We were thrilled to be able to work with this trailblazing company to help them refine one area of their business.
 
