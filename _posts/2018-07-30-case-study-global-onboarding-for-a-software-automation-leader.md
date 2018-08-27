@@ -39,4 +39,4 @@ Edify took a four-phased approach to building a scalable, employee-driven onboar
 →  On-time deliverables from across the org  
 →  Collaborative and open process
 
-**Want the full PDF version of this Case Study? [Just sign up here!](http://eepurl.com/dkWwRv)**
+**Want more details? The full PDF version of this Case Study shows you even more about how Edify tackled this problem. [Just sign up here and we'll email you a link to the full Case Study!](http://eepurl.com/dkWwRv)**
